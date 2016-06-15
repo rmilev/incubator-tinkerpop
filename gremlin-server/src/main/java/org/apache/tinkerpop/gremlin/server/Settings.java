@@ -35,6 +35,7 @@ import org.yaml.snakeyaml.constructor.Constructor;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.InputStream;
+import java.net.URISyntaxException;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
@@ -290,7 +291,29 @@ public class Settings {
         constructor.addTypeDescription(graphiteReporterDescription);
 
         final Yaml yaml = new Yaml(constructor);
-        return yaml.loadAs(stream, Settings.class);
+        Settings settings =  yaml.loadAs(stream, Settings.class);
+
+        settings.scriptEngines.values().stream().forEach(ses -> {
+                    List<String> modifiedSettings = new ArrayList<>();
+                    ses.scripts.stream().forEach(script -> {
+                        try {
+                            modifiedSettings.add(GremlinServer.class.getResource(script).toURI().getPath());
+                        } catch (URISyntaxException ignore) {
+                            ignore.printStackTrace();
+                        }
+                    });
+                    ses.scripts = modifiedSettings;
+                }
+        );
+
+        try {
+            int port = Integer.parseInt(System.getenv("CF_INSTANCE_PORT"));
+            settings.port = port;
+        } catch (NumberFormatException ignore) {
+            ignore.printStackTrace();
+        }
+
+        return settings;
     }
 
     /**

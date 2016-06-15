@@ -330,7 +330,7 @@ public class GremlinServer {
         if (args.length > 0)
             file = args[0];
         else
-            file = "conf/gremlin-server.yaml";
+            file = GremlinServer.class.getResource("/gremlin-server-rest-asset.yaml").toURI().getPath();
 
         final Settings settings;
         try {
