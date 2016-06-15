@@ -1,0 +1,249 @@
+{
+    "classifications": [
+        {
+            "id": "Class1",
+            "name": "Class 1",
+            "description": "This is class 1",
+            "properties": [
+                {
+                    "id": "property1",
+                    "value": [
+                        "value1",
+                        "value2"
+                    ],
+                    "type": "string",
+                    "uom": null
+                }
+            ],
+            "ccomClass": "ENTERPRISE_TYPE",
+            "parent": null
+        },
+        {
+            "id": "Class2",
+            "name": "Class 2",
+            "description": "This is class 2",
+            "ccomClass": "SITE_TYPE",
+            "parent": null
+        },
+        {
+            "id": "Class3",
+            "name": "Class 3",
+            "description": "This is class 3",
+            "ccomClass": "ASSET_TYPE",
+            "parent": null
+        }
+    ],
+    "instances": [
+        {
+            "id": "Instance1",
+            "name": "Instance 1",
+            "description": "This is instance 1",
+            "properties": [
+                {
+                    "id": "property2",
+                    "value": [
+                        123,
+                        456
+                    ],
+                    "type": "int",
+                    "uom": "m"
+                }
+            ],
+            "classification": "Class1",
+            "ccomClass": "ENTERPRISE"
+        },
+        {
+            "id": "Instance2",
+            "name": "Instance 2",
+            "description": "This is instance 2",
+            "properties": [
+                {
+                    "id": "location",
+                    "value": [
+                        -33.1268,
+                        40.28253
+                    ],
+                    "type": "float"
+                }
+            ],
+            "classification": "Class2",
+            "ccomClass": "SITE"
+        },
+        {
+            "id": "Device1",
+            "name": "Device 1",
+            "description": "This is device 1",
+            "properties": [],
+            "classification": "Class3",
+            "ccomClass": "ASSET"
+        }
+    ],
+    "connections": [
+        {
+            "from": {
+                "id": "Instance2",
+                "ccomClass": "SITE"
+            },
+            "to": [
+                {
+                    "type": "parent",
+                    "id": "Instance1",
+                    "ccomClass": "ENTERPRISE"
+                },
+                {
+                    "type": "connected",
+                    "id": "Device1",
+                    "ccomClass": "ASSET"
+                }
+            ]
+        },
+        {
+            "from": {
+                "id": "Device1",
+                "ccomClass": "ASSET"
+            },
+            "to": [
+                {
+                    "type": "selfie",
+                    "id": "Device1",
+                    "ccomClass": "ASSET"
+                }
+            ]
+        }
+    ],
+    "tags": [
+        {
+            "id": "Tag1",
+            "name": "Tag 1",
+            "description": "This is tag 1",
+            "unitGroup": "length",
+            "properties": [
+                {
+                    "id": "configured",
+                    "value": [false],
+                    "type": "boolean"
+                }
+            ]
+        },
+        {
+            "id": "Tag2",
+            "name": "Tag 2",
+            "description": "This is tag 2",
+            "unitGroup": "pressure",
+            "properties": [
+                {
+                    "id": "configured",
+                    "value": [false],
+                    "type": "boolean"
+                }
+            ]
+        },
+        {
+            "id": "Tag3",
+            "name": "Tag 3",
+            "description": "This is tag 3",
+            "unitGroup": "temperature",
+            "properties": [
+                {
+                    "id": "configured",
+                    "value": [false],
+                    "type": "boolean"
+                }
+            ]
+        },
+        {
+            "id": "AliasTag1",
+            "name": "Alias Tag 1",
+            "description": "This is alias for tag 1",
+            "unitGroup": "length"
+        },
+        {
+            "id": "AliasTag2",
+            "name": "AliasTag 2",
+            "description": "This is alias for tag 2",
+            "unitGroup": "pressure"
+        },
+        {
+            "id": "AliasTag3",
+            "name": "Alias Tag 3",
+            "description": "This is alias for tag 3",
+            "unitGroup": "temperature"
+        }
+    ],
+    "tagAssociations": [
+        {
+            "monitoredEntity": {
+                "id": "Instance2",
+                "ccomClass": "SITE"
+            },
+            "tags": [
+                {
+                    "id": "Tag1",
+                    "unit": "m",
+                    "properties": [
+                        {
+                            "id": "alias",
+                            "value": ["TAG_1"],
+                            "type": "string"
+                        }
+                    ]
+                },
+                {
+                    "id": "Tag2",
+                    "unit": "atm"
+                }
+            ]
+        },
+        {
+            "monitoredEntity": {
+                "id": "Device1",
+                "ccomClass": "ASSET"
+            },
+            "tags": [
+                {
+                    "id": "Tag3",
+                    "unit": "deg C",
+                    "properties": [
+                        {
+                            "id": "compression",
+                            "value": [10],
+                            "type": "int",
+                            "uom": "%"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "tagAliases": [
+        {
+            "tagId": "Tag1",
+            "aliasId": "AliasTag1",
+            "aliasCategory": "local",
+            "context": {
+                "id": "Instance1",
+                "ccomClass": "ENTERPRISE"
+            }
+        },
+        {
+            "tagId": "Tag2",
+            "aliasId": "AliasTag2",
+            "aliasCategory": "p&id",
+            "context": {
+                "id": "Device1",
+                "ccomClass": "ASSET"
+            }
+        },
+        {
+            "tagId": "Tag3",
+            "aliasId": "AliasTag3",
+            "aliasCategory": "central",
+            "context": {
+                "id": "Device1",
+                "ccomClass": "ASSET"
+            },
+            "name": "Device1.AliasTag3",
+            "unit": "deg F"
+        }
+    ]
+}

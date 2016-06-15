@@ -1,0 +1,543 @@
+{
+  "classifications": [
+        {
+            "id": "APM-ENTERPRISE",
+            "name": "APM ENTERPRISE",
+            "description": "This is the type of enterprise",
+            "ccomClass": "ENTERPRISE_TYPE",
+            "parent": null
+        },
+         {
+            "id": "APM-SITE",
+            "name": "APM SITE",
+            "description": "This is the type of site ",
+            "ccomClass": "SITE_TYPE",
+            "parent": null 
+        },
+        {
+            "id": "APM-SEGMENT-TYPE1",
+            "name": "APM SEGMENT TYPE1",
+            "description": "This is the type 1 of segment",
+            "ccomClass": "SEGMENT_TYPE",
+            "parent": null
+        },
+         {
+            "id": "APM-SEGMENT-TYPE2",
+            "name": "APM SEGMENT TYPE2",
+            "description": "This is the type 2 of segment",
+            "ccomClass": "SEGMENT_TYPE",
+            "parent": null
+        },
+        {
+            "id": "APM-ASSET-TYPE1",
+            "name": "APM ASSET TYPE 1",
+            "description": "This is the type 1 of asset",
+            "ccomClass": "ASSET_TYPE",
+            "parent": null
+        },
+         {
+            "id": "APM-ASSET-TYPE2",
+            "name": "APM ASSET TYPE 2",
+            "description": "This is the type 2 of asset",
+            "ccomClass": "ASSET_TYPE",
+            "parent": null
+        }
+    ],
+  "instances": [
+    {
+      "id": "E2E-EDISON-ENTERPRISE",
+      "name": "E2E EDISON ENTERPRISE",
+      "description": "E2E Edison, Solar Energy Equipment Supplier",
+      "classification": "APM-ENTERPRISE",
+      "ccomClass": "ENTERPRISE"
+    },
+    {
+      "id": "AZ-SITE",
+      "name": "AZ - APS - Prescott - SITE",
+      "description": "AZ - APS - N Prescott site",
+      "properties": [
+        {
+          "id": "address1",
+          "value": ["10100 North Sam Steiger Trail"],
+          "type": "string"
+        },
+        {
+          "id": "address2",
+          "value": [],
+          "type": "string"
+        },
+        {
+          "id": "city",
+          "value": ["Prescott"],
+          "type": "string"
+        },
+        {
+          "id": "state",
+          "value": ["AZ"],
+          "type": "string"
+        },
+        {
+          "id": "country",
+          "value": ["USA"],
+          "type": "string"
+        },
+        {
+          "id": "zipcode",
+          "value": [86301],
+          "type": "int"
+        },
+        {
+          "id": "longitude",
+          "value": [-112.404795],
+          "type": "double"
+        },
+        {
+          "id": "latitude",
+          "value": [34.687619],
+          "type": "double"
+        },
+        {
+          "id": "timezone",
+          "value": ["US Mountain Standard Time"],
+          "type": "string"
+        },
+        {
+          "id": "customer",
+          "value": ["Arizona Public Service (APS)"],
+          "type": "string"
+        }
+      ],
+      "classification": "APM-SITE",
+      "ccomClass": "SITE"
+    },
+    {
+      "id": "LT-SEGMENT-TYPE1",
+      "name": "APS Small Gen Segment #1",
+      "description": "PowerLogic ION8600 Form 9S",
+      "properties": [
+        {
+          "id": "model_number",
+          "value": ["PowerLogic ION8600 Form 9S"],
+          "type": "string"
+        }
+      ],
+      "classification": "APM-SEGMENT-TYPE1",
+      "ccomClass": "SEGMENT"
+    },
+    {
+      "id": "PV-System1-SEGMENT-TYPE2",
+      "name": "PV System #1 SEGMENT",
+      "description": "PV System #1",
+      "properties": [
+        {
+          "id": "warranted_year_1_output",
+          "value": [2032744.308],
+          "type": "double"
+        }
+      ],
+      "classification": "APM-SEGMENT-TYPE2",
+      "ccomClass": "SEGMENT"
+    },
+    {
+      "id": "PV-System2-SEGMENT-TYPE2",
+      "name": "PV System #2 SEGMENT",
+      "description": "PV System #2",
+      "properties": [
+        {
+          "id": "warranted_year_1_output",
+          "value": [2032744.308],
+          "type": "double"
+        }
+      ],
+      "classification": "APM-SEGMENT-TYPE2",
+      "ccomClass": "SEGMENT"
+    },
+    {
+      "id": "Inverter1-ASSET-TYPE1",
+      "name": "Inverter #1 ASSET TYPE 1",
+      "description": "Inverter #1",
+      "properties": [
+        {
+          "id": "model_number",
+          "value": ["SC 800CP"],
+          "type": "string"
+        },
+        {
+          "id": "power_rating",
+          "value": [827000],
+          "type": "int",
+          "uom": "watt"
+        },
+        {
+         "id": "e2e",
+          "value": [true],
+          "type": "boolean"
+        }
+      ],
+      "classification": "APM-ASSET-TYPE1",
+      "ccomClass": "ASSET"
+    },
+    {
+      "id": "Inverter2-ASSET-TYPE1",
+      "name": "Inverter #2 ASSET TYPE 1",
+      "description": "Inverter #2",
+      "properties": [
+        {
+          "id": "model_number",
+          "value": ["SC 800CP"],
+          "type": "string"
+        },
+        {
+          "id": "power_rating",
+          "value": [827000],
+          "type": "int",
+          "uom": "watt"
+        },
+        {
+         "id": "e2e",
+          "value": [true],
+          "type": "boolean"
+        }
+      ],
+      "classification": "APM-ASSET-TYPE1",
+      "ccomClass": "ASSET"
+    },
+    {
+      "id": "Array1-ASSET-TYPE2",
+      "name": "Array #1 ASSET TYPE 2",
+      "description": "Array #1",
+      "properties": [
+        {
+          "id": "tilt",
+          "value": [0],
+          "type": "int"
+        },
+        {
+          "id": "azimuth",
+          "value": [180],
+          "type": "int"
+        },
+        {
+          "id": "ground_coverage",
+          "value": [0.33],
+          "type": "double"
+        },
+        {
+          "id": "model_number",
+          "value": ["TSM-280PC14"],
+          "type": "string"
+        },
+        {
+         "id": "e2e",
+          "value": [true],
+          "type": "boolean"
+        }
+      ],
+      "classification": "APM-ASSET-TYPE2",
+      "ccomClass": "ASSET"
+    },
+    {
+      "id": "Array2-ASSET-TYPE2",
+      "name": "Array #2 ASSET TYPE 2",
+      "description": "Array #1",
+      "properties": [
+        {
+          "id": "tilt",
+          "value": [0],
+          "type": "int"
+        },
+        {
+          "id": "azimuth",
+          "value": [180],
+          "type": "int"
+        },
+        {
+          "id": "ground_coverage",
+          "value": [0.33],
+          "type": "double"
+        },
+        {
+          "id": "model_number",
+          "value": ["TSM-275PC14"],
+          "type": "string"
+        },
+        {
+         "id": "e2e",
+          "value": [true],
+          "type": "boolean"
+        }
+      ],
+      "classification": "APM-ASSET-TYPE2",
+      "ccomClass": "ASSET"
+    }
+  ],
+  "connections": [
+    {
+      "from": {
+        "id": "AZ-SITE",
+        "ccomClass": "SITE"
+      },
+      "to": [
+        {
+          "type": "parent",
+          "id": "E2E-EDISON-ENTERPRISE",
+          "ccomClass": "ENTERPRISE"
+        }
+      ]
+    },
+    {
+      "from": {
+        "id": "LT-SEGMENT-TYPE1",
+        "ccomClass": "SEGMENT"
+      },
+      "to": [
+        {
+          "type": "parent",
+          "id": "AZ-SITE",
+          "ccomClass": "SITE"
+        }
+      ]
+    },
+    {
+      "from": {
+        "id": "PV-System1-SEGMENT-TYPE2",
+        "ccomClass": "SEGMENT"
+      },
+      "to": [
+        {
+          "type": "parent",
+          "id": "LT-SEGMENT-TYPE1",
+          "ccomClass": "SEGMENT"
+        }
+      ]
+    },
+    {
+      "from": {
+        "id": "Inverter1-ASSET-TYPE1",
+        "ccomClass": "ASSET"
+      },
+      "to": [
+        {
+          "type": "parent",
+          "id": "PV-System1-SEGMENT-TYPE2",
+          "ccomClass": "SEGMENT"
+        }
+      ]
+    },
+    {
+      "from": {
+        "id": "Array1-ASSET-TYPE2",
+        "ccomClass": "ASSET"
+      },
+      "to": [
+        {
+          "type": "parent",
+          "id": "Inverter1-ASSET-TYPE1",
+          "ccomClass": "ASSET"
+        }
+      ]
+    },
+    {
+      "from": {
+        "id": "PV-System2-SEGMENT-TYPE2",
+        "ccomClass": "SEGMENT"
+      },
+      "to": [
+        {
+          "type": "parent",
+          "id": "LT-SEGMENT-TYPE1",
+          "ccomClass": "SEGMENT"
+        }
+      ]
+    },
+    {
+      "from": {
+        "id": "Inverter2-ASSET-TYPE1",
+        "ccomClass": "ASSET"
+      },
+      "to": [
+        {
+          "type": "parent",
+          "id": "PV-System2-SEGMENT-TYPE2",
+          "ccomClass": "SEGMENT"
+        }
+      ]
+    },
+    {
+      "from": {
+        "id": "Array2-ASSET-TYPE2",
+        "ccomClass": "ASSET"
+      },
+      "to": [
+        {
+          "type": "parent",
+          "id": "PV-System2-SEGMENT-TYPE2",
+          "ccomClass": "SEGMENT"
+        }
+      ]
+    }
+  ],
+  "tags": [
+        {
+            "id": "Tag_Length",
+            "name": "Tag_Length",
+            "description": "This is the tag of length",
+            "unitGroup": "length",
+            "properties": [
+                {
+                    "id": "wheelspace",
+                    "value": [10.00],
+                    "type": "double"
+                },
+                 {
+		         "id": "e2e",
+		          "value": [true],
+		          "type": "boolean"
+		        }
+            ]
+        },
+        {
+            "id": "Tag_Pressure",
+            "name": "Tag_Pressure",
+            "description": "This is tag Pressure E2E",
+            "unitGroup": "pressure",
+            "properties": [
+                {
+                    "id": "compressor",
+                    "value": [190],
+                    "type": "int"
+                },
+                 {
+		         "id": "e2e",
+		          "value": [true],
+		          "type": "boolean"
+		        }
+            ]
+        },
+        {
+            "id": "Tag_Temperature",
+            "name": "Tag_Temperature",
+            "description": "This is tag Temperature E2E",
+            "unitGroup": "temperature",
+            "properties": [
+                {
+                    "id": "thermo",
+                    "value": [23.55],
+                    "type": "double"
+                },
+                 {
+		         "id": "e2e",
+		          "value": [true],
+		          "type": "boolean"
+		        }
+            ]
+        },
+              {
+            "id": "Tag_Temperature_X",
+            "name": "Tag_Temperature_X",
+            "description": "This is tag Temperature_X E2E",
+            "unitGroup": "temperature",
+            "properties": [
+                {
+                    "id": "thermo",
+                    "value": [255],
+                    "type": "double"
+                },
+                 {
+		         "id": "e2e",
+		          "value": [true],
+		          "type": "boolean"
+		        }
+            ]
+        }
+    ],    
+    "tagAssociations": [
+        {
+            "monitoredEntity": {
+                "id": "Inverter1-ASSET-TYPE1",
+                "ccomClass": "ASSET"
+            },
+            "tags": [
+                {
+                    "id": "Tag_Length",
+                    "classification": "Tag_Length",
+                    "unit": "inch",
+                    "properties": [
+                        {
+                            "id": "alias",
+                            "value": ["TAG_1"],
+                            "type": "string"
+                        }
+                    ]
+                },
+                {
+                    "id": "Tag_Pressure",
+                    "classification": "Tag_Pressure",
+                    "unit": "atm"
+                }
+            ]
+        },
+        {
+            "monitoredEntity": {
+                "id": "Array1-ASSET-TYPE2",
+                "ccomClass": "ASSET"
+            },
+            "tags": [
+                {
+                    "id": "Tag_Temperature",
+                    "classification": "Tag_Temperature",
+                    "unit": "deg C",
+                    "properties": [
+                        {
+                            "id": "compression",
+                            "value": [10],
+                            "type": "int",
+                            "uom": "%"
+                        }
+                    ]
+                }
+            ]
+        },
+         {
+            "monitoredEntity": {
+                "id": "Inverter2-ASSET-TYPE1",
+                "ccomClass": "ASSET"
+            },
+            "tags": [
+                {
+                    "id": "Tag_Temperature_X",
+                    "classification": "Tag_Temperature_X",
+                    "unit": "deg C",
+                    "properties": [
+                        {
+                            "id": "length",
+                            "value": [16],
+                            "type": "double",
+                            "uom": "inch"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "monitoredEntity": {
+                "id": "PV-System2-SEGMENT-TYPE2",
+                "ccomClass": "SEGMENT"
+            },
+            "tags": [
+                {
+                    "id": "Tag_Length",
+                    "classification": "Tag_Length",
+                    "unit": "inch",
+                    "properties": [
+                        {
+                            "id": "alias",
+                            "value": ["TAG_1"],
+                            "type": "string"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
