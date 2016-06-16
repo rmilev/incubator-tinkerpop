@@ -1,0 +1,160 @@
+{
+    "acknowledged": true,
+    "alerts": [
+        {
+            "alarmProfile": {
+                "source": {
+                    "name": "OrchestrationManager"
+                }
+            },
+            "alarmState": {
+                "name": "In Process"
+            },
+            "analysisEvidences": [
+                {
+                    "attachments": [
+                        {
+                            "createdOn": 1466017217260,
+                            "name": "Siva's Analytics - Evidence_1.png",
+                            "url": "https://apm-blob-storage-qa.grc-apps.svc.ice.ge.com/v2/attachments/1b37a466-dbdd-4aa9-a42f-7163ff3f52ab/download",
+                            "uuid": "1b37a466-dbdd-4aa9-a42f-7163ff3f52ab"
+                        }
+                    ],
+                    "createdBy": null,
+                    "createdOn": 1466017217789,
+                    "name": "Siva's Analytics - Evidence",
+                    "owner": {
+                        "firstName": "MC",
+                        "lastName": "SIVA",
+                        "responseCode": 200,
+                        "responseMessage": "OK",
+                        "uuid": "045B8EEF2F064A75A3BF1264CEDC3103"
+                    },
+                    "parentEntityType": "ALARM",
+                    "parentEntityUuid": "C6B36458312846AC9A75BCA1DEB5DAEE",
+                    "updatedBy": null,
+                    "updatedOn": null,
+                    "uuid": "798FF2A448AA4DBABBB5AE8931A571EC"
+                }
+            ],
+            "associatedMonitoredEntity": {
+                "cycleType": null,
+                "equipmentId": "Inverter1-ASSET-TYPE1",
+                "equipmentType": null,
+                "model": null,
+                "uuid": "/assets/95ef9b69-2fe7-4c85-86f5-5e5d92389683"
+            },
+            "associatedMonitoredEntityUuid": "/assets/95ef9b69-2fe7-4c85-86f5-5e5d92389683",
+            "createdOn": 1466016944452,
+            "eventStart": 1466016927715,
+            "id": 32253,
+            "incident": null,
+            "isLinked": false,
+            "linkCreatedOn": null,
+            "name": "Siva's Analytics",
+            "responseCode": 200,
+            "responseMessage": "OK",
+            "severity": 3,
+            "storageReceiveTime": 1466016927715,
+            "userOwner": {
+                "firstName": "MC",
+                "lastName": "SIVA",
+                "responseCode": 200,
+                "responseMessage": "OK",
+                "uuid": "045B8EEF2F064A75A3BF1264CEDC3103"
+            },
+            "uuid": "C6B36458312846AC9A75BCA1DEB5DAEE",
+            "viewMetadatas": [
+                {
+                    "name": "avid",
+                    "responseCode": 200,
+                    "responseMessage": "OK",
+                    "tagsOfInterest": [
+                        {
+                            "name": null,
+                            "tags": [
+                                
+                            ],
+                            "uuid": "94F31EFDECC3488482224B1DB77D381F"
+                        }
+                    ],
+                    "uuid": "4B27C0AC73534B7D8F86BD7F5CCA7324"
+                }
+            ]
+        }
+    ],
+    "asset": {
+        "alias": null,
+        "name": "Inverter #1 ASSET TYPE 1",
+        "responseCode": 200,
+        "responseMessage": "OK",
+        "uuid": "/assets/95ef9b69-2fe7-4c85-86f5-5e5d92389683"
+    },
+    "assetId": "Inverter1-ASSET-TYPE1",
+    "caseClosedOnDate": 1466018791701,
+    "caseId": 10111,
+    "caseStatus": {
+        "status": "Closed"
+    },
+    "closureCode": "No Action",
+    "closureNote": "No Action required for the test",
+    "createdOn": 1466017034040,
+    "creator": {
+        "firstName": "MC",
+        "lastName": "SIVA",
+        "responseCode": 200,
+        "responseMessage": "OK",
+        "uuid": "045B8EEF2F064A75A3BF1264CEDC3103"
+    },
+    "diagnosis": null,
+    "evidenceList": [
+        {
+            "createdOn": 1466018359165,
+            "downloadUrl": "https://apm-blob-storage-qa.grc-apps.svc.ice.ge.com/v2/attachments/e40e9e2b-5dc9-4ec9-9318-666312279cfa/download",
+            "fileSize": "129397",
+            "isDeletable": false,
+            "name": "Snip20151219_1.png",
+            "responseCode": 200,
+            "responseMessage": "OK",
+            "userOwner": {
+                "firstName": "MC",
+                "lastName": "SIVA",
+                "responseCode": 200,
+                "responseMessage": "OK"
+            },
+            "uuid": "e40e9e2b-5dc9-4ec9-9318-666312279cfa"
+        }
+    ],
+    "externalCaseId": "",
+    "name": "CASE - Siva's Analytics",
+    "notes": [
+        {
+            "createdOn": 1466018407632,
+            "isDeletable": false,
+            "responseCode": 200,
+            "responseMessage": "OK",
+            "text": "My notes got deleted without a confirmation window!!!! :-0",
+            "userOwner": {
+                "firstName": "MC",
+                "lastName": "SIVA",
+                "responseCode": 200,
+                "responseMessage": "OK"
+            },
+            "uuid": "47734C6AE4F64B819B97849907F0CE01"
+        }
+    ],
+    "owner": {
+        "firstName": "MC",
+        "lastName": "SIVA",
+        "responseCode": 200,
+        "responseMessage": "OK",
+        "uuid": "045B8EEF2F064A75A3BF1264CEDC3103"
+    },
+    "ownerUuid": "045B8EEF2F064A75A3BF1264CEDC3103",
+    "recommendation": null,
+    "responseCode": 200,
+    "responseMessage": "OK",
+    "severity": 3,
+    "symptoms": "Test Symptoms",
+    "uuid": "64B7F62D78E54223B081D5A698D2E9C2"
+}

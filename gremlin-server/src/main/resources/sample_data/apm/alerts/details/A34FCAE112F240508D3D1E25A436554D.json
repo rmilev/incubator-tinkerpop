@@ -1,0 +1,102 @@
+{
+    "alarmProfile": {
+        "createdOn": 1465516707345,
+        "description": "",
+        "id": 241,
+        "isActive": true,
+        "isConsumable": true,
+        "isTrip": false,
+        "name": "Length-alert-73660E43997A42978E58B461708C780E",
+        "severity": 1,
+        "source": {
+            "createdOn": 1465430400000,
+            "description": "E2E_A_Source",
+            "id": 1242,
+            "isActive": true,
+            "name": "E2E_A_Source_1465516662145",
+            "tenantUuid": "73660E43997A42978E58B461708C780E",
+            "updatedOn": 1465430400000,
+            "uuid": "379AB497AF9646598A792DC3BFFA5EE3"
+        },
+        "tenantUuid": "73660E43997A42978E58B461708C780E",
+        "type": {
+            "createdOn": 1465430400000,
+            "description": "E2E_A_Type",
+            "id": 1220,
+            "isActive": true,
+            "name": "E2E_A_Type_1465516662151",
+            "tenantUuid": "73660E43997A42978E58B461708C780E",
+            "updatedOn": 1465430400000,
+            "uuid": "987AB24BD26E45F7916A454DBF6EF5FB"
+        },
+        "updatedOn": 1465430400000,
+        "uuid": "17125777BE834286B03C8379B906291D",
+        "validateAsset": true
+    },
+    "alarmState": {
+        "createdOn": 1425308275000,
+        "description": "Ready",
+        "id": 5,
+        "isActive": true,
+        "name": "Ready",
+        "updatedOn": 1418439583000,
+        "uuid": "0b7c6bbb-c11a-11e4-bcef-a0481cabcba7"
+    },
+    "analysisEvidences": [
+        
+    ],
+    "assetName": "Inverter #1 ASSET TYPE 1",
+    "associatedMonitoredEntity": {
+        "contact": {
+            "name": "Inverter #1 ASSET TYPE 1"
+        },
+        "enterprise": {
+            "name": "E2E EDISON ENTERPRISE"
+        },
+        "equipmentId": "Inverter1-ASSET-TYPE1",
+        "name": "Inverter #1 ASSET TYPE 1",
+        "site": {
+            "address": {
+                
+            },
+            "name": "AZ - APS - Prescott - SITE"
+        },
+        "uuid": "/assets/95ef9b69-2fe7-4c85-86f5-5e5d92389683"
+    },
+    "associatedMonitoredEntityUuid": "/assets/95ef9b69-2fe7-4c85-86f5-5e5d92389683",
+    "createdOn": 1465851654282,
+    "eventStart": 1464271163000,
+    "id": 31019,
+    "incident": {
+        "firstOccurance": "2016-05-26T13:59:23.000",
+        "incidentEventCount": "125",
+        "lastOccurance": "2016-05-26T13:59:23.000"
+    },
+    "isActive": true,
+    "isTrip": false,
+    "name": "Length-alert-73660E43997A42978E58B461708C780E",
+    "notes": {
+        "data": [
+            
+        ],
+        "total": 0
+    },
+    "severity": 3,
+    "storageReceiveTime": 1464271163000,
+    "tagsOfInterest": [
+        {
+            "tags": [
+                {
+                    "isContributing": false,
+                    "name": "Tag_Length",
+                    "renderType": null,
+                    "uom": null,
+                    "uuid": "/tagTypes/abf7c533-9c10-486f-9b5c-a72d0a5ca137"
+                }
+            ]
+        }
+    ],
+    "tenantUuId": "73660E43997A42978E58B461708C780E",
+    "updatedOn": 1465851654282,
+    "uuid": "A34FCAE112F240508D3D1E25A436554D"
+}

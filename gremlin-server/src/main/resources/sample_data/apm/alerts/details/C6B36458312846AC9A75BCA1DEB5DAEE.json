@@ -1,0 +1,132 @@
+{
+    "alarmProfile": {
+        "createdOn": 1466016869088,
+        "description": "Justin's alogorithm",
+        "id": 358,
+        "isActive": true,
+        "isConsumable": true,
+        "isTrip": false,
+        "name": "Siva's Analytics",
+        "severity": 3,
+        "source": {
+            "createdOn": 1465430400000,
+            "description": "OrchestrationManager",
+            "id": 1239,
+            "isActive": true,
+            "name": "OrchestrationManager",
+            "tenantUuid": "73660E43997A42978E58B461708C780E",
+            "updatedOn": 1465430400000,
+            "uuid": "9E926714500645E3AC9E3B2280279324"
+        },
+        "tenantUuid": "73660E43997A42978E58B461708C780E",
+        "type": {
+            "createdOn": 1465430400000,
+            "description": "Generic",
+            "id": 1218,
+            "isActive": true,
+            "name": "Generic",
+            "tenantUuid": "73660E43997A42978E58B461708C780E",
+            "updatedOn": 1465430400000,
+            "uuid": "88F4AD881CD24DAE888B6B8A8F92823F"
+        },
+        "updatedOn": 1465948800000,
+        "uuid": "8932920ACEA2406B8E8CCB6E6938521A",
+        "validateAsset": true
+    },
+    "alarmState": {
+        "createdOn": 1425308275000,
+        "description": "In Process",
+        "id": 6,
+        "isActive": true,
+        "name": "In Process",
+        "updatedOn": 1418439583000,
+        "uuid": "0b7c6c91-c11a-11e4-bcef-a0481cabcba7"
+    },
+    "analysisEvidences": [
+        {
+            "attachments": [
+                {
+                    "createdOn": 1466017217260,
+                    "name": "Siva's Analytics - Evidence_1.png",
+                    "url": "https://apm-blob-storage-qa.grc-apps.svc.ice.ge.com/v2/attachments/1b37a466-dbdd-4aa9-a42f-7163ff3f52ab/download",
+                    "uuid": "1b37a466-dbdd-4aa9-a42f-7163ff3f52ab"
+                }
+            ],
+            "createdOn": 1466017217789,
+            "name": "Siva's Analytics - Evidence",
+            "owner": {
+                "firstName": "MC",
+                "lastName": "SIVA",
+                "uuid": "045B8EEF2F064A75A3BF1264CEDC3103"
+            },
+            "parentEntityType": "ALARM",
+            "parentEntityUuid": "C6B36458312846AC9A75BCA1DEB5DAEE",
+            "uuid": "798FF2A448AA4DBABBB5AE8931A571EC"
+        }
+    ],
+    "assetName": "Inverter #1 ASSET TYPE 1",
+    "associatedMonitoredEntity": {
+        "contact": {
+            "name": "Inverter #1 ASSET TYPE 1"
+        },
+        "enterprise": {
+            "name": "E2E EDISON ENTERPRISE"
+        },
+        "equipmentId": "Inverter1-ASSET-TYPE1",
+        "name": "Inverter #1 ASSET TYPE 1",
+        "site": {
+            "address": {
+                
+            },
+            "name": "AZ - APS - Prescott - SITE"
+        },
+        "uuid": "/assets/95ef9b69-2fe7-4c85-86f5-5e5d92389683"
+    },
+    "associatedMonitoredEntityUuid": "/assets/95ef9b69-2fe7-4c85-86f5-5e5d92389683",
+    "createdOn": 1466016944452,
+    "eventStart": 1466016927715,
+    "id": 32253,
+    "isActive": true,
+    "isTrip": false,
+    "name": "Siva's Analytics",
+    "notes": {
+        "data": [
+            {
+                "createdOn": 1466017014831,
+                "id": 1463,
+                "isDeletable": false,
+                "parentEntityType": "Alarm",
+                "parentEntityUuid": "C6B36458312846AC9A75BCA1DEB5DAEE",
+                "text": "Analysis on Alarms",
+                "updatedOn": 1466017014831,
+                "userOwner": {
+                    "active": true,
+                    "eulaAccepted": false,
+                    "firstName": "MC",
+                    "lastName": "SIVA",
+                    "type": "User",
+                    "username": "mc",
+                    "uuid": "045B8EEF2F064A75A3BF1264CEDC3103"
+                },
+                "userOwnerUuid": "045B8EEF2F064A75A3BF1264CEDC3103",
+                "uuid": "705FCF9CFE7E4BF6A2161F18C6CBCCF5"
+            }
+        ],
+        "total": 1
+    },
+    "severity": 3,
+    "storageReceiveTime": 1466016927715,
+    "tenantUuId": "73660E43997A42978E58B461708C780E",
+    "updatedOn": 1466017014831,
+    "userOwner": {
+        "active": true,
+        "eulaAccepted": false,
+        "firstName": "MC",
+        "lastName": "SIVA",
+        "type": "User",
+        "username": "mc",
+        "uuid": "045B8EEF2F064A75A3BF1264CEDC3103"
+    },
+    "userOwnerUuid": "045B8EEF2F064A75A3BF1264CEDC3103",
+    "uuid": "C6B36458312846AC9A75BCA1DEB5DAEE"
+}

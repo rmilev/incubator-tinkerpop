@@ -1,0 +1,132 @@
+{
+    "acknowledged": false,
+    "alerts": [
+        {
+            "alarmProfile": {
+                "source": {
+                    "name": "SmartSignal"
+                }
+            },
+            "alarmState": {
+                "name": "In Process"
+            },
+            "analysisEvidences": [
+                
+            ],
+            "associatedMonitoredEntity": {
+                "cycleType": null,
+                "equipmentId": "42P002A_04252016",
+                "equipmentType": null,
+                "model": null,
+                "uuid": "/assets/922d4cd1-b320-4946-afa4-7522c583e52b"
+            },
+            "associatedMonitoredEntityUuid": "/assets/922d4cd1-b320-4946-afa4-7522c583e52b",
+            "createdOn": 1465591596668,
+            "eventStart": 1465591599277,
+            "id": 30941,
+            "incident": {
+                "firstOccurance": "2015-05-13T12:00",
+                "lastOccurance": "2015-05-13T18:00"
+            },
+            "isLinked": false,
+            "linkCreatedOn": null,
+            "name": "OG_PUMP_S.Pump System Analytics - Pump Performance Loss Pump Performance",
+            "responseCode": 200,
+            "responseMessage": "OK",
+            "severity": 5,
+            "storageReceiveTime": 1465591596401,
+            "userOwner": {
+                "firstName": "M&D Manager",
+                "lastName": "APM",
+                "responseCode": 200,
+                "responseMessage": "OK",
+                "uuid": "90B54C2CEB784529BFF6D00A08986391"
+            },
+            "uuid": "51261343F5CC444C9395A2D450806962",
+            "viewMetadatas": [
+                {
+                    "name": "Default Analysis View",
+                    "responseCode": 200,
+                    "responseMessage": "OK",
+                    "tagsOfInterest": [
+                        {
+                            "name": null,
+                            "tags": [
+                                
+                            ],
+                            "uuid": "9fc9390e-ae23-425e-9c3c-91e6d063b73d"
+                        },
+                        {
+                            "name": null,
+                            "tags": [
+                                
+                            ],
+                            "uuid": "bc4c63ed-a87c-4561-a33b-8e0fd2d4e22d"
+                        },
+                        {
+                            "name": null,
+                            "tags": [
+                                
+                            ],
+                            "uuid": "6b10ac3d-c2e2-4368-9af7-b8e8067e0dbc"
+                        },
+                        {
+                            "name": null,
+                            "tags": [
+                                
+                            ],
+                            "uuid": "4a67cf20-da8a-4fe0-bd20-605f90cf23ea"
+                        }
+                    ],
+                    "uuid": "default/51261343F5CC444C9395A2D450806962"
+                }
+            ]
+        }
+    ],
+    "asset": {
+        "alias": null,
+        "name": "42P002A_04252016",
+        "responseCode": 200,
+        "responseMessage": "OK",
+        "uuid": "/assets/922d4cd1-b320-4946-afa4-7522c583e52b"
+    },
+    "assetId": "42P002A_04252016",
+    "caseClosedOnDate": null,
+    "caseId": 10012,
+    "caseStatus": {
+        "status": "Open"
+    },
+    "closureCode": "None",
+    "closureNote": null,
+    "createdOn": 1465593203652,
+    "creator": {
+        "firstName": "M&D Manager",
+        "lastName": "APM",
+        "responseCode": 200,
+        "responseMessage": "OK",
+        "uuid": "90B54C2CEB784529BFF6D00A08986391"
+    },
+    "diagnosis": null,
+    "evidenceList": [
+        
+    ],
+    "externalCaseId": null,
+    "name": "Profile Journey Test for cases 1465593195209",
+    "notes": [
+        
+    ],
+    "owner": {
+        "firstName": "analytics",
+        "lastName": "test",
+        "responseCode": 200,
+        "responseMessage": "OK",
+        "uuid": "002590A761964AA89C6BBE4A46913D3C"
+    },
+    "ownerUuid": "002590A761964AA89C6BBE4A46913D3C",
+    "recommendation": null,
+    "responseCode": 200,
+    "responseMessage": "OK",
+    "severity": 5,
+    "symptoms": null,
+    "uuid": "97FFBC953E2A47ADB69C54EAC37BDB18"
+}

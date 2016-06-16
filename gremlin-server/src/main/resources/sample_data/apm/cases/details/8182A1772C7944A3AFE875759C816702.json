@@ -1,0 +1,130 @@
+{
+    "acknowledged": false,
+    "alerts": [
+        {
+            "alarmProfile": {
+                "source": {
+                    "name": "E2E_A_Source_1465516662145"
+                }
+            },
+            "alarmState": {
+                "name": "In Process"
+            },
+            "analysisEvidences": [
+                {
+                    "attachments": [
+                        {
+                            "createdOn": 1465930248769,
+                            "name": "Pressure-Alert-Test-Evidence-1_1.png",
+                            "url": "https://apm-blob-storage-qa.grc-apps.svc.ice.ge.com/v2/attachments/25226e97-e95c-4463-8c04-4239405f522b/download",
+                            "uuid": "25226e97-e95c-4463-8c04-4239405f522b"
+                        }
+                    ],
+                    "createdBy": null,
+                    "createdOn": 1465930249040,
+                    "name": "Pressure-Alert-Test-Evidence-1",
+                    "owner": {
+                        "firstName": "M&D Manager",
+                        "lastName": "APM",
+                        "responseCode": 200,
+                        "responseMessage": "OK",
+                        "uuid": "90B54C2CEB784529BFF6D00A08986391"
+                    },
+                    "parentEntityType": "ALARM",
+                    "parentEntityUuid": "EDE64436112E4E87984557DCA9943153",
+                    "updatedBy": null,
+                    "updatedOn": null,
+                    "uuid": "62BEA7F84FFF4FE6B9BC5A350465932A"
+                }
+            ],
+            "associatedMonitoredEntity": {
+                "cycleType": null,
+                "equipmentId": "Inverter1-ASSET-TYPE1",
+                "equipmentType": null,
+                "model": null,
+                "uuid": "/assets/95ef9b69-2fe7-4c85-86f5-5e5d92389683"
+            },
+            "associatedMonitoredEntityUuid": "/assets/95ef9b69-2fe7-4c85-86f5-5e5d92389683",
+            "createdOn": 1465836620093,
+            "eventStart": 1465685403000,
+            "id": 30981,
+            "incident": null,
+            "isLinked": false,
+            "linkCreatedOn": null,
+            "name": "Pressure-alert-73660E43997A42978E58B461708C780E",
+            "responseCode": 200,
+            "responseMessage": "OK",
+            "severity": 1,
+            "storageReceiveTime": 1465685403000,
+            "userOwner": {
+                "firstName": "M&D Manager",
+                "lastName": "APM",
+                "responseCode": 200,
+                "responseMessage": "OK",
+                "uuid": "90B54C2CEB784529BFF6D00A08986391"
+            },
+            "uuid": "EDE64436112E4E87984557DCA9943153",
+            "viewMetadatas": [
+                {
+                    "name": "Default Analysis View",
+                    "responseCode": 200,
+                    "responseMessage": "OK",
+                    "tagsOfInterest": [
+                        {
+                            "name": null,
+                            "tags": [
+                                {
+                                    "isContributing": true,
+                                    "name": "Tag_Pressure",
+                                    "uuid": "/tagTypes/a6c64470-d3cd-4742-9652-4ef0df171209"
+                                }
+                            ],
+                            "uuid": null
+                        }
+                    ],
+                    "uuid": "default/EDE64436112E4E87984557DCA9943153"
+                }
+            ]
+        }
+    ],
+    "asset": {
+        "alias": null,
+        "name": "Inverter #1 ASSET TYPE 1",
+        "responseCode": 200,
+        "responseMessage": "OK",
+        "uuid": "/assets/95ef9b69-2fe7-4c85-86f5-5e5d92389683"
+    },
+    "assetId": "Inverter1-ASSET-TYPE1",
+    "caseClosedOnDate": null,
+    "caseId": 10046,
+    "caseStatus": {
+        "status": "Open"
+    },
+    "closureCode": "None",
+    "closureNote": null,
+    "createdOn": 1465857944444,
+    "creator": {
+        "firstName": "M&D Manager",
+        "lastName": "APM",
+        "responseCode": 200,
+        "responseMessage": "OK",
+        "uuid": "90B54C2CEB784529BFF6D00A08986391"
+    },
+    "diagnosis": null,
+    "evidenceList": [
+        
+    ],
+    "externalCaseId": "NewExtCaseId",
+    "name": "Profile Journey Test for cases 1465857935301",
+    "notes": [
+        
+    ],
+    "owner": null,
+    "ownerUuid": null,
+    "recommendation": null,
+    "responseCode": 200,
+    "responseMessage": "OK",
+    "severity": 1,
+    "symptoms": null,
+    "uuid": "8182A1772C7944A3AFE875759C816702"
+}

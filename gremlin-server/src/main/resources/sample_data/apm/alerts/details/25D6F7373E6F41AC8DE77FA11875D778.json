@@ -1,0 +1,105 @@
+{
+    "alarmProfile": {
+        "createdOn": 1465517080212,
+        "description": "Alert profile for FWHHP_HEATER_SSC_Asset.TestNewDiagnosticRule",
+        "id": 246,
+        "isActive": true,
+        "isConsumable": true,
+        "isTrip": false,
+        "name": "FWHHP_HEATER_SSC_Asset.TestNewDiagnosticRule",
+        "severity": 5,
+        "source": {
+            "createdOn": 1465430400000,
+            "description": "SmartSignal",
+            "id": 1238,
+            "isActive": true,
+            "name": "SmartSignal",
+            "processorClass": "com.ge.apm.alarmmanagement.service.impl.SsAlarmProcessor",
+            "tenantUuid": "73660E43997A42978E58B461708C780E",
+            "updatedOn": 1465430400000,
+            "uuid": "4EACC61C27A04AA1BEBB9B02E1D91E23"
+        },
+        "tenantUuid": "73660E43997A42978E58B461708C780E",
+        "type": {
+            "createdOn": 1465430400000,
+            "description": "Generic",
+            "id": 1218,
+            "isActive": true,
+            "name": "Generic",
+            "tenantUuid": "73660E43997A42978E58B461708C780E",
+            "updatedOn": 1465430400000,
+            "uuid": "88F4AD881CD24DAE888B6B8A8F92823F"
+        },
+        "updatedOn": 1465516800000,
+        "uuid": "2E48938FC95F453C91D8828552DD2379",
+        "validateAsset": true
+    },
+    "alarmState": {
+        "createdOn": 1425308275000,
+        "description": "Ready",
+        "id": 5,
+        "isActive": true,
+        "name": "Ready",
+        "updatedOn": 1418439583000,
+        "uuid": "0b7c6bbb-c11a-11e4-bcef-a0481cabcba7"
+    },
+    "analysisEvidences": [
+        
+    ],
+    "assetName": "Inverter #1 ASSET TYPE 1",
+    "associatedMonitoredEntity": {
+        "contact": {
+            "name": "Inverter #1 ASSET TYPE 1"
+        },
+        "enterprise": {
+            "name": "E2E EDISON ENTERPRISE"
+        },
+        "equipmentId": "Inverter1-ASSET-TYPE1",
+        "name": "Inverter #1 ASSET TYPE 1",
+        "site": {
+            "address": {
+                
+            },
+            "name": "AZ - APS - Prescott - SITE"
+        },
+        "uuid": "/assets/95ef9b69-2fe7-4c85-86f5-5e5d92389683"
+    },
+    "associatedMonitoredEntityUuid": "/assets/95ef9b69-2fe7-4c85-86f5-5e5d92389683",
+    "createdOn": 1465517080569,
+    "eventStart": 1462472285320,
+    "eventStartOffset": 0,
+    "id": 30717,
+    "incident": {
+        "firstOccurance": "2016-03-30T00:00",
+        "incidentEventCount": "40",
+        "lastOccurance": "2016-03-30T09:50"
+    },
+    "isActive": true,
+    "isTrip": false,
+    "name": "FWHHP_HEATER_SSC_Asset.TestNewDiagnosticRule",
+    "notes": {
+        "data": [
+            
+        ],
+        "total": 0
+    },
+    "origin": "PGS-SS",
+    "scanGroupData": {
+        "BRS01:GEJGE02DA.AG": "537.0183105"
+    },
+    "severity": 5,
+    "storageReceiveTime": 1465517080256,
+    "tagsOfInterest": [
+        {
+            "displayGrouped": true,
+            "displayGroupedName": "BRS01:GEJGE02DA.AG",
+            "isContributing": true,
+            "uom": "",
+            "uuid": "bcba6111-53ce-4f1a-90d9-5c9f59f70975"
+        }
+    ],
+    "tenantId": "73660E43997A42978E58B461708C780E",
+    "tenantUuId": "73660E43997A42978E58B461708C780E",
+    "updatedOn": 1465517080569,
+    "uuid": "25D6F7373E6F41AC8DE77FA11875D778"
+}

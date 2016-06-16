@@ -1,0 +1,100 @@
+{
+    "acknowledged": true,
+    "alerts": [
+        {
+            "alarmProfile": {
+                "source": {
+                    "name": "Analytics Automation e2e Profile Source 1465603376958"
+                }
+            },
+            "alarmState": {
+                "name": "In Process"
+            },
+            "analysisEvidences": [
+                
+            ],
+            "associatedMonitoredEntity": {
+                "cycleType": null,
+                "equipmentId": "Inverter1-ASSET-TYPE1",
+                "equipmentType": null,
+                "model": null,
+                "uuid": "/assets/95ef9b69-2fe7-4c85-86f5-5e5d92389683"
+            },
+            "associatedMonitoredEntityUuid": "/assets/95ef9b69-2fe7-4c85-86f5-5e5d92389683",
+            "createdOn": 1465924066546,
+            "eventStart": 1465924061424,
+            "id": 31848,
+            "incident": null,
+            "isLinked": false,
+            "linkCreatedOn": null,
+            "name": "Profile Journey Test for alerts new 1465924049650",
+            "responseCode": 200,
+            "responseMessage": "OK",
+            "severity": 1,
+            "storageReceiveTime": 1465924061424,
+            "userOwner": {
+                "firstName": "M&D Manager",
+                "lastName": "APM",
+                "responseCode": 200,
+                "responseMessage": "OK",
+                "uuid": "90B54C2CEB784529BFF6D00A08986391"
+            },
+            "uuid": "18ECB162788D4992ACABAADF7E6BD46A",
+            "viewMetadatas": [
+                {
+                    "name": null,
+                    "responseCode": 500,
+                    "responseMessage": "Unable to load view-metadata",
+                    "tagsOfInterest": null,
+                    "uuid": null
+                }
+            ]
+        }
+    ],
+    "asset": {
+        "alias": null,
+        "name": "Inverter #1 ASSET TYPE 1",
+        "responseCode": 200,
+        "responseMessage": "OK",
+        "uuid": "/assets/95ef9b69-2fe7-4c85-86f5-5e5d92389683"
+    },
+    "assetId": "Inverter1-ASSET-TYPE1",
+    "caseClosedOnDate": null,
+    "caseId": 10073,
+    "caseStatus": {
+        "status": "Open"
+    },
+    "closureCode": "No Action",
+    "closureNote": null,
+    "createdOn": 1465924075956,
+    "creator": {
+        "firstName": "M&D Manager",
+        "lastName": "APM",
+        "responseCode": 200,
+        "responseMessage": "OK",
+        "uuid": "90B54C2CEB784529BFF6D00A08986391"
+    },
+    "diagnosis": null,
+    "evidenceList": [
+        
+    ],
+    "externalCaseId": null,
+    "name": "Profile Journey Test for cases 1465924049659",
+    "notes": [
+        
+    ],
+    "owner": {
+        "firstName": "M&D Manager",
+        "lastName": "APM",
+        "responseCode": 200,
+        "responseMessage": "OK",
+        "uuid": "90B54C2CEB784529BFF6D00A08986391"
+    },
+    "ownerUuid": "90B54C2CEB784529BFF6D00A08986391",
+    "recommendation": null,
+    "responseCode": 200,
+    "responseMessage": "OK",
+    "severity": 1,
+    "symptoms": null,
+    "uuid": "2756F88AA25C4937AE3EB041216428E1"
+}

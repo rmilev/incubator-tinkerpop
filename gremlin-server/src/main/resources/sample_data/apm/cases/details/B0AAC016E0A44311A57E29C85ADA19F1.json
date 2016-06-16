@@ -1,0 +1,46 @@
+{
+    "acknowledged": false,
+    "alerts": [
+        
+    ],
+    "asset": {
+        "alias": null,
+        "name": "Inverter #1 ASSET TYPE 1",
+        "responseCode": 200,
+        "responseMessage": "OK",
+        "uuid": "/assets/95ef9b69-2fe7-4c85-86f5-5e5d92389683"
+    },
+    "assetId": "Inverter1-ASSET-TYPE1",
+    "caseClosedOnDate": null,
+    "caseId": 10126,
+    "caseStatus": {
+        "status": "Open"
+    },
+    "closureCode": "None",
+    "closureNote": null,
+    "createdOn": 1466021051217,
+    "creator": {
+        "firstName": "M&D Manager",
+        "lastName": "APM",
+        "responseCode": 200,
+        "responseMessage": "OK",
+        "uuid": "90B54C2CEB784529BFF6D00A08986391"
+    },
+    "diagnosis": null,
+    "evidenceList": [
+        
+    ],
+    "externalCaseId": null,
+    "name": "CASE-THREE",
+    "notes": [
+        
+    ],
+    "owner": null,
+    "ownerUuid": null,
+    "recommendation": null,
+    "responseCode": 200,
+    "responseMessage": "OK",
+    "severity": 1,
+    "symptoms": null,
+    "uuid": "B0AAC016E0A44311A57E29C85ADA19F1"
+}

@@ -1,0 +1,118 @@
+{
+    "acknowledged": true,
+    "alerts": [
+        {
+            "alarmProfile": {
+                "source": {
+                    "name": "SmartSignal"
+                }
+            },
+            "alarmState": {
+                "name": "In Process"
+            },
+            "analysisEvidences": [
+                
+            ],
+            "associatedMonitoredEntity": {
+                "cycleType": null,
+                "equipmentId": "42P002A_04252016",
+                "equipmentType": null,
+                "model": null,
+                "uuid": "/assets/922d4cd1-b320-4946-afa4-7522c583e52b"
+            },
+            "associatedMonitoredEntityUuid": "/assets/922d4cd1-b320-4946-afa4-7522c583e52b",
+            "createdOn": 1465591594648,
+            "eventStart": 1465591599253,
+            "id": 30939,
+            "incident": {
+                "firstOccurance": "2015-05-12T15:00",
+                "lastOccurance": "2016-03-25T05:09"
+            },
+            "isLinked": false,
+            "linkCreatedOn": null,
+            "name": "OG_PUMP_S.Mechanical - Equipment Problem 2",
+            "responseCode": 200,
+            "responseMessage": "OK",
+            "severity": 4,
+            "storageReceiveTime": 1465591594326,
+            "userOwner": {
+                "firstName": "M&D Manager",
+                "lastName": "APM",
+                "responseCode": 200,
+                "responseMessage": "OK",
+                "uuid": "90B54C2CEB784529BFF6D00A08986391"
+            },
+            "uuid": "416A18D0E72C4F2ABA630B1FBB00B8C2",
+            "viewMetadatas": [
+                {
+                    "name": "Default Analysis View",
+                    "responseCode": 200,
+                    "responseMessage": "OK",
+                    "tagsOfInterest": [
+                        {
+                            "name": null,
+                            "tags": [
+                                
+                            ],
+                            "uuid": "983a712d-9ceb-4124-be3c-e11b3c95f27f"
+                        },
+                        {
+                            "name": null,
+                            "tags": [
+                                
+                            ],
+                            "uuid": "56de6db2-4ec0-46b3-bcf7-b6197b5552ec"
+                        }
+                    ],
+                    "uuid": "default/416A18D0E72C4F2ABA630B1FBB00B8C2"
+                }
+            ]
+        }
+    ],
+    "asset": {
+        "alias": null,
+        "name": "42P002A_04252016",
+        "responseCode": 200,
+        "responseMessage": "OK",
+        "uuid": "/assets/922d4cd1-b320-4946-afa4-7522c583e52b"
+    },
+    "assetId": "42P002A_04252016",
+    "caseClosedOnDate": null,
+    "caseId": 10016,
+    "caseStatus": {
+        "status": "Open"
+    },
+    "closureCode": "None",
+    "closureNote": null,
+    "createdOn": 1465594071573,
+    "creator": {
+        "firstName": "M&D Manager",
+        "lastName": "APM",
+        "responseCode": 200,
+        "responseMessage": "OK",
+        "uuid": "90B54C2CEB784529BFF6D00A08986391"
+    },
+    "diagnosis": null,
+    "evidenceList": [
+        
+    ],
+    "externalCaseId": "NewExtCaseIdNewExtCaseId",
+    "name": "Profile Journey Test for cases 1465594063210",
+    "notes": [
+        
+    ],
+    "owner": {
+        "firstName": "rasgas2",
+        "lastName": "admin",
+        "responseCode": 200,
+        "responseMessage": "OK",
+        "uuid": "C1EBFDEE5407443A8070181F6049B80E"
+    },
+    "ownerUuid": "C1EBFDEE5407443A8070181F6049B80E",
+    "recommendation": null,
+    "responseCode": 200,
+    "responseMessage": "OK",
+    "severity": 4,
+    "symptoms": null,
+    "uuid": "BB6E098D08FF42F1AF4D0CFC2E7FBDA8"
+}

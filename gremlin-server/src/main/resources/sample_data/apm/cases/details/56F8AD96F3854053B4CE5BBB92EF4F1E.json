@@ -1,0 +1,182 @@
+{
+    "acknowledged": true,
+    "alerts": [
+        {
+            "alarmProfile": {
+                "source": {
+                    "name": "Analytics Automation e2e Profile Source 1465603376958"
+                }
+            },
+            "alarmState": {
+                "name": "In Process"
+            },
+            "analysisEvidences": [
+                
+            ],
+            "associatedMonitoredEntity": {
+                "cycleType": null,
+                "equipmentId": "Inverter1-ASSET-TYPE1",
+                "equipmentType": null,
+                "model": null,
+                "uuid": "/assets/95ef9b69-2fe7-4c85-86f5-5e5d92389683"
+            },
+            "associatedMonitoredEntityUuid": "/assets/95ef9b69-2fe7-4c85-86f5-5e5d92389683",
+            "createdOn": 1465855575915,
+            "eventStart": 1465855570651,
+            "id": 31023,
+            "incident": null,
+            "isLinked": false,
+            "linkCreatedOn": null,
+            "name": "Profile Journey Test for alerts new 1465855559204",
+            "responseCode": 200,
+            "responseMessage": "OK",
+            "severity": 1,
+            "storageReceiveTime": 1465855570651,
+            "userOwner": {
+                "firstName": "M&D Manager",
+                "lastName": "APM",
+                "responseCode": 200,
+                "responseMessage": "OK",
+                "uuid": "90B54C2CEB784529BFF6D00A08986391"
+            },
+            "uuid": "2CF3DC941C114B119BE2D7FDA987CDD6",
+            "viewMetadatas": [
+                {
+                    "name": null,
+                    "responseCode": 500,
+                    "responseMessage": "Unable to load view-metadata",
+                    "tagsOfInterest": null,
+                    "uuid": null
+                }
+            ]
+        },
+        {
+            "alarmProfile": {
+                "source": {
+                    "name": "Analytics Automation e2e Profile Source 1465603376958"
+                }
+            },
+            "alarmState": {
+                "name": "In Process"
+            },
+            "analysisEvidences": [
+                
+            ],
+            "associatedMonitoredEntity": {
+                "cycleType": null,
+                "equipmentId": "Inverter1-ASSET-TYPE1",
+                "equipmentType": null,
+                "model": null,
+                "uuid": "/assets/95ef9b69-2fe7-4c85-86f5-5e5d92389683"
+            },
+            "associatedMonitoredEntityUuid": "/assets/95ef9b69-2fe7-4c85-86f5-5e5d92389683",
+            "createdOn": 1465856364965,
+            "eventStart": 1465856359590,
+            "id": 31024,
+            "incident": null,
+            "isLinked": false,
+            "linkCreatedOn": null,
+            "name": "Profile Journey Test for alerts new 1465856335796",
+            "responseCode": 200,
+            "responseMessage": "OK",
+            "severity": 1,
+            "storageReceiveTime": 1465856359590,
+            "userOwner": {
+                "firstName": "M&D Manager",
+                "lastName": "APM",
+                "responseCode": 200,
+                "responseMessage": "OK",
+                "uuid": "90B54C2CEB784529BFF6D00A08986391"
+            },
+            "uuid": "59372231DB7F4118844B04EDCECAD428",
+            "viewMetadatas": null
+        },
+        {
+            "alarmProfile": {
+                "source": {
+                    "name": "Analytics Automation e2e Profile Source 1465603376958"
+                }
+            },
+            "alarmState": {
+                "name": "In Process"
+            },
+            "analysisEvidences": [
+                
+            ],
+            "associatedMonitoredEntity": {
+                "cycleType": null,
+                "equipmentId": "Inverter1-ASSET-TYPE1",
+                "equipmentType": null,
+                "model": null,
+                "uuid": "/assets/95ef9b69-2fe7-4c85-86f5-5e5d92389683"
+            },
+            "associatedMonitoredEntityUuid": "/assets/95ef9b69-2fe7-4c85-86f5-5e5d92389683",
+            "createdOn": 1465854556879,
+            "eventStart": 1465854551762,
+            "id": 31022,
+            "incident": null,
+            "isLinked": false,
+            "linkCreatedOn": null,
+            "name": "Profile Journey Test for alerts new 1465854538628",
+            "responseCode": 200,
+            "responseMessage": "OK",
+            "severity": 1,
+            "storageReceiveTime": 1465854551762,
+            "userOwner": {
+                "firstName": "M&D Manager",
+                "lastName": "APM",
+                "responseCode": 200,
+                "responseMessage": "OK",
+                "uuid": "90B54C2CEB784529BFF6D00A08986391"
+            },
+            "uuid": "A2253D7B58CC4DFEA7EDC30492F6E000",
+            "viewMetadatas": null
+        }
+    ],
+    "asset": {
+        "alias": null,
+        "name": "Inverter #1 ASSET TYPE 1",
+        "responseCode": 200,
+        "responseMessage": "OK",
+        "uuid": "/assets/95ef9b69-2fe7-4c85-86f5-5e5d92389683"
+    },
+    "assetId": "Inverter1-ASSET-TYPE1",
+    "caseClosedOnDate": null,
+    "caseId": 10040,
+    "caseStatus": {
+        "status": "Open"
+    },
+    "closureCode": "No Action",
+    "closureNote": null,
+    "createdOn": 1465856377902,
+    "creator": {
+        "firstName": "M&D Manager",
+        "lastName": "APM",
+        "responseCode": 200,
+        "responseMessage": "OK",
+        "uuid": "90B54C2CEB784529BFF6D00A08986391"
+    },
+    "diagnosis": null,
+    "evidenceList": [
+        
+    ],
+    "externalCaseId": null,
+    "name": "Profile Journey Test for cases 1465856335804",
+    "notes": [
+        
+    ],
+    "owner": {
+        "firstName": "M&D Manager",
+        "lastName": "APM",
+        "responseCode": 200,
+        "responseMessage": "OK",
+        "uuid": "90B54C2CEB784529BFF6D00A08986391"
+    },
+    "ownerUuid": "90B54C2CEB784529BFF6D00A08986391",
+    "recommendation": null,
+    "responseCode": 200,
+    "responseMessage": "OK",
+    "severity": 1,
+    "symptoms": null,
+    "uuid": "56F8AD96F3854053B4CE5BBB92EF4F1E"
+}

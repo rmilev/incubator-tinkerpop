@@ -1,0 +1,173 @@
+{
+    "acknowledged": true,
+    "alerts": [
+        {
+            "alarmProfile": {
+                "source": {
+                    "name": "E2E_A_Source_1465516662145"
+                }
+            },
+            "alarmState": {
+                "name": "In Process"
+            },
+            "analysisEvidences": [
+                
+            ],
+            "associatedMonitoredEntity": {
+                "cycleType": null,
+                "equipmentId": "Inverter1-ASSET-TYPE1",
+                "equipmentType": null,
+                "model": null,
+                "uuid": "/assets/95ef9b69-2fe7-4c85-86f5-5e5d92389683"
+            },
+            "associatedMonitoredEntityUuid": "/assets/95ef9b69-2fe7-4c85-86f5-5e5d92389683",
+            "createdOn": 1465840802785,
+            "eventStart": 1464605933000,
+            "id": 30994,
+            "incident": null,
+            "isLinked": false,
+            "linkCreatedOn": null,
+            "name": "Length-alert-73660E43997A42978E58B461708C780E",
+            "responseCode": 200,
+            "responseMessage": "OK",
+            "severity": 1,
+            "storageReceiveTime": 1464605933000,
+            "userOwner": null,
+            "uuid": "D03D75CE407D4456B83CD83A40229747",
+            "viewMetadatas": [
+                {
+                    "name": null,
+                    "responseCode": 500,
+                    "responseMessage": "Unable to load view-metadata",
+                    "tagsOfInterest": null,
+                    "uuid": null
+                }
+            ]
+        }
+    ],
+    "asset": {
+        "alias": "Inverter #1 ASSET TYPE 1 ALIAS",
+        "name": "Inverter #1 ASSET TYPE 1",
+        "responseCode": 200,
+        "responseMessage": "OK",
+        "uuid": "/assets/95ef9b69-2fe7-4c85-86f5-5e5d92389683"
+    },
+    "assetId": "Inverter1-ASSET-TYPE1",
+    "caseClosedOnDate": 1465840844067,
+    "caseId": 10027,
+    "caseStatus": {
+        "status": "Closed"
+    },
+    "closureCode": "No Action",
+    "closureNote": "Any text test",
+    "createdOn": 1465840824144,
+    "creator": {
+        "firstName": "M&D Manager",
+        "lastName": "APM",
+        "responseCode": 200,
+        "responseMessage": "OK",
+        "uuid": "90B54C2CEB784529BFF6D00A08986391"
+    },
+    "diagnosis": "This is my first diagnostic in report",
+    "evidenceList": [
+        {
+            "createdOn": 1465854554972,
+            "downloadUrl": "https://apm-blob-storage-qa.grc-apps.svc.ice.ge.com/v2/attachments/ce23ee6c-769d-4d44-bace-0433a8cb8115/download",
+            "fileSize": "459876",
+            "isDeletable": true,
+            "name": "ConfigurableTemplates.pptx",
+            "responseCode": 200,
+            "responseMessage": "OK",
+            "userOwner": {
+                "firstName": "M&D Manager",
+                "lastName": "APM",
+                "responseCode": 200,
+                "responseMessage": "OK"
+            },
+            "uuid": "ce23ee6c-769d-4d44-bace-0433a8cb8115"
+        },
+        {
+            "createdOn": 1465864783693,
+            "downloadUrl": "https://apm-blob-storage-qa.grc-apps.svc.ice.ge.com/v2/attachments/d6eada3d-4d99-489b-bac4-525689f62379/download",
+            "fileSize": "459876",
+            "isDeletable": true,
+            "name": "ConfigurableTemplates.pptx",
+            "responseCode": 200,
+            "responseMessage": "OK",
+            "userOwner": {
+                "firstName": "M&D Manager",
+                "lastName": "APM",
+                "responseCode": 200,
+                "responseMessage": "OK"
+            },
+            "uuid": "d6eada3d-4d99-489b-bac4-525689f62379"
+        },
+        {
+            "createdOn": 1465865029069,
+            "downloadUrl": "https://apm-blob-storage-qa.grc-apps.svc.ice.ge.com/v2/attachments/09104be9-770d-48c8-aa5a-731fa9b22368/download",
+            "fileSize": "208432",
+            "isDeletable": true,
+            "name": "test attach1.png",
+            "responseCode": 200,
+            "responseMessage": "OK",
+            "userOwner": {
+                "firstName": "M&D Manager",
+                "lastName": "APM",
+                "responseCode": 200,
+                "responseMessage": "OK"
+            },
+            "uuid": "09104be9-770d-48c8-aa5a-731fa9b22368"
+        },
+        {
+            "createdOn": 1465865328291,
+            "downloadUrl": "https://apm-blob-storage-qa.grc-apps.svc.ice.ge.com/v2/attachments/4b6b1e6f-ca2b-4227-bf5e-f8202f1cbd18/download",
+            "fileSize": "102078",
+            "isDeletable": true,
+            "name": "Screen Shot 2016-06-03 at 10.03.12 AM.png",
+            "responseCode": 200,
+            "responseMessage": "OK",
+            "userOwner": {
+                "firstName": "M&D Manager",
+                "lastName": "APM",
+                "responseCode": 200,
+                "responseMessage": "OK"
+            },
+            "uuid": "4b6b1e6f-ca2b-4227-bf5e-f8202f1cbd18"
+        },
+        {
+            "createdOn": 1465865578180,
+            "downloadUrl": "https://apm-blob-storage-qa.grc-apps.svc.ice.ge.com/v2/attachments/6b1f63f4-94b3-4302-b0a5-1dd25888c3d5/download",
+            "fileSize": "15696",
+            "isDeletable": true,
+            "name": "Screen Shot 2016-06-08 at 1.04.16 PM.png",
+            "responseCode": 200,
+            "responseMessage": "OK",
+            "userOwner": {
+                "firstName": "M&D Manager",
+                "lastName": "APM",
+                "responseCode": 200,
+                "responseMessage": "OK"
+            },
+            "uuid": "6b1f63f4-94b3-4302-b0a5-1dd25888c3d5"
+        }
+    ],
+    "externalCaseId": "12345",
+    "name": "TestCasesForCors",
+    "notes": [
+        
+    ],
+    "owner": {
+        "firstName": "M&D Manager",
+        "lastName": "APM",
+        "responseCode": 200,
+        "responseMessage": "OK",
+        "uuid": "90B54C2CEB784529BFF6D00A08986391"
+    },
+    "ownerUuid": "90B54C2CEB784529BFF6D00A08986391",
+    "recommendation": "this is my first recommendation",
+    "responseCode": 200,
+    "responseMessage": "OK",
+    "severity": 3,
+    "symptoms": "This is my first new symptoms",
+    "uuid": "DD50F568DF3D408D90494E9686218250"
+}

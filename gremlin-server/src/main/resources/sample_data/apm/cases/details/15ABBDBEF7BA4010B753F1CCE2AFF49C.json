@@ -1,0 +1,143 @@
+{
+    "acknowledged": false,
+    "alerts": [
+        {
+            "alarmProfile": {
+                "source": {
+                    "name": "E2E_A_Source_1465516662145"
+                }
+            },
+            "alarmState": {
+                "name": "In Process"
+            },
+            "analysisEvidences": [
+                {
+                    "attachments": [
+                        {
+                            "createdOn": 1465585342831,
+                            "name": "TestEvidence_0610_1.png",
+                            "url": "https://apm-blob-storage-qa.grc-apps.svc.ice.ge.com/v2/attachments/64227a8f-cae9-4f38-b0cd-315bd9b34d06/download",
+                            "uuid": "64227a8f-cae9-4f38-b0cd-315bd9b34d06"
+                        }
+                    ],
+                    "createdBy": null,
+                    "createdOn": 1465585343249,
+                    "name": "TestEvidence_0610",
+                    "owner": {
+                        "firstName": "M&D Manager",
+                        "lastName": "APM",
+                        "responseCode": 200,
+                        "responseMessage": "OK",
+                        "uuid": "90B54C2CEB784529BFF6D00A08986391"
+                    },
+                    "parentEntityType": "ALARM",
+                    "parentEntityUuid": "405189F8E86E4F8E9CCFE8B7B02CC135",
+                    "updatedBy": null,
+                    "updatedOn": null,
+                    "uuid": "CB078EBF23C244B29D9E880319ED8071"
+                }
+            ],
+            "associatedMonitoredEntity": {
+                "cycleType": null,
+                "equipmentId": "Inverter1-ASSET-TYPE1",
+                "equipmentType": null,
+                "model": null,
+                "uuid": "/assets/95ef9b69-2fe7-4c85-86f5-5e5d92389683"
+            },
+            "associatedMonitoredEntityUuid": "/assets/95ef9b69-2fe7-4c85-86f5-5e5d92389683",
+            "createdOn": 1465516708579,
+            "eventStart": 1463331485000,
+            "id": 30710,
+            "incident": null,
+            "isLinked": false,
+            "linkCreatedOn": null,
+            "name": "Length-alert-73660E43997A42978E58B461708C780E",
+            "responseCode": 200,
+            "responseMessage": "OK",
+            "severity": 1,
+            "storageReceiveTime": 1463331485000,
+            "userOwner": null,
+            "uuid": "405189F8E86E4F8E9CCFE8B7B02CC135",
+            "viewMetadatas": [
+                {
+                    "name": "Default Analysis View",
+                    "responseCode": 200,
+                    "responseMessage": "OK",
+                    "tagsOfInterest": [
+                        {
+                            "name": null,
+                            "tags": [
+                                {
+                                    "isContributing": true,
+                                    "name": "Tag_Length",
+                                    "uuid": "/tagTypes/abf7c533-9c10-486f-9b5c-a72d0a5ca137"
+                                }
+                            ],
+                            "uuid": null
+                        }
+                    ],
+                    "uuid": "default/405189F8E86E4F8E9CCFE8B7B02CC135"
+                }
+            ]
+        }
+    ],
+    "asset": {
+        "alias": "Inverter #1 ASSET TYPE 1 ALIAS",
+        "name": "Inverter #1 ASSET TYPE 1",
+        "responseCode": 200,
+        "responseMessage": "OK",
+        "uuid": "/assets/95ef9b69-2fe7-4c85-86f5-5e5d92389683"
+    },
+    "assetId": "Inverter1-ASSET-TYPE1",
+    "caseClosedOnDate": 1465585432767,
+    "caseId": 10000,
+    "caseStatus": {
+        "status": "Closed"
+    },
+    "closureCode": "Sensor Repair",
+    "closureNote": "Any text",
+    "createdOn": 1465516717119,
+    "creator": {
+        "firstName": "M&D Manager",
+        "lastName": "APM",
+        "responseCode": 200,
+        "responseMessage": "OK",
+        "uuid": "90B54C2CEB784529BFF6D00A08986391"
+    },
+    "diagnosis": "change diagnostic",
+    "evidenceList": [
+        
+    ],
+    "externalCaseId": "12345",
+    "name": "e2e case 1465516713446",
+    "notes": [
+        {
+            "createdOn": 1465585410166,
+            "isDeletable": true,
+            "responseCode": 200,
+            "responseMessage": "OK",
+            "text": "Test Note",
+            "userOwner": {
+                "firstName": "M&D Manager",
+                "lastName": "APM",
+                "responseCode": 200,
+                "responseMessage": "OK"
+            },
+            "uuid": "99E91422C47E465A974DF14627729A3A"
+        }
+    ],
+    "owner": {
+        "firstName": "analytics",
+        "lastName": "test",
+        "responseCode": 200,
+        "responseMessage": "OK",
+        "uuid": "002590A761964AA89C6BBE4A46913D3C"
+    },
+    "ownerUuid": "002590A761964AA89C6BBE4A46913D3C",
+    "recommendation": "change recommendation",
+    "responseCode": 200,
+    "responseMessage": "OK",
+    "severity": 3,
+    "symptoms": "change symptoms",
+    "uuid": "15ABBDBEF7BA4010B753F1CCE2AFF49C"
+}

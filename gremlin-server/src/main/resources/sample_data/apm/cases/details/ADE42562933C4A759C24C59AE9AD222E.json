@@ -1,0 +1,88 @@
+{
+    "acknowledged": false,
+    "alerts": [
+        {
+            "alarmProfile": {
+                "source": {
+                    "name": "E2E_A_Source_1465516662145"
+                }
+            },
+            "alarmState": {
+                "name": "In Process"
+            },
+            "analysisEvidences": [
+                
+            ],
+            "associatedMonitoredEntity": {
+                "cycleType": null,
+                "equipmentId": "Inverter1-ASSET-TYPE1",
+                "equipmentType": null,
+                "model": null,
+                "uuid": "/assets/95ef9b69-2fe7-4c85-86f5-5e5d92389683"
+            },
+            "associatedMonitoredEntityUuid": "/assets/95ef9b69-2fe7-4c85-86f5-5e5d92389683",
+            "createdOn": 1465844432665,
+            "eventStart": 1465473611000,
+            "id": 31005,
+            "incident": null,
+            "isLinked": false,
+            "linkCreatedOn": null,
+            "name": "Length-alert-73660E43997A42978E58B461708C780E",
+            "responseCode": 200,
+            "responseMessage": "OK",
+            "severity": 1,
+            "storageReceiveTime": 1465473611000,
+            "userOwner": null,
+            "uuid": "BA8C420E60834741BFC6D6E3176B189C",
+            "viewMetadatas": [
+                {
+                    "name": null,
+                    "responseCode": 500,
+                    "responseMessage": "Unable to load view-metadata",
+                    "tagsOfInterest": null,
+                    "uuid": null
+                }
+            ]
+        }
+    ],
+    "asset": {
+        "alias": "Inverter #1 ASSET TYPE 1 ALIAS",
+        "name": "Inverter #1 ASSET TYPE 1",
+        "responseCode": 200,
+        "responseMessage": "OK",
+        "uuid": "/assets/95ef9b69-2fe7-4c85-86f5-5e5d92389683"
+    },
+    "assetId": "Inverter1-ASSET-TYPE1",
+    "caseClosedOnDate": 1465844454993,
+    "caseId": 10028,
+    "caseStatus": {
+        "status": "Closed"
+    },
+    "closureCode": "Sensor Repair",
+    "closureNote": "Any text",
+    "createdOn": 1465844441940,
+    "creator": {
+        "firstName": "M&D Manager",
+        "lastName": "APM",
+        "responseCode": 200,
+        "responseMessage": "OK",
+        "uuid": "90B54C2CEB784529BFF6D00A08986391"
+    },
+    "diagnosis": "This is my first diagnostic in report",
+    "evidenceList": [
+        
+    ],
+    "externalCaseId": null,
+    "name": "e2e case 1465844438080",
+    "notes": [
+        
+    ],
+    "owner": null,
+    "ownerUuid": null,
+    "recommendation": "this is my first recommendation",
+    "responseCode": 200,
+    "responseMessage": "OK",
+    "severity": 3,
+    "symptoms": "This is my first new symptoms",
+    "uuid": "ADE42562933C4A759C24C59AE9AD222E"
+}

@@ -1,0 +1,105 @@
+{
+    "alarmDisposition": {
+        "createdOn": 1425308277000,
+        "description": "Resolved Valid",
+        "id": 1,
+        "isActive": true,
+        "name": "Valid",
+        "updatedOn": 1418468383000,
+        "uuid": "21decd7f-c119-11e4-bcef-a0481cabcba7"
+    },
+    "alarmDispositionDate": 1465582595493,
+    "alarmProfile": {
+        "createdOn": 1465576800906,
+        "description": "Alert profile for 42P002A_04252016.Unit Starting",
+        "id": 250,
+        "isActive": true,
+        "isConsumable": true,
+        "isTrip": false,
+        "name": "42P002A_04252016.Unit Starting",
+        "severity": 3,
+        "source": {
+            "createdOn": 1465430400000,
+            "description": "SmartSignal",
+            "id": 1238,
+            "isActive": true,
+            "name": "SmartSignal",
+            "processorClass": "com.ge.apm.alarmmanagement.service.impl.SsAlarmProcessor",
+            "tenantUuid": "73660E43997A42978E58B461708C780E",
+            "updatedOn": 1465430400000,
+            "uuid": "4EACC61C27A04AA1BEBB9B02E1D91E23"
+        },
+        "tenantUuid": "73660E43997A42978E58B461708C780E",
+        "type": {
+            "createdOn": 1465430400000,
+            "description": "Generic",
+            "id": 1218,
+            "isActive": true,
+            "name": "Generic",
+            "tenantUuid": "73660E43997A42978E58B461708C780E",
+            "updatedOn": 1465430400000,
+            "uuid": "88F4AD881CD24DAE888B6B8A8F92823F"
+        },
+        "updatedOn": 1465516800000,
+        "uuid": "8D801C77249E4C3CBEBD424040A10D9A",
+        "validateAsset": true
+    },
+    "alarmState": {
+        "createdOn": 1425308275000,
+        "description": "In Process",
+        "id": 6,
+        "isActive": true,
+        "name": "In Process",
+        "updatedOn": 1418439583000,
+        "uuid": "0b7c6c91-c11a-11e4-bcef-a0481cabcba7"
+    },
+    "analysisEvidences": [
+        
+    ],
+    "assetName": "BRS1HPFWH17New",
+    "associatedMonitoredEntity": {
+        "contact": {
+            "name": "BRS1HPFWH17New"
+        },
+        "enterprise": {
+            "name": "SS Test Enterprise"
+        },
+        "equipmentId": "BRS1HPFWH17New",
+        "name": "BRS1HPFWH17New",
+        "site": {
+            "address": {
+                
+            },
+            "name": "Combined Cycle Sites"
+        },
+        "uuid": "/assets/dc1e7f1c-3dc0-46ba-9853-99ba3cca947f"
+    },
+    "associatedMonitoredEntityUuid": "/assets/dc1e7f1c-3dc0-46ba-9853-99ba3cca947f",
+    "createdOn": 1465580595686,
+    "eventStart": 1465580525858,
+    "id": 30835,
+    "isActive": true,
+    "isTrip": false,
+    "name": "42P002A_04252016.Unit Starting",
+    "notes": {
+        "data": [
+            
+        ],
+        "total": 0
+    },
+    "severity": 0,
+    "storageReceiveTime": 1465580525858,
+    "tenantUuId": "73660E43997A42978E58B461708C780E",
+    "updatedOn": 1465580595686,
+    "userOwner": {
+        "active": true,
+        "eulaAccepted": false,
+        "firstName": "M&D Manager",
+        "lastName": "APM",
+        "type": "User",
+        "username": "tenant0609-smokeuser",
+        "uuid": "90B54C2CEB784529BFF6D00A08986391"
+    },
+    "userOwnerUuid": "90B54C2CEB784529BFF6D00A08986391",
+    "uuid": "6290686D5B714F9E86CD94FC0C2327BD"
+}

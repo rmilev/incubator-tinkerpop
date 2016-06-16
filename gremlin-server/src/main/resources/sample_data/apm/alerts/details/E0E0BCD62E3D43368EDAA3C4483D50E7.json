@@ -1,0 +1,84 @@
+{
+    "alarmProfile": {
+        "createdOn": 1465946835031,
+        "description": "This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a lon",
+        "id": 352,
+        "isActive": true,
+        "isConsumable": true,
+        "isTrip": true,
+        "name": "Niru's Profile",
+        "severity": 1,
+        "source": {
+            "createdOn": 1465603200000,
+            "description": "Analytics Automation e2e Profile Source",
+            "id": 1251,
+            "isActive": true,
+            "name": "Analytics Automation e2e Profile Source 1465603376958",
+            "tenantUuid": "73660E43997A42978E58B461708C780E",
+            "updatedOn": 1465603200000,
+            "uuid": "011DC8595D8740B8A256F69178C6DAAC"
+        },
+        "tenantUuid": "73660E43997A42978E58B461708C780E",
+        "type": {
+            "createdOn": 1465430400000,
+            "description": "Generic",
+            "id": 1218,
+            "isActive": true,
+            "name": "Generic",
+            "tenantUuid": "73660E43997A42978E58B461708C780E",
+            "updatedOn": 1465430400000,
+            "uuid": "88F4AD881CD24DAE888B6B8A8F92823F"
+        },
+        "updatedOn": 1465948800000,
+        "uuid": "91260F2F91F64E9896C617C599954EDB",
+        "validateAsset": true
+    },
+    "alarmState": {
+        "createdOn": 1425308275000,
+        "description": "Ready",
+        "id": 5,
+        "isActive": true,
+        "name": "Ready",
+        "updatedOn": 1418439583000,
+        "uuid": "0b7c6bbb-c11a-11e4-bcef-a0481cabcba7"
+    },
+    "analysisEvidences": [
+        
+    ],
+    "assetName": "Array #1 ASSET TYPE 2",
+    "associatedMonitoredEntity": {
+        "contact": {
+            "name": "Array #1 ASSET TYPE 2"
+        },
+        "enterprise": {
+            "name": "E2E EDISON ENTERPRISE"
+        },
+        "equipmentId": "Array1-ASSET-TYPE2",
+        "name": "Array #1 ASSET TYPE 2",
+        "site": {
+            "address": {
+                
+            },
+            "name": "AZ - APS - Prescott - SITE"
+        },
+        "uuid": "/assets/8755d337-190d-4a37-9280-c565ecb6aad3"
+    },
+    "associatedMonitoredEntityUuid": "/assets/8755d337-190d-4a37-9280-c565ecb6aad3",
+    "createdOn": 1466019821635,
+    "eventStart": 1466019379215,
+    "id": 32267,
+    "isActive": true,
+    "isTrip": true,
+    "name": "Niru's Profile",
+    "notes": {
+        "data": [
+            
+        ],
+        "total": 0
+    },
+    "severity": 1,
+    "storageReceiveTime": 1466019379215,
+    "tenantUuId": "73660E43997A42978E58B461708C780E",
+    "updatedOn": 1466019821635,
+    "uuid": "E0E0BCD62E3D43368EDAA3C4483D50E7"
+}

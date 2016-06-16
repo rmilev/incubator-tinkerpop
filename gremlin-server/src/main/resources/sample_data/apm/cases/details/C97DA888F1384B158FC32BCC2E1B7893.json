@@ -1,0 +1,107 @@
+{
+    "acknowledged": false,
+    "alerts": [
+        {
+            "alarmProfile": {
+                "source": {
+                    "name": "Analytics Automation e2e Profile Source 1465791113446"
+                }
+            },
+            "alarmState": {
+                "name": "Ready"
+            },
+            "analysisEvidences": [
+                
+            ],
+            "associatedMonitoredEntity": {
+                "cycleType": null,
+                "equipmentId": "Array1-ASSET-TYPE2",
+                "equipmentType": null,
+                "model": null,
+                "uuid": "/assets/8755d337-190d-4a37-9280-c565ecb6aad3"
+            },
+            "associatedMonitoredEntityUuid": "/assets/8755d337-190d-4a37-9280-c565ecb6aad3",
+            "createdOn": 1465942307680,
+            "eventStart": 1465942297280,
+            "id": 31877,
+            "incident": null,
+            "isLinked": false,
+            "linkCreatedOn": null,
+            "name": "Alarm Profile AUTOMATION-999",
+            "responseCode": 200,
+            "responseMessage": "OK",
+            "severity": 5,
+            "storageReceiveTime": 1465942297280,
+            "userOwner": null,
+            "uuid": "CA35E9EB74CE4168ABDAC3D3CE4DC384",
+            "viewMetadatas": [
+                {
+                    "name": null,
+                    "responseCode": 500,
+                    "responseMessage": "Unable to load view-metadata",
+                    "tagsOfInterest": null,
+                    "uuid": null
+                }
+            ]
+        }
+    ],
+    "asset": {
+        "alias": null,
+        "name": "Array #1 ASSET TYPE 2",
+        "responseCode": 200,
+        "responseMessage": "OK",
+        "uuid": "/assets/8755d337-190d-4a37-9280-c565ecb6aad3"
+    },
+    "assetId": "Array1-ASSET-TYPE2",
+    "caseClosedOnDate": 1465948092137,
+    "caseId": 10088,
+    "caseStatus": {
+        "status": "Closed"
+    },
+    "closureCode": "Scheduled Maintenance",
+    "closureNote": "This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.",
+    "createdOn": 1465947477455,
+    "creator": {
+        "firstName": "niru",
+        "lastName": "gopinath",
+        "responseCode": 200,
+        "responseMessage": "OK",
+        "uuid": "D5E3FCE4809B41EB939FC174658091DD"
+    },
+    "diagnosis": "This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.",
+    "evidenceList": [
+        
+    ],
+    "externalCaseId": "q4435%sdf&",
+    "name": "Niru Second Case",
+    "notes": [
+        {
+            "createdOn": 1465947937960,
+            "isDeletable": false,
+            "responseCode": 200,
+            "responseMessage": "OK",
+            "text": "ewd",
+            "userOwner": {
+                "firstName": "niru",
+                "lastName": "gopinath",
+                "responseCode": 200,
+                "responseMessage": "OK"
+            },
+            "uuid": "C2CDD034F7864E389E30E1F1F690CA00"
+        }
+    ],
+    "owner": {
+        "firstName": "JAYANT",
+        "lastName": "THOMAS",
+        "responseCode": 200,
+        "responseMessage": "OK",
+        "uuid": "99C12243A0B04C5593D8E97390A8A4F4"
+    },
+    "ownerUuid": "99C12243A0B04C5593D8E97390A8A4F4",
+    "recommendation": "This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.",
+    "responseCode": 200,
+    "responseMessage": "OK",
+    "severity": 5,
+    "symptoms": "This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.",
+    "uuid": "C97DA888F1384B158FC32BCC2E1B7893"
+}

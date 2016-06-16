@@ -1,0 +1,100 @@
+{
+    "acknowledged": false,
+    "alerts": [
+        {
+            "alarmProfile": {
+                "source": {
+                    "name": "SmartSignal"
+                }
+            },
+            "alarmState": {
+                "name": "In Process"
+            },
+            "analysisEvidences": [
+                
+            ],
+            "associatedMonitoredEntity": {
+                "cycleType": null,
+                "equipmentId": "BRS1HPFWH17New",
+                "equipmentType": null,
+                "model": null,
+                "uuid": "/assets/dc1e7f1c-3dc0-46ba-9853-99ba3cca947f"
+            },
+            "associatedMonitoredEntityUuid": "/assets/dc1e7f1c-3dc0-46ba-9853-99ba3cca947f",
+            "createdOn": 1465580595686,
+            "eventStart": 1465580525858,
+            "id": 30835,
+            "incident": null,
+            "isLinked": false,
+            "linkCreatedOn": null,
+            "name": "42P002A_04252016.Unit Starting",
+            "responseCode": 200,
+            "responseMessage": "OK",
+            "severity": 0,
+            "storageReceiveTime": 1465580525858,
+            "userOwner": {
+                "firstName": "M&D Manager",
+                "lastName": "APM",
+                "responseCode": 200,
+                "responseMessage": "OK",
+                "uuid": "90B54C2CEB784529BFF6D00A08986391"
+            },
+            "uuid": "6290686D5B714F9E86CD94FC0C2327BD",
+            "viewMetadatas": [
+                {
+                    "name": null,
+                    "responseCode": 500,
+                    "responseMessage": "Unable to load view-metadata",
+                    "tagsOfInterest": null,
+                    "uuid": null
+                }
+            ]
+        }
+    ],
+    "asset": {
+        "alias": null,
+        "name": "BRS1HPFWH17New",
+        "responseCode": 200,
+        "responseMessage": "OK",
+        "uuid": "/assets/dc1e7f1c-3dc0-46ba-9853-99ba3cca947f"
+    },
+    "assetId": "BRS1HPFWH17New",
+    "caseClosedOnDate": 1465600334783,
+    "caseId": 10003,
+    "caseStatus": {
+        "status": "Closed"
+    },
+    "closureCode": "No Action",
+    "closureNote": "Closing test",
+    "createdOn": 1465582606968,
+    "creator": {
+        "firstName": "M&D Manager",
+        "lastName": "APM",
+        "responseCode": 200,
+        "responseMessage": "OK",
+        "uuid": "90B54C2CEB784529BFF6D00A08986391"
+    },
+    "diagnosis": "Diag test",
+    "evidenceList": [
+        
+    ],
+    "externalCaseId": null,
+    "name": "AndrewTestCase",
+    "notes": [
+        
+    ],
+    "owner": {
+        "firstName": "analytics",
+        "lastName": "test",
+        "responseCode": 200,
+        "responseMessage": "OK",
+        "uuid": "002590A761964AA89C6BBE4A46913D3C"
+    },
+    "ownerUuid": "002590A761964AA89C6BBE4A46913D3C",
+    "recommendation": "Recom test",
+    "responseCode": 200,
+    "responseMessage": "OK",
+    "severity": 0,
+    "symptoms": "Andrew test case",
+    "uuid": "E3C2D6909A62482990F8673E87C0D5DF"
+}

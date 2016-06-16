@@ -1,0 +1,132 @@
+{
+    "acknowledged": true,
+    "alerts": [
+        {
+            "alarmProfile": {
+                "source": {
+                    "name": "SmartSignal"
+                }
+            },
+            "alarmState": {
+                "name": "In Process"
+            },
+            "analysisEvidences": [
+                
+            ],
+            "associatedMonitoredEntity": {
+                "cycleType": null,
+                "equipmentId": "TestassetQA_RasGas",
+                "equipmentType": null,
+                "model": null,
+                "uuid": "/assets/115a9511-6b08-4f4d-9766-d5b15e851468"
+            },
+            "associatedMonitoredEntityUuid": "/assets/115a9511-6b08-4f4d-9766-d5b15e851468",
+            "createdOn": 1465594000698,
+            "eventStart": 1465594029447,
+            "id": 30957,
+            "incident": {
+                "firstOccurance": "2015-05-13T12:00",
+                "lastOccurance": "2015-05-16T13:00"
+            },
+            "isLinked": false,
+            "linkCreatedOn": null,
+            "name": "OG_PUMP_S.Pump System Analytics - Loss of Suction or Cavitation Pump Performance",
+            "responseCode": 200,
+            "responseMessage": "OK",
+            "severity": 5,
+            "storageReceiveTime": 1465594000374,
+            "userOwner": {
+                "firstName": "M&D Manager",
+                "lastName": "APM",
+                "responseCode": 200,
+                "responseMessage": "OK",
+                "uuid": "90B54C2CEB784529BFF6D00A08986391"
+            },
+            "uuid": "2E7B2E9FFBE74FEE8DFCDD24310FD63D",
+            "viewMetadatas": [
+                {
+                    "name": "Default Analysis View",
+                    "responseCode": 200,
+                    "responseMessage": "OK",
+                    "tagsOfInterest": [
+                        {
+                            "name": null,
+                            "tags": [
+                                
+                            ],
+                            "uuid": "50dbb418-58f8-491d-86a8-bb6dc93e1156"
+                        },
+                        {
+                            "name": null,
+                            "tags": [
+                                
+                            ],
+                            "uuid": "a7c680b8-7bfb-4f09-bbab-d8082846534f"
+                        },
+                        {
+                            "name": null,
+                            "tags": [
+                                
+                            ],
+                            "uuid": "34d59e6f-724a-4f55-b2d7-1c58a6b6c118"
+                        },
+                        {
+                            "name": null,
+                            "tags": [
+                                
+                            ],
+                            "uuid": "de21df5b-cc29-449f-a891-2e39b59c568c"
+                        }
+                    ],
+                    "uuid": "default/2E7B2E9FFBE74FEE8DFCDD24310FD63D"
+                }
+            ]
+        }
+    ],
+    "asset": {
+        "alias": null,
+        "name": "TestassetQA_RasGas",
+        "responseCode": 200,
+        "responseMessage": "OK",
+        "uuid": "/assets/115a9511-6b08-4f4d-9766-d5b15e851468"
+    },
+    "assetId": "TestassetQA_RasGas",
+    "caseClosedOnDate": null,
+    "caseId": 10018,
+    "caseStatus": {
+        "status": "Open"
+    },
+    "closureCode": "None",
+    "closureNote": null,
+    "createdOn": 1465594670854,
+    "creator": {
+        "firstName": "M&D Manager",
+        "lastName": "APM",
+        "responseCode": 200,
+        "responseMessage": "OK",
+        "uuid": "90B54C2CEB784529BFF6D00A08986391"
+    },
+    "diagnosis": null,
+    "evidenceList": [
+        
+    ],
+    "externalCaseId": null,
+    "name": "Profile Journey Test for cases 1465594661683",
+    "notes": [
+        
+    ],
+    "owner": {
+        "firstName": "rasgas2",
+        "lastName": "admin",
+        "responseCode": 200,
+        "responseMessage": "OK",
+        "uuid": "C1EBFDEE5407443A8070181F6049B80E"
+    },
+    "ownerUuid": "C1EBFDEE5407443A8070181F6049B80E",
+    "recommendation": null,
+    "responseCode": 200,
+    "responseMessage": "OK",
+    "severity": 5,
+    "symptoms": null,
+    "uuid": "A4289A4E573C434FABE168A90BF2D4DE"
+}

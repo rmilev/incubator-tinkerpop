@@ -1,0 +1,100 @@
+{
+    "alarmProfile": {
+        "cdsName": "GT_WHS",
+        "createdOn": 1466015745232,
+        "description": "Alarm Profile for Analytics Automation",
+        "id": 357,
+        "isActive": true,
+        "isConsumable": true,
+        "isTrip": false,
+        "name": "Alarm Profile AUTOMATION-5700",
+        "severity": 5,
+        "source": {
+            "createdOn": 1465948800000,
+            "description": "Analytics Automation e2e Profile Source",
+            "id": 1358,
+            "isActive": true,
+            "name": "Analytics Automation e2e Profile Source 1466015742617",
+            "tenantUuid": "73660E43997A42978E58B461708C780E",
+            "updatedOn": 1465948800000,
+            "uuid": "213CFD283B71464DA86B1B834CBB6EB1"
+        },
+        "tenantUuid": "73660E43997A42978E58B461708C780E",
+        "type": {
+            "createdOn": 1465948800000,
+            "description": "Analytics Automation e2e Profile Type",
+            "id": 1328,
+            "isActive": true,
+            "name": "Analytics Automation e2e Profile Type 1466015742627",
+            "tenantUuid": "73660E43997A42978E58B461708C780E",
+            "updatedOn": 1465948800000,
+            "uuid": "CFDA354674A349F08008D6398AD815E1"
+        },
+        "updatedOn": 1465948800000,
+        "uuid": "8B26ACAD054A46568E7868EDCC41449B",
+        "validateAsset": true
+    },
+    "alarmState": {
+        "createdOn": 1425308275000,
+        "description": "Ready",
+        "id": 5,
+        "isActive": true,
+        "name": "Ready",
+        "updatedOn": 1418439583000,
+        "uuid": "0b7c6bbb-c11a-11e4-bcef-a0481cabcba7"
+    },
+    "analysisEvidences": [
+        
+    ],
+    "assetName": "Inverter #1 ASSET TYPE 1",
+    "associatedMonitoredEntity": {
+        "contact": {
+            "name": "Inverter #1 ASSET TYPE 1"
+        },
+        "enterprise": {
+            "name": "E2E EDISON ENTERPRISE"
+        },
+        "equipmentId": "Inverter1-ASSET-TYPE1",
+        "name": "Inverter #1 ASSET TYPE 1",
+        "site": {
+            "address": {
+                
+            },
+            "name": "AZ - APS - Prescott - SITE"
+        },
+        "uuid": "/assets/95ef9b69-2fe7-4c85-86f5-5e5d92389683"
+    },
+    "associatedMonitoredEntityUuid": "/assets/95ef9b69-2fe7-4c85-86f5-5e5d92389683",
+    "createdOn": 1466016606659,
+    "eventStart": 1466006314000,
+    "id": 32188,
+    "isActive": true,
+    "isTrip": false,
+    "name": "Alarm Profile AUTOMATION-5700",
+    "notes": {
+        "data": [
+            
+        ],
+        "total": 0
+    },
+    "scanGroupData": {
+        "scores": "290.0"
+    },
+    "severity": 5,
+    "storageReceiveTime": 1466016605671,
+    "tagsOfInterest": [
+        {
+            "tags": [
+                {
+                    "isContributing": true,
+                    "name": "Tag_Pressure",
+                    "sourceKey": "Inverter1-ASSET-TYPE1.Tag_Pressure",
+                    "uuid": "/tags/14eb9b28-dc48-43b1-bece-c48ba8ac770d"
+                }
+            ]
+        }
+    ],
+    "tenantUuId": "73660E43997A42978E58B461708C780E",
+    "updatedOn": 1466016606659,
+    "uuid": "F9779889826A45A2BCA03085EFED7982"
+}

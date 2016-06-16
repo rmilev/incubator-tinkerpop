@@ -1,0 +1,94 @@
+{
+    "acknowledged": false,
+    "alerts": [
+        {
+            "alarmProfile": {
+                "source": {
+                    "name": "E2E_A_Source_1465516662145"
+                }
+            },
+            "alarmState": {
+                "name": "In Process"
+            },
+            "analysisEvidences": [
+                
+            ],
+            "associatedMonitoredEntity": {
+                "cycleType": null,
+                "equipmentId": "Array1-ASSET-TYPE2",
+                "equipmentType": null,
+                "model": null,
+                "uuid": "/assets/8755d337-190d-4a37-9280-c565ecb6aad3"
+            },
+            "associatedMonitoredEntityUuid": "/assets/8755d337-190d-4a37-9280-c565ecb6aad3",
+            "createdOn": 1465836619270,
+            "eventStart": 1465732203000,
+            "id": 30980,
+            "incident": null,
+            "isLinked": false,
+            "linkCreatedOn": null,
+            "name": "Temperature-alert-73660E43997A42978E58B461708C780E",
+            "responseCode": 200,
+            "responseMessage": "OK",
+            "severity": 1,
+            "storageReceiveTime": 1465732203000,
+            "userOwner": {
+                "firstName": "M&D Manager",
+                "lastName": "APM",
+                "responseCode": 200,
+                "responseMessage": "OK",
+                "uuid": "90B54C2CEB784529BFF6D00A08986391"
+            },
+            "uuid": "AD5149A5E6094094B213D14C29BD361A",
+            "viewMetadatas": [
+                {
+                    "name": null,
+                    "responseCode": 500,
+                    "responseMessage": "Unable to load view-metadata",
+                    "tagsOfInterest": null,
+                    "uuid": null
+                }
+            ]
+        }
+    ],
+    "asset": {
+        "alias": null,
+        "name": "Array #1 ASSET TYPE 2",
+        "responseCode": 200,
+        "responseMessage": "OK",
+        "uuid": "/assets/8755d337-190d-4a37-9280-c565ecb6aad3"
+    },
+    "assetId": "Array1-ASSET-TYPE2",
+    "caseClosedOnDate": null,
+    "caseId": 10044,
+    "caseStatus": {
+        "status": "Open"
+    },
+    "closureCode": "None",
+    "closureNote": null,
+    "createdOn": 1465857574626,
+    "creator": {
+        "firstName": "M&D Manager",
+        "lastName": "APM",
+        "responseCode": 200,
+        "responseMessage": "OK",
+        "uuid": "90B54C2CEB784529BFF6D00A08986391"
+    },
+    "diagnosis": null,
+    "evidenceList": [
+        
+    ],
+    "externalCaseId": "NewExtCaseId",
+    "name": "Profile Journey Test for cases 1465857565336",
+    "notes": [
+        
+    ],
+    "owner": null,
+    "ownerUuid": null,
+    "recommendation": null,
+    "responseCode": 200,
+    "responseMessage": "OK",
+    "severity": 1,
+    "symptoms": null,
+    "uuid": "3B8833039BB14C51AF44C8864F1D9A6B"
+}

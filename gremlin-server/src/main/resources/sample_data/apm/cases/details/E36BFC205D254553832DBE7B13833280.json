@@ -1,0 +1,100 @@
+{
+    "acknowledged": false,
+    "alerts": [
+        {
+            "alarmProfile": {
+                "source": {
+                    "name": "E2E_A_Source_1465516662145"
+                }
+            },
+            "alarmState": {
+                "name": "In Process"
+            },
+            "analysisEvidences": [
+                
+            ],
+            "associatedMonitoredEntity": {
+                "cycleType": null,
+                "equipmentId": "Inverter1-ASSET-TYPE1",
+                "equipmentType": null,
+                "model": null,
+                "uuid": "/assets/95ef9b69-2fe7-4c85-86f5-5e5d92389683"
+            },
+            "associatedMonitoredEntityUuid": "/assets/95ef9b69-2fe7-4c85-86f5-5e5d92389683",
+            "createdOn": 1465952302689,
+            "eventStart": 1463594282000,
+            "id": 31893,
+            "incident": null,
+            "isLinked": false,
+            "linkCreatedOn": null,
+            "name": "Length-alert-73660E43997A42978E58B461708C780E",
+            "responseCode": 200,
+            "responseMessage": "OK",
+            "severity": 1,
+            "storageReceiveTime": 1463594282000,
+            "userOwner": null,
+            "uuid": "5C3CF2443F8446A1BBFA760AE2CE0D04",
+            "viewMetadatas": [
+                {
+                    "name": "Default Analysis View",
+                    "responseCode": 200,
+                    "responseMessage": "OK",
+                    "tagsOfInterest": [
+                        {
+                            "name": null,
+                            "tags": [
+                                {
+                                    "isContributing": true,
+                                    "name": "Tag_Length",
+                                    "uuid": "/tagTypes/abf7c533-9c10-486f-9b5c-a72d0a5ca137"
+                                }
+                            ],
+                            "uuid": null
+                        }
+                    ],
+                    "uuid": "default/5C3CF2443F8446A1BBFA760AE2CE0D04"
+                }
+            ]
+        }
+    ],
+    "asset": {
+        "alias": "Inverter #1 ASSET TYPE 1 ALIAS",
+        "name": "Inverter #1 ASSET TYPE 1",
+        "responseCode": 200,
+        "responseMessage": "OK",
+        "uuid": "/assets/95ef9b69-2fe7-4c85-86f5-5e5d92389683"
+    },
+    "assetId": "Inverter1-ASSET-TYPE1",
+    "caseClosedOnDate": 1465952327699,
+    "caseId": 10093,
+    "caseStatus": {
+        "status": "Closed"
+    },
+    "closureCode": "Sensor Repair",
+    "closureNote": "Any text",
+    "createdOn": 1465952314039,
+    "creator": {
+        "firstName": "M&D Manager",
+        "lastName": "APM",
+        "responseCode": 200,
+        "responseMessage": "OK",
+        "uuid": "90B54C2CEB784529BFF6D00A08986391"
+    },
+    "diagnosis": "This is my first diagnostic in report",
+    "evidenceList": [
+        
+    ],
+    "externalCaseId": null,
+    "name": "e2e case 1465952308496",
+    "notes": [
+        
+    ],
+    "owner": null,
+    "ownerUuid": null,
+    "recommendation": "this is my first recommendation",
+    "responseCode": 200,
+    "responseMessage": "OK",
+    "severity": 3,
+    "symptoms": "This is my first new symptoms",
+    "uuid": "E36BFC205D254553832DBE7B13833280"
+}

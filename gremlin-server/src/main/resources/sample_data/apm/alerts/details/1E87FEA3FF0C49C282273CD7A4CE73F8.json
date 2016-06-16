@@ -1,0 +1,113 @@
+{
+    "alarmProfile": {
+        "createdOn": 1465836327383,
+        "description": "Test profile",
+        "id": 285,
+        "isActive": true,
+        "isConsumable": true,
+        "isTrip": false,
+        "name": "MoniraTestProfile01",
+        "severity": 1,
+        "source": {
+            "createdOn": 1465430400000,
+            "description": "OrchestrationManager",
+            "id": 1239,
+            "isActive": true,
+            "name": "OrchestrationManager",
+            "tenantUuid": "73660E43997A42978E58B461708C780E",
+            "updatedOn": 1465430400000,
+            "uuid": "9E926714500645E3AC9E3B2280279324"
+        },
+        "tenantUuid": "73660E43997A42978E58B461708C780E",
+        "type": {
+            "createdOn": 1465430400000,
+            "description": "Generic",
+            "id": 1218,
+            "isActive": true,
+            "name": "Generic",
+            "tenantUuid": "73660E43997A42978E58B461708C780E",
+            "updatedOn": 1465430400000,
+            "uuid": "88F4AD881CD24DAE888B6B8A8F92823F"
+        },
+        "updatedOn": 1465776000000,
+        "uuid": "C5CEAC03EC2D4AEFA64599AC041AAB04",
+        "validateAsset": true
+    },
+    "alarmState": {
+        "createdOn": 1425308275000,
+        "description": "In Process",
+        "id": 6,
+        "isActive": true,
+        "name": "In Process",
+        "updatedOn": 1418439583000,
+        "uuid": "0b7c6c91-c11a-11e4-bcef-a0481cabcba7"
+    },
+    "analysisEvidences": [
+        
+    ],
+    "assetAlias": "AViD Asset Alias",
+    "assetName": "AViD Asset",
+    "associatedMonitoredEntity": {
+        "alias": "AViD Asset Alias",
+        "contact": {
+            "name": "AViD Asset"
+        },
+        "enterprise": {
+            "name": "AViD ENTERPRISE"
+        },
+        "equipmentId": "AVD-ASSET-ID",
+        "name": "AViD Asset",
+        "site": {
+            "address": {
+                
+            },
+            "name": "AViD SITE"
+        },
+        "uuid": "/assets/b56e11cc-6714-4a17-af9c-3e8b795d1dbf"
+    },
+    "associatedMonitoredEntityUuid": "/assets/b56e11cc-6714-4a17-af9c-3e8b795d1dbf",
+    "createdOn": 1466017531081,
+    "eventStart": 1466017503887,
+    "id": 32262,
+    "isActive": true,
+    "isTrip": false,
+    "name": "MoniraTestProfile01",
+    "notes": {
+        "data": [
+            {
+                "createdOn": 1466027667341,
+                "id": 1484,
+                "isDeletable": false,
+                "parentEntityType": "Alarm",
+                "parentEntityUuid": "1E87FEA3FF0C49C282273CD7A4CE73F8",
+                "text": "1234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890",
+                "updatedOn": 1466027667341,
+                "userOwner": {
+                    "active": true,
+                    "eulaAccepted": false,
+                    "firstName": "MC",
+                    "lastName": "SIVA",
+                    "type": "User",
+                    "username": "mc",
+                    "uuid": "045B8EEF2F064A75A3BF1264CEDC3103"
+                },
+                "userOwnerUuid": "045B8EEF2F064A75A3BF1264CEDC3103",
+                "uuid": "45644486D2F746FF9E02E7BF72EC86D2"
+            }
+        ],
+        "total": 1
+    },
+    "severity": 1,
+    "storageReceiveTime": 1466017503887,
+    "tenantUuId": "73660E43997A42978E58B461708C780E",
+    "updatedOn": 1466027667341,
+    "userOwner": {
+        "firstName": "JAYANT",
+        "lastName": "THOMAS",
+        "type": "User",
+        "username": "jayt",
+        "uuid": "99C12243A0B04C5593D8E97390A8A4F4"
+    },
+    "userOwnerUuid": "99C12243A0B04C5593D8E97390A8A4F4",
+    "uuid": "1E87FEA3FF0C49C282273CD7A4CE73F8"
+}

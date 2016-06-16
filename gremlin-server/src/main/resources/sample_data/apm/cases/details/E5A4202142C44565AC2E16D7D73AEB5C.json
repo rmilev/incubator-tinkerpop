@@ -1,0 +1,66 @@
+{
+    "acknowledged": false,
+    "alerts": [
+        {
+            "alarmProfile": null,
+            "alarmState": null,
+            "analysisEvidences": null,
+            "associatedMonitoredEntity": null,
+            "associatedMonitoredEntityUuid": null,
+            "createdOn": null,
+            "eventStart": null,
+            "id": 0,
+            "incident": null,
+            "isLinked": false,
+            "linkCreatedOn": null,
+            "name": null,
+            "responseCode": 500,
+            "responseMessage": "Could not load associated alert(s)",
+            "severity": 0,
+            "storageReceiveTime": null,
+            "userOwner": null,
+            "uuid": null,
+            "viewMetadatas": null
+        }
+    ],
+    "asset": {
+        "alias": "Inverter #1 ASSET TYPE 1 ALIAS",
+        "name": "Inverter #1 ASSET TYPE 1",
+        "responseCode": 200,
+        "responseMessage": "OK",
+        "uuid": "/assets/95ef9b69-2fe7-4c85-86f5-5e5d92389683"
+    },
+    "assetId": "Inverter1-ASSET-TYPE1",
+    "caseClosedOnDate": 1465991931984,
+    "caseId": 10104,
+    "caseStatus": {
+        "status": "Closed"
+    },
+    "closureCode": "Sensor Repair",
+    "closureNote": "Any text",
+    "createdOn": 1465991921618,
+    "creator": {
+        "firstName": "M&D Manager",
+        "lastName": "APM",
+        "responseCode": 200,
+        "responseMessage": "OK",
+        "uuid": "90B54C2CEB784529BFF6D00A08986391"
+    },
+    "diagnosis": "This is my first diagnostic in report",
+    "evidenceList": [
+        
+    ],
+    "externalCaseId": null,
+    "name": "e2e case 1465991917853",
+    "notes": [
+        
+    ],
+    "owner": null,
+    "ownerUuid": null,
+    "recommendation": "this is my first recommendation",
+    "responseCode": 200,
+    "responseMessage": "OK",
+    "severity": 3,
+    "symptoms": "This is my first new symptoms",
+    "uuid": "E5A4202142C44565AC2E16D7D73AEB5C"
+}

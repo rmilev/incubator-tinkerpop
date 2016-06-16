@@ -1,0 +1,112 @@
+{
+    "alarmProfile": {
+        "createdOn": 1465921749560,
+        "description": "Alert profile for OG_PUMP_S.Unit Starting",
+        "id": 339,
+        "isActive": true,
+        "isConsumable": true,
+        "isTrip": false,
+        "name": "OG_PUMP_S.Unit Starting",
+        "severity": 1,
+        "source": {
+            "createdOn": 1465430400000,
+            "description": "SmartSignal",
+            "id": 1238,
+            "isActive": true,
+            "name": "SmartSignal",
+            "processorClass": "com.ge.apm.alarmmanagement.service.impl.SsAlarmProcessor",
+            "tenantUuid": "73660E43997A42978E58B461708C780E",
+            "updatedOn": 1465430400000,
+            "uuid": "4EACC61C27A04AA1BEBB9B02E1D91E23"
+        },
+        "tenantUuid": "73660E43997A42978E58B461708C780E",
+        "type": {
+            "createdOn": 1465430400000,
+            "description": "Generic",
+            "id": 1218,
+            "isActive": true,
+            "name": "Generic",
+            "tenantUuid": "73660E43997A42978E58B461708C780E",
+            "updatedOn": 1465430400000,
+            "uuid": "88F4AD881CD24DAE888B6B8A8F92823F"
+        },
+        "updatedOn": 1465862400000,
+        "uuid": "B3F579AC827B4D9E9EC6A766E01FF203",
+        "validateAsset": true
+    },
+    "alarmState": {
+        "createdOn": 1425308275000,
+        "description": "Ready",
+        "id": 5,
+        "isActive": true,
+        "name": "Ready",
+        "updatedOn": 1418439583000,
+        "uuid": "0b7c6bbb-c11a-11e4-bcef-a0481cabcba7"
+    },
+    "analysisEvidences": [
+        
+    ],
+    "assetName": "TestassetQA_RasGas",
+    "associatedMonitoredEntity": {
+        "contact": {
+            "name": "TestassetQA_RasGas"
+        },
+        "enterprise": {
+            "name": "SS Test Enterprise"
+        },
+        "equipmentId": "TestassetQA_RasGas",
+        "name": "TestassetQA_RasGas",
+        "site": {
+            "address": {
+                
+            },
+            "name": "Combined Cycle Sites"
+        },
+        "uuid": "/assets/115a9511-6b08-4f4d-9766-d5b15e851468"
+    },
+    "associatedMonitoredEntityUuid": "/assets/115a9511-6b08-4f4d-9766-d5b15e851468",
+    "createdOn": 1465909793808,
+    "eventStart": 1456459975623,
+    "eventStartOffset": 0,
+    "id": 31795,
+    "incident": {
+        "firstOccurance": "2016-06-03T18:21:14.295",
+        "incidentEventCount": "5",
+        "lastOccurance": "2016-06-03T18:21:14.295"
+    },
+    "isActive": true,
+    "isTrip": false,
+    "name": "OG_PUMP_S.Unit Starting",
+    "notes": {
+        "data": [
+            
+        ],
+        "total": 0
+    },
+    "origin": "PGS-SS",
+    "scanGroupData": {
+        "DISCHARGE_PRESS_MT1_CV (VL)": "53.95484042"
+    },
+    "severity": 1,
+    "storageReceiveTime": 1465909792345,
+    "tagsOfInterest": [
+        {
+            "displayGrouped": true,
+            "displayGroupedName": "42VI0302A.PV",
+            "isContributing": false,
+            "uom": "None",
+            "uuid": "6ea04993-0a8b-4d3d-aec9-267f6e35d095"
+        },
+        {
+            "displayGrouped": true,
+            "displayGroupedName": "DISCHARGE_PRESS_MT1_CV (VL)",
+            "isContributing": true,
+            "uom": "um",
+            "uuid": "6ea04993-0a8b-4d3d-aec9-267f6e35d095"
+        }
+    ],
+    "tenantId": "3DB5F824746E4D889E5A7EA80FFC50BB",
+    "tenantUuId": "3DB5F824746E4D889E5A7EA80FFC50BB",
+    "updatedOn": 1465909793808,
+    "uuid": "BC0797F939F142E0B207C069A73F0978"
+}

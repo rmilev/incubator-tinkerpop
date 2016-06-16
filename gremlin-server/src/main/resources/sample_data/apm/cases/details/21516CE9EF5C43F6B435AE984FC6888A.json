@@ -1,0 +1,80 @@
+{
+    "acknowledged": false,
+    "alerts": [
+        {
+            "alarmProfile": null,
+            "alarmState": null,
+            "analysisEvidences": null,
+            "associatedMonitoredEntity": null,
+            "associatedMonitoredEntityUuid": null,
+            "createdOn": null,
+            "eventStart": null,
+            "id": 0,
+            "incident": null,
+            "isLinked": false,
+            "linkCreatedOn": null,
+            "name": null,
+            "responseCode": 500,
+            "responseMessage": "Could not load associated alert(s)",
+            "severity": 0,
+            "storageReceiveTime": null,
+            "userOwner": null,
+            "uuid": null,
+            "viewMetadatas": null
+        }
+    ],
+    "asset": {
+        "alias": null,
+        "name": "42P002A_04222016",
+        "responseCode": 200,
+        "responseMessage": "OK",
+        "uuid": "/assets/064be54f-b88c-4c41-9358-a711e1722e70"
+    },
+    "assetId": "42P002A_04222016",
+    "caseClosedOnDate": null,
+    "caseId": 10130,
+    "caseStatus": {
+        "status": "Awaiting"
+    },
+    "closureCode": "None",
+    "closureNote": null,
+    "createdOn": 1466034047985,
+    "creator": {
+        "firstName": "M&D Manager",
+        "lastName": "APM",
+        "responseCode": 200,
+        "responseMessage": "OK",
+        "uuid": "90B54C2CEB784529BFF6D00A08986391"
+    },
+    "diagnosis": "Test",
+    "evidenceList": [
+        
+    ],
+    "externalCaseId": "77790",
+    "name": "Test Profile 000034- Case1",
+    "notes": [
+        {
+            "createdOn": 0,
+            "isDeletable": false,
+            "responseCode": 500,
+            "responseMessage": "Could not load associated note(s).",
+            "text": null,
+            "userOwner": null,
+            "uuid": null
+        }
+    ],
+    "owner": {
+        "firstName": "MD",
+        "lastName": "Test",
+        "responseCode": 200,
+        "responseMessage": "OK",
+        "uuid": "19CAEC33F5484315A8AA2A863CBAB280"
+    },
+    "ownerUuid": "19CAEC33F5484315A8AA2A863CBAB280",
+    "recommendation": "Test",
+    "responseCode": 200,
+    "responseMessage": "OK",
+    "severity": 2,
+    "symptoms": "Symptoms - Test",
+    "uuid": "21516CE9EF5C43F6B435AE984FC6888A"
+}

@@ -1,0 +1,94 @@
+{
+    "acknowledged": false,
+    "alerts": [
+        {
+            "alarmProfile": {
+                "source": {
+                    "name": "Analytics Automation e2e Profile Source 1465791113446"
+                }
+            },
+            "alarmState": {
+                "name": "In Process"
+            },
+            "analysisEvidences": [
+                
+            ],
+            "associatedMonitoredEntity": {
+                "cycleType": null,
+                "equipmentId": "Array1-ASSET-TYPE2",
+                "equipmentType": null,
+                "model": null,
+                "uuid": "/assets/8755d337-190d-4a37-9280-c565ecb6aad3"
+            },
+            "associatedMonitoredEntityUuid": "/assets/8755d337-190d-4a37-9280-c565ecb6aad3",
+            "createdOn": 1466016905282,
+            "eventStart": 1466016878978,
+            "id": 32252,
+            "incident": null,
+            "isLinked": false,
+            "linkCreatedOn": null,
+            "name": "Alarm Profile AUTOMATION-999",
+            "responseCode": 200,
+            "responseMessage": "OK",
+            "severity": 5,
+            "storageReceiveTime": 1466016878978,
+            "userOwner": {
+                "firstName": "M&D Manager",
+                "lastName": "APM",
+                "responseCode": 200,
+                "responseMessage": "OK",
+                "uuid": "90B54C2CEB784529BFF6D00A08986391"
+            },
+            "uuid": "52005BFBAB36439C8E553BB5521F8214",
+            "viewMetadatas": [
+                {
+                    "name": null,
+                    "responseCode": 500,
+                    "responseMessage": "Unable to load view-metadata",
+                    "tagsOfInterest": null,
+                    "uuid": null
+                }
+            ]
+        }
+    ],
+    "asset": {
+        "alias": null,
+        "name": "Array #1 ASSET TYPE 2",
+        "responseCode": 200,
+        "responseMessage": "OK",
+        "uuid": "/assets/8755d337-190d-4a37-9280-c565ecb6aad3"
+    },
+    "assetId": "Array1-ASSET-TYPE2",
+    "caseClosedOnDate": null,
+    "caseId": 10110,
+    "caseStatus": {
+        "status": "Open"
+    },
+    "closureCode": "None",
+    "closureNote": null,
+    "createdOn": 1466016974601,
+    "creator": {
+        "firstName": "M&D Manager",
+        "lastName": "APM",
+        "responseCode": 200,
+        "responseMessage": "OK",
+        "uuid": "90B54C2CEB784529BFF6D00A08986391"
+    },
+    "diagnosis": null,
+    "evidenceList": [
+        
+    ],
+    "externalCaseId": null,
+    "name": "Alarm Profile AUTOMATION-999-Namratha",
+    "notes": [
+        
+    ],
+    "owner": null,
+    "ownerUuid": null,
+    "recommendation": null,
+    "responseCode": 200,
+    "responseMessage": "OK",
+    "severity": 1,
+    "symptoms": "test",
+    "uuid": "0A937FD105AA402FA7A3C5066EFC22F9"
+}

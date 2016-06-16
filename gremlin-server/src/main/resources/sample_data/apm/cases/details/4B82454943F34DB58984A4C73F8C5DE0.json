@@ -1,0 +1,100 @@
+{
+    "acknowledged": false,
+    "alerts": [
+        {
+            "alarmProfile": {
+                "source": {
+                    "name": "Analytics Automation e2e Profile Source 1466015742617"
+                }
+            },
+            "alarmState": {
+                "name": "In Process"
+            },
+            "analysisEvidences": [
+                
+            ],
+            "associatedMonitoredEntity": {
+                "cycleType": null,
+                "equipmentId": "Inverter1-ASSET-TYPE1",
+                "equipmentType": null,
+                "model": null,
+                "uuid": "/assets/95ef9b69-2fe7-4c85-86f5-5e5d92389683"
+            },
+            "associatedMonitoredEntityUuid": "/assets/95ef9b69-2fe7-4c85-86f5-5e5d92389683",
+            "createdOn": 1466016609416,
+            "eventStart": 1465930718000,
+            "id": 32249,
+            "incident": null,
+            "isLinked": false,
+            "linkCreatedOn": null,
+            "name": "Alarm Profile AUTOMATION-5700",
+            "responseCode": 200,
+            "responseMessage": "OK",
+            "severity": 5,
+            "storageReceiveTime": 1466016609126,
+            "userOwner": {
+                "firstName": "Jerry",
+                "lastName": "Dy",
+                "responseCode": 200,
+                "responseMessage": "OK",
+                "uuid": "E5553BDF06EA4D5A932EE57AAD4D84DE"
+            },
+            "uuid": "8489B1F158E549ABA437C51865161DCA",
+            "viewMetadatas": [
+                {
+                    "name": null,
+                    "responseCode": 500,
+                    "responseMessage": "Unable to load view-metadata",
+                    "tagsOfInterest": null,
+                    "uuid": null
+                }
+            ]
+        }
+    ],
+    "asset": {
+        "alias": null,
+        "name": "Inverter #1 ASSET TYPE 1",
+        "responseCode": 200,
+        "responseMessage": "OK",
+        "uuid": "/assets/95ef9b69-2fe7-4c85-86f5-5e5d92389683"
+    },
+    "assetId": "Inverter1-ASSET-TYPE1",
+    "caseClosedOnDate": null,
+    "caseId": 10113,
+    "caseStatus": {
+        "status": "Open"
+    },
+    "closureCode": "None",
+    "closureNote": null,
+    "createdOn": 1466017434911,
+    "creator": {
+        "firstName": "Jerry",
+        "lastName": "Dy",
+        "responseCode": 200,
+        "responseMessage": "OK",
+        "uuid": "E5553BDF06EA4D5A932EE57AAD4D84DE"
+    },
+    "diagnosis": null,
+    "evidenceList": [
+        
+    ],
+    "externalCaseId": null,
+    "name": "Alarm Profile AUTOMATION-5700",
+    "notes": [
+        
+    ],
+    "owner": {
+        "firstName": "Jerry",
+        "lastName": "Dy",
+        "responseCode": 200,
+        "responseMessage": "OK",
+        "uuid": "E5553BDF06EA4D5A932EE57AAD4D84DE"
+    },
+    "ownerUuid": "E5553BDF06EA4D5A932EE57AAD4D84DE",
+    "recommendation": null,
+    "responseCode": 200,
+    "responseMessage": "OK",
+    "severity": 5,
+    "symptoms": null,
+    "uuid": "4B82454943F34DB58984A4C73F8C5DE0"
+}

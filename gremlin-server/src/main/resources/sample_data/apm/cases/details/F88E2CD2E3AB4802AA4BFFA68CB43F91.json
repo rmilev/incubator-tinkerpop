@@ -1,0 +1,100 @@
+{
+    "acknowledged": true,
+    "alerts": [
+        {
+            "alarmProfile": {
+                "source": {
+                    "name": "Analytics Automation e2e Profile Source 1465791113446"
+                }
+            },
+            "alarmState": {
+                "name": "In Process"
+            },
+            "analysisEvidences": [
+                
+            ],
+            "associatedMonitoredEntity": {
+                "cycleType": null,
+                "equipmentId": "AVD-ASSET-ID",
+                "equipmentType": null,
+                "model": null,
+                "uuid": "/assets/b56e11cc-6714-4a17-af9c-3e8b795d1dbf"
+            },
+            "associatedMonitoredEntityUuid": "/assets/b56e11cc-6714-4a17-af9c-3e8b795d1dbf",
+            "createdOn": 1466017459858,
+            "eventStart": 1466017426735,
+            "id": 32261,
+            "incident": null,
+            "isLinked": false,
+            "linkCreatedOn": null,
+            "name": "Alarm Profile AUTOMATION-999",
+            "responseCode": 200,
+            "responseMessage": "OK",
+            "severity": 5,
+            "storageReceiveTime": 1466017426735,
+            "userOwner": {
+                "firstName": "Sabrina",
+                "lastName": "Lui",
+                "responseCode": 200,
+                "responseMessage": "OK",
+                "uuid": "5A6444327A154E80B29766E9C8B2E18B"
+            },
+            "uuid": "2366330249524682A74930A881F405B9",
+            "viewMetadatas": [
+                {
+                    "name": null,
+                    "responseCode": 500,
+                    "responseMessage": "Unable to load view-metadata",
+                    "tagsOfInterest": null,
+                    "uuid": null
+                }
+            ]
+        }
+    ],
+    "asset": {
+        "alias": "AViD Asset Alias",
+        "name": "AViD Asset",
+        "responseCode": 200,
+        "responseMessage": "OK",
+        "uuid": "/assets/b56e11cc-6714-4a17-af9c-3e8b795d1dbf"
+    },
+    "assetId": "AVD-ASSET-ID",
+    "caseClosedOnDate": null,
+    "caseId": 10117,
+    "caseStatus": {
+        "status": "Open"
+    },
+    "closureCode": "None",
+    "closureNote": null,
+    "createdOn": 1466018987296,
+    "creator": {
+        "firstName": "Sabrina",
+        "lastName": "Lui",
+        "responseCode": 200,
+        "responseMessage": "OK",
+        "uuid": "5A6444327A154E80B29766E9C8B2E18B"
+    },
+    "diagnosis": "AAAAA",
+    "evidenceList": [
+        
+    ],
+    "externalCaseId": null,
+    "name": "Sabrina's Case 002",
+    "notes": [
+        
+    ],
+    "owner": {
+        "firstName": "Sabrina",
+        "lastName": "Lui",
+        "responseCode": 200,
+        "responseMessage": "OK",
+        "uuid": "5A6444327A154E80B29766E9C8B2E18B"
+    },
+    "ownerUuid": "5A6444327A154E80B29766E9C8B2E18B",
+    "recommendation": null,
+    "responseCode": 200,
+    "responseMessage": "OK",
+    "severity": 1,
+    "symptoms": "Sabrina's case 002",
+    "uuid": "F88E2CD2E3AB4802AA4BFFA68CB43F91"
+}

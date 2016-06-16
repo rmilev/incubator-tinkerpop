@@ -1,0 +1,98 @@
+{
+    "alarmProfile": {
+        "createdOn": 1465579690990,
+        "description": "",
+        "id": 251,
+        "isActive": true,
+        "isConsumable": true,
+        "isTrip": false,
+        "name": "Neeta2.3test",
+        "severity": 1,
+        "source": {
+            "createdOn": 1465430400000,
+            "description": "OrchestrationManager",
+            "id": 1239,
+            "isActive": true,
+            "name": "OrchestrationManager",
+            "tenantUuid": "73660E43997A42978E58B461708C780E",
+            "updatedOn": 1465430400000,
+            "uuid": "9E926714500645E3AC9E3B2280279324"
+        },
+        "tenantUuid": "73660E43997A42978E58B461708C780E",
+        "type": {
+            "createdOn": 1465430400000,
+            "description": "Generic",
+            "id": 1218,
+            "isActive": true,
+            "name": "Generic",
+            "tenantUuid": "73660E43997A42978E58B461708C780E",
+            "updatedOn": 1465430400000,
+            "uuid": "88F4AD881CD24DAE888B6B8A8F92823F"
+        },
+        "updatedOn": 1465516800000,
+        "uuid": "72C195AD938944EF8CAD96737129A1E1",
+        "validateAsset": true
+    },
+    "alarmState": {
+        "createdOn": 1425308275000,
+        "description": "Ready",
+        "id": 5,
+        "isActive": true,
+        "name": "Ready",
+        "updatedOn": 1418439583000,
+        "uuid": "0b7c6bbb-c11a-11e4-bcef-a0481cabcba7"
+    },
+    "analysisEvidences": [
+        
+    ],
+    "assetName": "Majestic G01",
+    "associatedMonitoredEntity": {
+        "contact": {
+            "name": "Majestic G01"
+        },
+        "enterprise": {
+            "name": "Tomm.E Incorporated"
+        },
+        "equipmentId": "20881",
+        "name": "Majestic G01",
+        "site": {
+            "address": {
+                
+            },
+            "name": "Chinook"
+        },
+        "uuid": "/assets/04092e71-9fd2-4f8f-9a87-df3ae24a4fbb"
+    },
+    "associatedMonitoredEntityUuid": "/assets/04092e71-9fd2-4f8f-9a87-df3ae24a4fbb",
+    "createdOn": 1465597300764,
+    "eventStart": 1426525200000,
+    "id": 30967,
+    "isActive": true,
+    "isTrip": false,
+    "name": "Neeta2.3test",
+    "notes": {
+        "data": [
+            
+        ],
+        "total": 0
+    },
+    "scanGroupData": {
+        "scores": "52.0"
+    },
+    "severity": 1,
+    "storageReceiveTime": 1465597299659,
+    "tagsOfInterest": [
+        {
+            "tags": [
+                {
+                    "isContributing": true,
+                    "name": "bearing_a_temp",
+                    "uuid": "/tagTypes/4237ca42-605c-4fcf-afce-257d91609e99"
+                }
+            ]
+        }
+    ],
+    "tenantUuId": "73660E43997A42978E58B461708C780E",
+    "updatedOn": 1465597300764,
+    "uuid": "146137EF4AF341E38F4E5F789DA77DF6"
+}

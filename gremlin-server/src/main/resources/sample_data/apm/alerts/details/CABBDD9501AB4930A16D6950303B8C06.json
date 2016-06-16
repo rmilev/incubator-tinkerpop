@@ -1,0 +1,102 @@
+{
+    "alarmProfile": {
+        "createdOn": 1465572158357,
+        "description": "",
+        "id": 249,
+        "isActive": true,
+        "isConsumable": true,
+        "isTrip": false,
+        "name": "ETalertprof1",
+        "severity": 1,
+        "source": {
+            "createdOn": 1465430400000,
+            "description": "OrchestrationManager",
+            "id": 1239,
+            "isActive": true,
+            "name": "OrchestrationManager",
+            "tenantUuid": "73660E43997A42978E58B461708C780E",
+            "updatedOn": 1465430400000,
+            "uuid": "9E926714500645E3AC9E3B2280279324"
+        },
+        "tenantUuid": "73660E43997A42978E58B461708C780E",
+        "type": {
+            "createdOn": 1465430400000,
+            "description": "Generic",
+            "id": 1218,
+            "isActive": true,
+            "name": "Generic",
+            "tenantUuid": "73660E43997A42978E58B461708C780E",
+            "updatedOn": 1465430400000,
+            "uuid": "88F4AD881CD24DAE888B6B8A8F92823F"
+        },
+        "updatedOn": 1465516800000,
+        "uuid": "B6379DE6B22543A7936EF0EABB5A5C1C",
+        "validateAsset": true
+    },
+    "alarmState": {
+        "createdOn": 1425308275000,
+        "description": "Ready",
+        "id": 5,
+        "isActive": true,
+        "name": "Ready",
+        "updatedOn": 1418439583000,
+        "uuid": "0b7c6bbb-c11a-11e4-bcef-a0481cabcba7"
+    },
+    "analysisEvidences": [
+        
+    ],
+    "assetName": "ET1_890127_1_1_1",
+    "associatedMonitoredEntity": {
+        "contact": {
+            "name": "ET1_890127_1_1_1"
+        },
+        "enterprise": {
+            "name": "ET1_RASGAS COMPANY LIMITED_0_0_0"
+        },
+        "equipmentId": "ET1_120de7b7-6e4a-4412-8e6f-3040bbd16322_1_1_1",
+        "name": "ET1_890127_1_1_1",
+        "site": {
+            "address": {
+                
+            },
+            "name": "ET1_RAS LAFFAN_1_0_0"
+        },
+        "uuid": "/assets/68abd65f-cff6-4e34-848b-99aa835ce8c1"
+    },
+    "associatedMonitoredEntityUuid": "/assets/68abd65f-cff6-4e34-848b-99aa835ce8c1",
+    "createdOn": 1465583037167,
+    "eventStart": 1463870999999,
+    "id": 30865,
+    "incident": {
+        "firstOccurance": "2016-05-21T15:07",
+        "incidentEventCount": "125",
+        "lastOccurance": "2016-05-21T15:47"
+    },
+    "isActive": true,
+    "isTrip": false,
+    "name": "ETalertprof1",
+    "notes": {
+        "data": [
+            
+        ],
+        "total": 0
+    },
+    "severity": 3,
+    "storageReceiveTime": 1463870999999,
+    "tagsOfInterest": [
+        {
+            "tags": [
+                {
+                    "isContributing": true,
+                    "name": "Tag_Temperature_1",
+                    "renderType": null,
+                    "uom": null,
+                    "uuid": ""
+                }
+            ]
+        }
+    ],
+    "tenantUuId": "73660E43997A42978E58B461708C780E",
+    "updatedOn": 1465583037167,
+    "uuid": "CABBDD9501AB4930A16D6950303B8C06"
+}

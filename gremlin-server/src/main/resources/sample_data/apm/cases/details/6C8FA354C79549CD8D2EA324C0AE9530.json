@@ -1,0 +1,307 @@
+{
+    "acknowledged": false,
+    "alerts": [
+        {
+            "alarmProfile": {
+                "source": {
+                    "name": "E2E_A_Source_1465516662145"
+                }
+            },
+            "alarmState": {
+                "name": "Ready"
+            },
+            "analysisEvidences": [
+                
+            ],
+            "associatedMonitoredEntity": {
+                "cycleType": null,
+                "equipmentId": "Array1-ASSET-TYPE2",
+                "equipmentType": null,
+                "model": null,
+                "uuid": "/assets/8755d337-190d-4a37-9280-c565ecb6aad3"
+            },
+            "associatedMonitoredEntityUuid": "/assets/8755d337-190d-4a37-9280-c565ecb6aad3",
+            "createdOn": 1465941846653,
+            "eventStart": 1465840944000,
+            "id": 31869,
+            "incident": null,
+            "isLinked": false,
+            "linkCreatedOn": null,
+            "name": "Temperature-alert-73660E43997A42978E58B461708C780E",
+            "responseCode": 200,
+            "responseMessage": "OK",
+            "severity": 1,
+            "storageReceiveTime": 1465840944000,
+            "userOwner": null,
+            "uuid": "833D854F01894E03A9E510C564CF2D2E",
+            "viewMetadatas": [
+                {
+                    "name": null,
+                    "responseCode": 500,
+                    "responseMessage": "Unable to load view-metadata",
+                    "tagsOfInterest": null,
+                    "uuid": null
+                }
+            ]
+        },
+        {
+            "alarmProfile": {
+                "source": {
+                    "name": "SmartSignal"
+                }
+            },
+            "alarmState": {
+                "name": "Ready"
+            },
+            "analysisEvidences": [
+                
+            ],
+            "associatedMonitoredEntity": {
+                "cycleType": null,
+                "equipmentId": "Array1-ASSET-TYPE2",
+                "equipmentType": null,
+                "model": null,
+                "uuid": "/assets/8755d337-190d-4a37-9280-c565ecb6aad3"
+            },
+            "associatedMonitoredEntityUuid": "/assets/8755d337-190d-4a37-9280-c565ecb6aad3",
+            "createdOn": 1465895867856,
+            "eventStart": 1465895852843,
+            "id": 31771,
+            "incident": {
+                "firstOccurance": null,
+                "lastOccurance": null
+            },
+            "isLinked": false,
+            "linkCreatedOn": null,
+            "name": "Profile Journey Test for alerts new 1465590649937",
+            "responseCode": 200,
+            "responseMessage": "OK",
+            "severity": 1,
+            "storageReceiveTime": 1465895852843,
+            "userOwner": null,
+            "uuid": "6AE31C8A94954C0F908B41C9128B6EC5",
+            "viewMetadatas": null
+        },
+        {
+            "alarmProfile": {
+                "source": {
+                    "name": "Analytics Automation e2e Profile Source 1465791113446"
+                }
+            },
+            "alarmState": {
+                "name": "Ready"
+            },
+            "analysisEvidences": [
+                
+            ],
+            "associatedMonitoredEntity": {
+                "cycleType": null,
+                "equipmentId": "Array1-ASSET-TYPE2",
+                "equipmentType": null,
+                "model": null,
+                "uuid": "/assets/8755d337-190d-4a37-9280-c565ecb6aad3"
+            },
+            "associatedMonitoredEntityUuid": "/assets/8755d337-190d-4a37-9280-c565ecb6aad3",
+            "createdOn": 1465937283846,
+            "eventStart": 1465937267289,
+            "id": 31868,
+            "incident": null,
+            "isLinked": false,
+            "linkCreatedOn": null,
+            "name": "Alarm Profile AUTOMATION-999",
+            "responseCode": 200,
+            "responseMessage": "OK",
+            "severity": 5,
+            "storageReceiveTime": 1465937267289,
+            "userOwner": null,
+            "uuid": "EC84B854FF1A4F7A9A803EAD94D70F25",
+            "viewMetadatas": null
+        },
+        {
+            "alarmProfile": {
+                "source": {
+                    "name": "Analytics Automation e2e Profile Source 1465791113446"
+                }
+            },
+            "alarmState": {
+                "name": "Ready"
+            },
+            "analysisEvidences": [
+                
+            ],
+            "associatedMonitoredEntity": {
+                "cycleType": null,
+                "equipmentId": "Array1-ASSET-TYPE2",
+                "equipmentType": null,
+                "model": null,
+                "uuid": "/assets/8755d337-190d-4a37-9280-c565ecb6aad3"
+            },
+            "associatedMonitoredEntityUuid": "/assets/8755d337-190d-4a37-9280-c565ecb6aad3",
+            "createdOn": 1465942293656,
+            "eventStart": 1465942284103,
+            "id": 31876,
+            "incident": null,
+            "isLinked": false,
+            "linkCreatedOn": null,
+            "name": "Alarm Profile AUTOMATION-999",
+            "responseCode": 200,
+            "responseMessage": "OK",
+            "severity": 5,
+            "storageReceiveTime": 1465942284103,
+            "userOwner": null,
+            "uuid": "6AABABE580684B2F9A7C0E3BA313258E",
+            "viewMetadatas": null
+        },
+        {
+            "alarmProfile": {
+                "source": {
+                    "name": "Analytics Automation e2e Profile Source 1465791113446"
+                }
+            },
+            "alarmState": {
+                "name": "Ready"
+            },
+            "analysisEvidences": [
+                
+            ],
+            "associatedMonitoredEntity": {
+                "cycleType": null,
+                "equipmentId": "Array1-ASSET-TYPE2",
+                "equipmentType": null,
+                "model": null,
+                "uuid": "/assets/8755d337-190d-4a37-9280-c565ecb6aad3"
+            },
+            "associatedMonitoredEntityUuid": "/assets/8755d337-190d-4a37-9280-c565ecb6aad3",
+            "createdOn": 1465942262188,
+            "eventStart": 1465942251599,
+            "id": 31875,
+            "incident": null,
+            "isLinked": false,
+            "linkCreatedOn": null,
+            "name": "Alarm Profile AUTOMATION-999",
+            "responseCode": 200,
+            "responseMessage": "OK",
+            "severity": 5,
+            "storageReceiveTime": 1465942251599,
+            "userOwner": null,
+            "uuid": "B3ECCCA91BD646BB999DF76588DCD6E8",
+            "viewMetadatas": null
+        },
+        {
+            "alarmProfile": {
+                "source": {
+                    "name": "Analytics Automation e2e Profile Source 1465791113446"
+                }
+            },
+            "alarmState": {
+                "name": "In Process"
+            },
+            "analysisEvidences": [
+                
+            ],
+            "associatedMonitoredEntity": {
+                "cycleType": null,
+                "equipmentId": "Array1-ASSET-TYPE2",
+                "equipmentType": null,
+                "model": null,
+                "uuid": "/assets/8755d337-190d-4a37-9280-c565ecb6aad3"
+            },
+            "associatedMonitoredEntityUuid": "/assets/8755d337-190d-4a37-9280-c565ecb6aad3",
+            "createdOn": 1465942365288,
+            "eventStart": 1465942358045,
+            "id": 31878,
+            "incident": null,
+            "isLinked": false,
+            "linkCreatedOn": null,
+            "name": "Alarm Profile AUTOMATION-999",
+            "responseCode": 200,
+            "responseMessage": "OK",
+            "severity": 5,
+            "storageReceiveTime": 1465942358045,
+            "userOwner": {
+                "firstName": "Nirupama",
+                "lastName": "Gopinathan",
+                "responseCode": 200,
+                "responseMessage": "OK",
+                "uuid": "5211FE7E9900421ABE390E2C4CC8B5D2"
+            },
+            "uuid": "90A26499CAA942BFA445AA7036949BA0",
+            "viewMetadatas": null
+        },
+        {
+            "alarmProfile": {
+                "source": {
+                    "name": "Analytics Automation e2e Profile Source 1465791113446"
+                }
+            },
+            "alarmState": {
+                "name": "Ready"
+            },
+            "analysisEvidences": [
+                
+            ],
+            "associatedMonitoredEntity": {
+                "cycleType": null,
+                "equipmentId": "Array1-ASSET-TYPE2",
+                "equipmentType": null,
+                "model": null,
+                "uuid": "/assets/8755d337-190d-4a37-9280-c565ecb6aad3"
+            },
+            "associatedMonitoredEntityUuid": "/assets/8755d337-190d-4a37-9280-c565ecb6aad3",
+            "createdOn": 1465942307680,
+            "eventStart": 1465942297280,
+            "id": 31877,
+            "incident": null,
+            "isLinked": false,
+            "linkCreatedOn": null,
+            "name": "Alarm Profile AUTOMATION-999",
+            "responseCode": 200,
+            "responseMessage": "OK",
+            "severity": 5,
+            "storageReceiveTime": 1465942297280,
+            "userOwner": null,
+            "uuid": "CA35E9EB74CE4168ABDAC3D3CE4DC384",
+            "viewMetadatas": null
+        }
+    ],
+    "asset": {
+        "alias": null,
+        "name": "Array #1 ASSET TYPE 2",
+        "responseCode": 200,
+        "responseMessage": "OK",
+        "uuid": "/assets/8755d337-190d-4a37-9280-c565ecb6aad3"
+    },
+    "assetId": "Array1-ASSET-TYPE2",
+    "caseClosedOnDate": null,
+    "caseId": 10087,
+    "caseStatus": {
+        "status": "Open"
+    },
+    "closureCode": "None",
+    "closureNote": null,
+    "createdOn": 1465947210199,
+    "creator": {
+        "firstName": "niru",
+        "lastName": "gopinath",
+        "responseCode": 200,
+        "responseMessage": "OK",
+        "uuid": "D5E3FCE4809B41EB939FC174658091DD"
+    },
+    "diagnosis": "This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.",
+    "evidenceList": [
+        
+    ],
+    "externalCaseId": null,
+    "name": "Niru Case Testing",
+    "notes": [
+        
+    ],
+    "owner": null,
+    "ownerUuid": null,
+    "recommendation": null,
+    "responseCode": 200,
+    "responseMessage": "OK",
+    "severity": 5,
+    "symptoms": "This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.This is a long note. This is a long note.",
+    "uuid": "6C8FA354C79549CD8D2EA324C0AE9530"
+}

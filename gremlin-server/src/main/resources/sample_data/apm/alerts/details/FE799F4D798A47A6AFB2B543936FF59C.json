@@ -1,0 +1,113 @@
+{
+    "alarmProfile": {
+        "createdOn": 1465517062395,
+        "description": "Alert profile for FWHHP_HEATER_SSC_Asset.Escalation Test Rule",
+        "id": 243,
+        "isActive": true,
+        "isConsumable": true,
+        "isTrip": false,
+        "name": "FWHHP_HEATER_SSC_Asset.Escalation Test Rule",
+        "severity": 4,
+        "source": {
+            "createdOn": 1465430400000,
+            "description": "SmartSignal",
+            "id": 1238,
+            "isActive": true,
+            "name": "SmartSignal",
+            "processorClass": "com.ge.apm.alarmmanagement.service.impl.SsAlarmProcessor",
+            "tenantUuid": "73660E43997A42978E58B461708C780E",
+            "updatedOn": 1465430400000,
+            "uuid": "4EACC61C27A04AA1BEBB9B02E1D91E23"
+        },
+        "tenantUuid": "73660E43997A42978E58B461708C780E",
+        "type": {
+            "createdOn": 1465430400000,
+            "description": "Generic",
+            "id": 1218,
+            "isActive": true,
+            "name": "Generic",
+            "tenantUuid": "73660E43997A42978E58B461708C780E",
+            "updatedOn": 1465430400000,
+            "uuid": "88F4AD881CD24DAE888B6B8A8F92823F"
+        },
+        "updatedOn": 1465516800000,
+        "uuid": "B8236912820A4248AD6236B21B2E0FC4",
+        "validateAsset": true
+    },
+    "alarmState": {
+        "createdOn": 1425308275000,
+        "description": "Ready",
+        "id": 5,
+        "isActive": true,
+        "name": "Ready",
+        "updatedOn": 1418439583000,
+        "uuid": "0b7c6bbb-c11a-11e4-bcef-a0481cabcba7"
+    },
+    "analysisEvidences": [
+        
+    ],
+    "assetName": "BRS1HPFWH17New",
+    "associatedMonitoredEntity": {
+        "contact": {
+            "name": "BRS1HPFWH17New"
+        },
+        "enterprise": {
+            "name": "SS Test Enterprise"
+        },
+        "equipmentId": "BRS1HPFWH17New",
+        "name": "BRS1HPFWH17New",
+        "site": {
+            "address": {
+                
+            },
+            "name": "Combined Cycle Sites"
+        },
+        "uuid": "/assets/dc1e7f1c-3dc0-46ba-9853-99ba3cca947f"
+    },
+    "associatedMonitoredEntityUuid": "/assets/dc1e7f1c-3dc0-46ba-9853-99ba3cca947f",
+    "createdOn": 1465571951451,
+    "eventStart": 1465571965353,
+    "eventStartOffset": 0,
+    "id": 30720,
+    "incident": {
+        "firstOccurance": "2016-03-30T00:00",
+        "incidentEventCount": "220",
+        "lastOccurance": "2016-04-21T09:50"
+    },
+    "isActive": true,
+    "isTrip": false,
+    "name": "FWHHP_HEATER_SSC_Asset.Escalation Test Rule",
+    "notes": {
+        "data": [
+            
+        ],
+        "total": 0
+    },
+    "origin": "PGS-SS",
+    "scanGroupData": {
+        "BRS01:FWTBT00BA.AG": "-96.1351929",
+        "BRS01:GEJGE02DA.AG": "537.0183105"
+    },
+    "severity": 4,
+    "storageReceiveTime": 1465571949991,
+    "tagsOfInterest": [
+        {
+            "displayGrouped": true,
+            "displayGroupedName": "BRS01:GEJGE02DA.AG",
+            "isContributing": true,
+            "uom": "",
+            "uuid": "f033fce8-2697-4026-a512-228cd5fe2cf6"
+        },
+        {
+            "displayGrouped": true,
+            "displayGroupedName": "BRS01:FWTBT00BA.AG",
+            "isContributing": true,
+            "uom": "Fahrenheit",
+            "uuid": "d71542b5-0c83-4bab-9be0-d9880a9924e1"
+        }
+    ],
+    "tenantId": "73660E43997A42978E58B461708C780E",
+    "tenantUuId": "73660E43997A42978E58B461708C780E",
+    "updatedOn": 1465571951451,
+    "uuid": "FE799F4D798A47A6AFB2B543936FF59C"
+}

@@ -1,0 +1,85 @@
+{
+    "alarmProfile": {
+        "cdsName": "GT_WHS",
+        "createdOn": 1465791109728,
+        "description": "Alarm Profile for Analytics Automation",
+        "id": 283,
+        "isActive": true,
+        "isConsumable": true,
+        "isTrip": false,
+        "name": "Alarm Profile AUTOMATION-999",
+        "severity": 5,
+        "source": {
+            "createdOn": 1465776000000,
+            "description": "Analytics Automation e2e Profile Source",
+            "id": 1260,
+            "isActive": true,
+            "name": "Analytics Automation e2e Profile Source 1465791113446",
+            "tenantUuid": "73660E43997A42978E58B461708C780E",
+            "updatedOn": 1465776000000,
+            "uuid": "5DDE32F6217246A4BD9A03AD1889A1AB"
+        },
+        "tenantUuid": "73660E43997A42978E58B461708C780E",
+        "type": {
+            "createdOn": 1465776000000,
+            "description": "Analytics Automation e2e Profile Type",
+            "id": 1234,
+            "isActive": true,
+            "name": "Analytics Automation e2e Profile Type 1465791113464",
+            "tenantUuid": "73660E43997A42978E58B461708C780E",
+            "updatedOn": 1465776000000,
+            "uuid": "0A8CC69F5EA543E49A81330337BACF81"
+        },
+        "updatedOn": 1465776000000,
+        "uuid": "A692CDCA0AFE4CA18FA84CE9EF8AD4BB",
+        "validateAsset": true
+    },
+    "alarmState": {
+        "createdOn": 1425308275000,
+        "description": "Ready",
+        "id": 5,
+        "isActive": true,
+        "name": "Ready",
+        "updatedOn": 1418439583000,
+        "uuid": "0b7c6bbb-c11a-11e4-bcef-a0481cabcba7"
+    },
+    "analysisEvidences": [
+        
+    ],
+    "assetName": "Array #1 ASSET TYPE 2",
+    "associatedMonitoredEntity": {
+        "contact": {
+            "name": "Array #1 ASSET TYPE 2"
+        },
+        "enterprise": {
+            "name": "E2E EDISON ENTERPRISE"
+        },
+        "equipmentId": "Array1-ASSET-TYPE2",
+        "name": "Array #1 ASSET TYPE 2",
+        "site": {
+            "address": {
+                
+            },
+            "name": "AZ - APS - Prescott - SITE"
+        },
+        "uuid": "/assets/8755d337-190d-4a37-9280-c565ecb6aad3"
+    },
+    "associatedMonitoredEntityUuid": "/assets/8755d337-190d-4a37-9280-c565ecb6aad3",
+    "createdOn": 1465942262188,
+    "eventStart": 1465942251599,
+    "id": 31875,
+    "isActive": true,
+    "isTrip": false,
+    "name": "Alarm Profile AUTOMATION-999",
+    "notes": {
+        "data": [
+            
+        ],
+        "total": 0
+    },
+    "severity": 5,
+    "storageReceiveTime": 1465942251599,
+    "tenantUuId": "73660E43997A42978E58B461708C780E",
+    "updatedOn": 1465942262188,
+    "uuid": "B3ECCCA91BD646BB999DF76588DCD6E8"
+}

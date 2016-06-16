@@ -1,0 +1,88 @@
+{
+    "alarmProfile": {
+        "createdOn": 1465590656527,
+        "description": "",
+        "id": 256,
+        "isActive": true,
+        "isConsumable": true,
+        "isTrip": false,
+        "name": "Profile Journey Test for alerts new 1465590649937",
+        "severity": 1,
+        "source": {
+            "createdOn": 1465430400000,
+            "description": "SmartSignal",
+            "id": 1238,
+            "isActive": true,
+            "name": "SmartSignal",
+            "processorClass": "com.ge.apm.alarmmanagement.service.impl.SsAlarmProcessor",
+            "tenantUuid": "73660E43997A42978E58B461708C780E",
+            "updatedOn": 1465430400000,
+            "uuid": "4EACC61C27A04AA1BEBB9B02E1D91E23"
+        },
+        "tenantUuid": "73660E43997A42978E58B461708C780E",
+        "type": {
+            "createdOn": 1465430400000,
+            "description": "Generic",
+            "id": 1218,
+            "isActive": true,
+            "name": "Generic",
+            "tenantUuid": "73660E43997A42978E58B461708C780E",
+            "updatedOn": 1465430400000,
+            "uuid": "88F4AD881CD24DAE888B6B8A8F92823F"
+        },
+        "updatedOn": 1465516800000,
+        "uuid": "A0769985ACD64ADD8D55151067C6C38F",
+        "validateAsset": true
+    },
+    "alarmState": {
+        "createdOn": 1425308275000,
+        "description": "Ready",
+        "id": 5,
+        "isActive": true,
+        "name": "Ready",
+        "updatedOn": 1418439583000,
+        "uuid": "0b7c6bbb-c11a-11e4-bcef-a0481cabcba7"
+    },
+    "analysisEvidences": [
+        
+    ],
+    "assetName": "Array #1 ASSET TYPE 2",
+    "associatedMonitoredEntity": {
+        "contact": {
+            "name": "Array #1 ASSET TYPE 2"
+        },
+        "enterprise": {
+            "name": "E2E EDISON ENTERPRISE"
+        },
+        "equipmentId": "Array1-ASSET-TYPE2",
+        "name": "Array #1 ASSET TYPE 2",
+        "site": {
+            "address": {
+                
+            },
+            "name": "AZ - APS - Prescott - SITE"
+        },
+        "uuid": "/assets/8755d337-190d-4a37-9280-c565ecb6aad3"
+    },
+    "associatedMonitoredEntityUuid": "/assets/8755d337-190d-4a37-9280-c565ecb6aad3",
+    "createdOn": 1465895867856,
+    "eventStart": 1465895852843,
+    "id": 31771,
+    "incident": {
+        
+    },
+    "isActive": true,
+    "isTrip": false,
+    "name": "Profile Journey Test for alerts new 1465590649937",
+    "notes": {
+        "data": [
+            
+        ],
+        "total": 0
+    },
+    "severity": 1,
+    "storageReceiveTime": 1465895852843,
+    "tenantUuId": "73660E43997A42978E58B461708C780E",
+    "updatedOn": 1465895867856,
+    "uuid": "6AE31C8A94954C0F908B41C9128B6EC5"
+}

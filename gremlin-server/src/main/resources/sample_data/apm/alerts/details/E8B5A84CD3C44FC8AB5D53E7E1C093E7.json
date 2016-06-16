@@ -1,0 +1,105 @@
+{
+    "alarmProfile": {
+        "createdOn": 1465517069510,
+        "description": "Alert profile for FWHHP_HEATER_SSC_Asset.Fouling",
+        "id": 244,
+        "isActive": true,
+        "isConsumable": true,
+        "isTrip": false,
+        "name": "FWHHP_HEATER_SSC_Asset.Fouling",
+        "severity": 5,
+        "source": {
+            "createdOn": 1465430400000,
+            "description": "SmartSignal",
+            "id": 1238,
+            "isActive": true,
+            "name": "SmartSignal",
+            "processorClass": "com.ge.apm.alarmmanagement.service.impl.SsAlarmProcessor",
+            "tenantUuid": "73660E43997A42978E58B461708C780E",
+            "updatedOn": 1465430400000,
+            "uuid": "4EACC61C27A04AA1BEBB9B02E1D91E23"
+        },
+        "tenantUuid": "73660E43997A42978E58B461708C780E",
+        "type": {
+            "createdOn": 1465430400000,
+            "description": "Generic",
+            "id": 1218,
+            "isActive": true,
+            "name": "Generic",
+            "tenantUuid": "73660E43997A42978E58B461708C780E",
+            "updatedOn": 1465430400000,
+            "uuid": "88F4AD881CD24DAE888B6B8A8F92823F"
+        },
+        "updatedOn": 1465516800000,
+        "uuid": "CCE414D7B1744B1FA75AA13A97408D03",
+        "validateAsset": true
+    },
+    "alarmState": {
+        "createdOn": 1425308275000,
+        "description": "Ready",
+        "id": 5,
+        "isActive": true,
+        "name": "Ready",
+        "updatedOn": 1418439583000,
+        "uuid": "0b7c6bbb-c11a-11e4-bcef-a0481cabcba7"
+    },
+    "analysisEvidences": [
+        
+    ],
+    "assetName": "BRS1HPFWH17New",
+    "associatedMonitoredEntity": {
+        "contact": {
+            "name": "BRS1HPFWH17New"
+        },
+        "enterprise": {
+            "name": "SS Test Enterprise"
+        },
+        "equipmentId": "BRS1HPFWH17New",
+        "name": "BRS1HPFWH17New",
+        "site": {
+            "address": {
+                
+            },
+            "name": "Combined Cycle Sites"
+        },
+        "uuid": "/assets/dc1e7f1c-3dc0-46ba-9853-99ba3cca947f"
+    },
+    "associatedMonitoredEntityUuid": "/assets/dc1e7f1c-3dc0-46ba-9853-99ba3cca947f",
+    "createdOn": 1465571949854,
+    "eventStart": 1465571965270,
+    "eventStartOffset": 0,
+    "id": 30719,
+    "incident": {
+        "firstOccurance": "2016-03-30T04:40",
+        "incidentEventCount": "197",
+        "lastOccurance": "2016-04-21T09:50"
+    },
+    "isActive": true,
+    "isTrip": false,
+    "name": "FWHHP_HEATER_SSC_Asset.Fouling",
+    "notes": {
+        "data": [
+            
+        ],
+        "total": 0
+    },
+    "origin": "PGS-SS",
+    "scanGroupData": {
+        "TUBE_SIDE_DELTA_TEMP_SSC": "-475.7210694"
+    },
+    "severity": 5,
+    "storageReceiveTime": 1465571948411,
+    "tagsOfInterest": [
+        {
+            "displayGrouped": true,
+            "displayGroupedName": "TUBE_SIDE_DELTA_TEMP_SSC",
+            "isContributing": true,
+            "uom": "4",
+            "uuid": "2bf9173f-6c4e-466d-a823-0309cec4c6a8"
+        }
+    ],
+    "tenantId": "73660E43997A42978E58B461708C780E",
+    "tenantUuId": "73660E43997A42978E58B461708C780E",
+    "updatedOn": 1465571949854,
+    "uuid": "E8B5A84CD3C44FC8AB5D53E7E1C093E7"
+}

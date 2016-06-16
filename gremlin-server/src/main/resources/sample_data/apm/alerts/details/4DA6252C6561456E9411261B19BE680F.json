@@ -1,0 +1,122 @@
+{
+    "alarmProfile": {
+        "createdOn": 1465591595488,
+        "description": "Alert profile for OG_PUMP_S.Mechanical - Equipment Problem 1",
+        "id": 258,
+        "isActive": true,
+        "isConsumable": true,
+        "isTrip": false,
+        "name": "OG_PUMP_S.Mechanical - Equipment Problem 1",
+        "severity": 5,
+        "source": {
+            "createdOn": 1465430400000,
+            "description": "SmartSignal",
+            "id": 1238,
+            "isActive": true,
+            "name": "SmartSignal",
+            "processorClass": "com.ge.apm.alarmmanagement.service.impl.SsAlarmProcessor",
+            "tenantUuid": "73660E43997A42978E58B461708C780E",
+            "updatedOn": 1465430400000,
+            "uuid": "4EACC61C27A04AA1BEBB9B02E1D91E23"
+        },
+        "tenantUuid": "73660E43997A42978E58B461708C780E",
+        "type": {
+            "createdOn": 1465430400000,
+            "description": "Generic",
+            "id": 1218,
+            "isActive": true,
+            "name": "Generic",
+            "tenantUuid": "73660E43997A42978E58B461708C780E",
+            "updatedOn": 1465430400000,
+            "uuid": "88F4AD881CD24DAE888B6B8A8F92823F"
+        },
+        "updatedOn": 1465516800000,
+        "uuid": "E6E6D7BD4EAA4FD68E8CFC08E862D942",
+        "validateAsset": true
+    },
+    "alarmState": {
+        "createdOn": 1425308275000,
+        "description": "In Process",
+        "id": 6,
+        "isActive": true,
+        "name": "In Process",
+        "updatedOn": 1418439583000,
+        "uuid": "0b7c6c91-c11a-11e4-bcef-a0481cabcba7"
+    },
+    "analysisEvidences": [
+        
+    ],
+    "assetName": "42P002A_04252016",
+    "associatedMonitoredEntity": {
+        "contact": {
+            "name": "42P002A_04252016"
+        },
+        "enterprise": {
+            "name": "SS Test Enterprise"
+        },
+        "equipmentId": "42P002A_04252016",
+        "name": "42P002A_04252016",
+        "site": {
+            "address": {
+                
+            },
+            "name": "Combined Cycle Sites"
+        },
+        "uuid": "/assets/922d4cd1-b320-4946-afa4-7522c583e52b"
+    },
+    "associatedMonitoredEntityUuid": "/assets/922d4cd1-b320-4946-afa4-7522c583e52b",
+    "createdOn": 1465591595937,
+    "eventStart": 1465591599273,
+    "eventStartOffset": 0,
+    "id": 30940,
+    "incident": {
+        "firstOccurance": "2015-05-12T15:00",
+        "incidentEventCount": "73",
+        "lastOccurance": "2015-07-07T17:00"
+    },
+    "isActive": true,
+    "isTrip": false,
+    "name": "OG_PUMP_S.Mechanical - Equipment Problem 1",
+    "notes": {
+        "data": [
+            
+        ],
+        "total": 0
+    },
+    "origin": "PGS-SS",
+    "scanGroupData": {
+        "42LI0069A.PV": "69.109375"
+    },
+    "severity": 5,
+    "storageReceiveTime": 1465591595502,
+    "tagsOfInterest": [
+        {
+            "displayGrouped": true,
+            "displayGroupedName": "42LI0069A.PV",
+            "isContributing": false,
+            "uom": "%",
+            "uuid": "cd7df969-a1ef-4db9-bf58-573d8e0afe83"
+        },
+        {
+            "displayGrouped": true,
+            "displayGroupedName": "42LI0069A.PV",
+            "isContributing": true,
+            "uom": "%",
+            "uuid": "8c851692-38ad-45a6-94ef-281e9f9bb39b"
+        }
+    ],
+    "tenantId": "73660E43997A42978E58B461708C780E",
+    "tenantUuId": "73660E43997A42978E58B461708C780E",
+    "updatedOn": 1465591595937,
+    "userOwner": {
+        "active": true,
+        "eulaAccepted": false,
+        "firstName": "M&D Manager",
+        "lastName": "APM",
+        "type": "User",
+        "username": "tenant0609-smokeuser",
+        "uuid": "90B54C2CEB784529BFF6D00A08986391"
+    },
+    "userOwnerUuid": "90B54C2CEB784529BFF6D00A08986391",
+    "uuid": "4DA6252C6561456E9411261B19BE680F"
+}

@@ -1,0 +1,100 @@
+{
+    "acknowledged": true,
+    "alerts": [
+        {
+            "alarmProfile": {
+                "source": {
+                    "name": "Analytics Automation e2e Profile Source 1466015742617"
+                }
+            },
+            "alarmState": {
+                "name": "In Process"
+            },
+            "analysisEvidences": [
+                
+            ],
+            "associatedMonitoredEntity": {
+                "cycleType": null,
+                "equipmentId": "Inverter1-ASSET-TYPE1",
+                "equipmentType": null,
+                "model": null,
+                "uuid": "/assets/95ef9b69-2fe7-4c85-86f5-5e5d92389683"
+            },
+            "associatedMonitoredEntityUuid": "/assets/95ef9b69-2fe7-4c85-86f5-5e5d92389683",
+            "createdOn": 1466016609141,
+            "eventStart": 1465934310000,
+            "id": 32247,
+            "incident": null,
+            "isLinked": false,
+            "linkCreatedOn": null,
+            "name": "Alarm Profile AUTOMATION-5700",
+            "responseCode": 200,
+            "responseMessage": "OK",
+            "severity": 5,
+            "storageReceiveTime": 1466016608862,
+            "userOwner": {
+                "firstName": "Nemo",
+                "lastName": "Nemo",
+                "responseCode": 200,
+                "responseMessage": "OK",
+                "uuid": "76E2DAA6D49243429E1C37A950743BF5"
+            },
+            "uuid": "E4A4C437431F47B586385A696F2C8F1A",
+            "viewMetadatas": [
+                {
+                    "name": null,
+                    "responseCode": 500,
+                    "responseMessage": "Unable to load view-metadata",
+                    "tagsOfInterest": null,
+                    "uuid": null
+                }
+            ]
+        }
+    ],
+    "asset": {
+        "alias": null,
+        "name": "Inverter #1 ASSET TYPE 1",
+        "responseCode": 200,
+        "responseMessage": "OK",
+        "uuid": "/assets/95ef9b69-2fe7-4c85-86f5-5e5d92389683"
+    },
+    "assetId": "Inverter1-ASSET-TYPE1",
+    "caseClosedOnDate": null,
+    "caseId": 10122,
+    "caseStatus": {
+        "status": "Open"
+    },
+    "closureCode": "No Action",
+    "closureNote": "test close",
+    "createdOn": 1466020051247,
+    "creator": {
+        "firstName": "Nemo",
+        "lastName": "Nemo",
+        "responseCode": 200,
+        "responseMessage": "OK",
+        "uuid": "76E2DAA6D49243429E1C37A950743BF5"
+    },
+    "diagnosis": null,
+    "evidenceList": [
+        
+    ],
+    "externalCaseId": "jerry-case-1",
+    "name": "TEST CASE ONE",
+    "notes": [
+        
+    ],
+    "owner": {
+        "firstName": "Jerry",
+        "lastName": "Dy",
+        "responseCode": 200,
+        "responseMessage": "OK",
+        "uuid": "E5553BDF06EA4D5A932EE57AAD4D84DE"
+    },
+    "ownerUuid": "E5553BDF06EA4D5A932EE57AAD4D84DE",
+    "recommendation": null,
+    "responseCode": 200,
+    "responseMessage": "OK",
+    "severity": 5,
+    "symptoms": "Alerts Crowdsource testing - Kaouther and Tesh",
+    "uuid": "38195C14C2074B6BA7804663E6960967"
+}

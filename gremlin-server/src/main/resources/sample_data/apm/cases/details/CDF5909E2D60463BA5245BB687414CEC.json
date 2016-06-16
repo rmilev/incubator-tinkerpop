@@ -1,0 +1,130 @@
+{
+    "acknowledged": false,
+    "alerts": [
+        {
+            "alarmProfile": {
+                "source": {
+                    "name": "Analytics Automation e2e Profile Source 1465603376958"
+                }
+            },
+            "alarmState": {
+                "name": "In Process"
+            },
+            "analysisEvidences": [
+                {
+                    "attachments": [
+                        {
+                            "createdOn": 1466020880158,
+                            "name": "Test evidence_1.png",
+                            "url": "https://apm-blob-storage-qa.grc-apps.svc.ice.ge.com/v2/attachments/d15c58aa-151b-4729-819d-d068b43fc870/download",
+                            "uuid": "d15c58aa-151b-4729-819d-d068b43fc870"
+                        }
+                    ],
+                    "createdBy": null,
+                    "createdOn": 1466020880614,
+                    "name": "Test evidence",
+                    "owner": {
+                        "firstName": "M&D Manager",
+                        "lastName": "APM",
+                        "responseCode": 200,
+                        "responseMessage": "OK",
+                        "uuid": "90B54C2CEB784529BFF6D00A08986391"
+                    },
+                    "parentEntityType": "ALARM",
+                    "parentEntityUuid": "8F5FE8A648254D80B2A5B036D4AC61A5",
+                    "updatedBy": null,
+                    "updatedOn": null,
+                    "uuid": "54372988667641859DCFBC5016551110"
+                }
+            ],
+            "associatedMonitoredEntity": {
+                "cycleType": null,
+                "equipmentId": "Inverter1-ASSET-TYPE1",
+                "equipmentType": null,
+                "model": null,
+                "uuid": "/assets/95ef9b69-2fe7-4c85-86f5-5e5d92389683"
+            },
+            "associatedMonitoredEntityUuid": "/assets/95ef9b69-2fe7-4c85-86f5-5e5d92389683",
+            "createdOn": 1466020368661,
+            "eventStart": 1466020357057,
+            "id": 32268,
+            "incident": null,
+            "isLinked": false,
+            "linkCreatedOn": null,
+            "name": "testprofile1",
+            "responseCode": 200,
+            "responseMessage": "OK",
+            "severity": 1,
+            "storageReceiveTime": 1466020357057,
+            "userOwner": {
+                "firstName": "M&D Manager",
+                "lastName": "APM",
+                "responseCode": 200,
+                "responseMessage": "OK",
+                "uuid": "90B54C2CEB784529BFF6D00A08986391"
+            },
+            "uuid": "8F5FE8A648254D80B2A5B036D4AC61A5",
+            "viewMetadatas": [
+                {
+                    "name": "avid_1_template",
+                    "responseCode": 200,
+                    "responseMessage": "OK",
+                    "tagsOfInterest": [
+                        {
+                            "name": null,
+                            "tags": [
+                                {
+                                    "isContributing": true,
+                                    "name": "AVD-ASSET-ID.AVD_Tag_Pressure_ID01",
+                                    "uuid": "C725F7FFCB454F5EAEF6BCC0618BAF01"
+                                }
+                            ],
+                            "uuid": "C62BBC02F9D94644872EC5F856B314D7"
+                        }
+                    ],
+                    "uuid": "2C3C5C45A36E4B4C96DB167AA7F1A1B3"
+                }
+            ]
+        }
+    ],
+    "asset": {
+        "alias": null,
+        "name": "Inverter #1 ASSET TYPE 1",
+        "responseCode": 200,
+        "responseMessage": "OK",
+        "uuid": "/assets/95ef9b69-2fe7-4c85-86f5-5e5d92389683"
+    },
+    "assetId": "Inverter1-ASSET-TYPE1",
+    "caseClosedOnDate": null,
+    "caseId": 10125,
+    "caseStatus": {
+        "status": "Open"
+    },
+    "closureCode": "None",
+    "closureNote": null,
+    "createdOn": 1466021025135,
+    "creator": {
+        "firstName": "M&D Manager",
+        "lastName": "APM",
+        "responseCode": 200,
+        "responseMessage": "OK",
+        "uuid": "90B54C2CEB784529BFF6D00A08986391"
+    },
+    "diagnosis": null,
+    "evidenceList": [
+        
+    ],
+    "externalCaseId": null,
+    "name": "CASE-TWO",
+    "notes": [
+        
+    ],
+    "owner": null,
+    "ownerUuid": null,
+    "recommendation": null,
+    "responseCode": 200,
+    "responseMessage": "OK",
+    "severity": 1,
+    "symptoms": null,
+    "uuid": "CDF5909E2D60463BA5245BB687414CEC"
+}

@@ -1,0 +1,113 @@
+{
+    "alarmProfile": {
+        "createdOn": 1466032066631,
+        "description": "This is a test",
+        "id": 371,
+        "isActive": true,
+        "isConsumable": false,
+        "isTrip": false,
+        "name": "Test Profile 000034",
+        "severity": 4,
+        "source": {
+            "createdOn": 1465430400000,
+            "description": "OrchestrationManager",
+            "id": 1239,
+            "isActive": true,
+            "name": "OrchestrationManager",
+            "tenantUuid": "73660E43997A42978E58B461708C780E",
+            "updatedOn": 1465430400000,
+            "uuid": "9E926714500645E3AC9E3B2280279324"
+        },
+        "tenantUuid": "73660E43997A42978E58B461708C780E",
+        "type": {
+            "createdOn": 1465430400000,
+            "description": "Generic",
+            "id": 1218,
+            "isActive": true,
+            "name": "Generic",
+            "tenantUuid": "73660E43997A42978E58B461708C780E",
+            "updatedOn": 1465430400000,
+            "uuid": "88F4AD881CD24DAE888B6B8A8F92823F"
+        },
+        "updatedOn": 1465948800000,
+        "uuid": "AA1BE031376C4A518C6E48FC56099C93",
+        "validateAsset": true
+    },
+    "alarmState": {
+        "createdOn": 1425308275000,
+        "description": "In Process",
+        "id": 6,
+        "isActive": true,
+        "name": "In Process",
+        "updatedOn": 1418439583000,
+        "uuid": "0b7c6c91-c11a-11e4-bcef-a0481cabcba7"
+    },
+    "analysisEvidences": [
+        
+    ],
+    "assetName": "42P002A_04222016",
+    "associatedMonitoredEntity": {
+        "contact": {
+            "name": "42P002A_04222016"
+        },
+        "enterprise": {
+            "name": "SS Test Enterprise"
+        },
+        "equipmentId": "42P002A_04222016",
+        "name": "42P002A_04222016",
+        "site": {
+            "address": {
+                
+            },
+            "name": "Combined Cycle Sites"
+        },
+        "uuid": "/assets/064be54f-b88c-4c41-9358-a711e1722e70"
+    },
+    "associatedMonitoredEntityUuid": "/assets/064be54f-b88c-4c41-9358-a711e1722e70",
+    "createdOn": 1466033900227,
+    "eventStart": 1466033556624,
+    "id": 32286,
+    "isActive": true,
+    "isTrip": false,
+    "name": "Test Profile 000034",
+    "notes": {
+        "data": [
+            {
+                "createdOn": 1466033996116,
+                "id": 1495,
+                "isDeletable": true,
+                "parentEntityType": "Alarm",
+                "parentEntityUuid": "18A9DA7D2A6F490AA7621DC3CB3664A1",
+                "text": "This is a test Alert created to test workflow",
+                "updatedOn": 1466033996116,
+                "userOwner": {
+                    "active": true,
+                    "eulaAccepted": false,
+                    "firstName": "M&D Manager",
+                    "lastName": "APM",
+                    "type": "User",
+                    "username": "tenant0609-smokeuser",
+                    "uuid": "90B54C2CEB784529BFF6D00A08986391"
+                },
+                "userOwnerUuid": "90B54C2CEB784529BFF6D00A08986391",
+                "uuid": "6649ADDC52A441FB985EFC8859AA6A66"
+            }
+        ],
+        "total": 1
+    },
+    "severity": 4,
+    "storageReceiveTime": 1466033556624,
+    "tenantUuId": "73660E43997A42978E58B461708C780E",
+    "updatedOn": 1466033996116,
+    "userOwner": {
+        "active": true,
+        "eulaAccepted": false,
+        "firstName": "M&D Manager",
+        "lastName": "APM",
+        "type": "User",
+        "username": "tenant0609-smokeuser",
+        "uuid": "90B54C2CEB784529BFF6D00A08986391"
+    },
+    "userOwnerUuid": "90B54C2CEB784529BFF6D00A08986391",
+    "uuid": "18A9DA7D2A6F490AA7621DC3CB3664A1"
+}

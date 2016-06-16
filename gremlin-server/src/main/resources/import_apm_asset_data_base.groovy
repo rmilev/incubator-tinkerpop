@@ -36,8 +36,8 @@ createEdges = {businessModelParentTypeName, canonicalModelRelationshipName, cano
         g.V().has('internal_id', connection.to[0].id).next().each{
             from = it
             to = g.V().has('internal_id', connection.from.id).next()
-            if(canonicalModelRelationshipName != null) from.addEdge(canonicalModelRelationshipName, to)
-            if(canonicalModelInverseRelationshipName != null) to.addEdge(canonicalModelInverseRelationshipName, from)
+            if(canonicalModelRelationshipName) from.addEdge(canonicalModelRelationshipName, to)
+            if(canonicalModelInverseRelationshipName) to.addEdge(canonicalModelInverseRelationshipName, from)
         }
     }
 }
@@ -52,6 +52,9 @@ createAssetModel = {
     createEdges('ASSET', 'child', 'parent')
     createEdges('ENTERPRISE', null, 'provided-by')
     createEdges('SITE', null, 'current-location')
+
+    assets = []
+    g.V().has(label, 'Asset').each { assets << it }
 }
 
 //quick and dirty mapping of the asset ID between the two data sets
@@ -64,36 +67,53 @@ mapAssetIds = {uuidFromAlarmData, nrAssets ->
 }
 
 createEventModel = {eventFiles1 ->
-    assets = []
-    g.V().has(label, 'Asset').each { assets << it }
-
     eventFiles1.eachFile(FileType.FILES) {
         if (it.getName().endsWith(".json")) {
             def alertJson = new JsonSlurper().parseText(it.text)
             def assetId = alertJson.associatedMonitoredEntityUuid.replaceAll('/assets/', '').replaceAll('-', '').toUpperCase()
             def alert = graph.addVertex(label, 'ThingEvent')
-            println it.getName()
             alertJson.keySet().findAll {
                 it != 'alarmProfile'
-            }.each { key -> if (alertJson.get(key) != null) alert.property(key, alertJson.get(key)) }
-            println alertJson.alarmProfile
-            def eventTemplate = g.V().has('ThingEventTemplate', 'id', alertJson.alarmProfile.id).tryNext().orElseGet {
-                def newEventTemplate = graph.addVertex(label, 'ThingEvent')
-                alertJson.alarmProfile.keySet().each { key -> if (alertJson.alarmProfile.get(key) != null) newEventTemplate.property(key, alertJson.alarmProfile.get(key)) }
-                newEventTemplate
-            }
-            alert.addEdge('instance-of', eventTemplate)
+            }.each { key -> if (alertJson.get(key)) alert.property(key, alertJson.get(key)) }
+            if(alertJson?.alarmProfile?.id){
+                def eventTemplate = g.V().has('ThingEventTemplate', 'id', alertJson.alarmProfile.id).tryNext().orElseGet {
+                    def newEventTemplate = graph.addVertex(label, 'ThingEvent')
+                    alertJson.alarmProfile.keySet().each { key -> if (alertJson.alarmProfile.get(key)) newEventTemplate.property(key, alertJson.alarmProfile.get(key)) }
+                    newEventTemplate
+                }
+                alert.addEdge('instance-of', eventTemplate)            }
+
             alert.addEdge('is-for', assets[mapAssetIds(assetId, assets.size())])
         }
     }
 }
 
-createModel = {assetFile1, assetFile2, eventFiles1 ->
+
+createCaseModel = {caseFiles1 ->
+    caseFiles1.eachFile(FileType.FILES) {
+        if (it.getName().endsWith(".json")) {
+            def caseJson = new JsonSlurper().parseText(it.text)
+            def assetId = caseJson.asset.uuid.replaceAll('/assets/', '').replaceAll('-', '').toUpperCase()
+            def _case = graph.addVertex(label, 'Case')
+            caseJson.keySet().each { key -> if (caseJson.get(key)) _case.property(key, caseJson.get(key)) }
+            _case.addEdge('is-for', assets[mapAssetIds(assetId, assets.size())])
+            caseJson.alerts.each {
+                if (it.uuid) {
+                    def linkedEvent = g.V().has('ThingEvent', 'uuid', it.uuid).next()
+                    _case.addEdge('linked-to', linkedEvent)
+                }
+            }
+        }
+    }
+}
+
+createModel = {assetFile1, assetFile2, eventFiles1, caseFiles1 ->
     inputJSON = new JsonSlurper().parseText(assetFile1.text)
     createAssetModel()
     inputJSON = new JsonSlurper().parseText(assetFile2.text)
     createAssetModel()
     createEventModel(eventFiles1)
+    createCaseModel(caseFiles1)
 }
 
 //mapper = graph.io(graphson()).mapper().embedTypes(true).create()

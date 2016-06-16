@@ -1,0 +1,122 @@
+{
+    "alarmDisposition": {
+        "createdOn": 1425308277000,
+        "description": "Resolved Sensor Issue",
+        "id": 4,
+        "isActive": true,
+        "name": "Sensor Issue",
+        "updatedOn": 1418468383000,
+        "uuid": "21ded5ed-c119-11e4-bcef-a0481cabcba7"
+    },
+    "alarmDispositionDate": 1465944686683,
+    "alarmProfile": {
+        "createdOn": 1465564841948,
+        "description": "asdfgdhfgreqwrtyhewrtyjughfderwtuyikhgfrteyuiykhjgfdrwuiykhjgrewtyufkihjgre45yufkhjtrwe3tyufi Namratha wants to test this second time",
+        "id": 248,
+        "isActive": true,
+        "isConsumable": true,
+        "isTrip": false,
+        "name": "avid_om_profile",
+        "severity": 1,
+        "source": {
+            "createdOn": 1465430400000,
+            "description": "OrchestrationManager",
+            "id": 1239,
+            "isActive": true,
+            "name": "OrchestrationManager",
+            "tenantUuid": "73660E43997A42978E58B461708C780E",
+            "updatedOn": 1465430400000,
+            "uuid": "9E926714500645E3AC9E3B2280279324"
+        },
+        "tenantUuid": "73660E43997A42978E58B461708C780E",
+        "type": {
+            "createdOn": 1465430400000,
+            "description": "Generic",
+            "id": 1218,
+            "isActive": true,
+            "name": "Generic",
+            "tenantUuid": "73660E43997A42978E58B461708C780E",
+            "updatedOn": 1465430400000,
+            "uuid": "88F4AD881CD24DAE888B6B8A8F92823F"
+        },
+        "updatedOn": 1465776000000,
+        "uuid": "4E21CFCC74534F47A91AFDDBC97FD3EB",
+        "validateAsset": true
+    },
+    "alarmState": {
+        "createdOn": 1425308275000,
+        "description": "In Process",
+        "id": 6,
+        "isActive": true,
+        "name": "In Process",
+        "updatedOn": 1418439583000,
+        "uuid": "0b7c6c91-c11a-11e4-bcef-a0481cabcba7"
+    },
+    "analysisEvidences": [
+        
+    ],
+    "assetAlias": "AViD Asset Alias",
+    "assetName": "AViD Asset",
+    "associatedMonitoredEntity": {
+        "alias": "AViD Asset Alias",
+        "contact": {
+            "name": "AViD Asset"
+        },
+        "enterprise": {
+            "name": "AViD ENTERPRISE"
+        },
+        "equipmentId": "AVD-ASSET-ID",
+        "name": "AViD Asset",
+        "site": {
+            "address": {
+                
+            },
+            "name": "AViD SITE"
+        },
+        "uuid": "/assets/b56e11cc-6714-4a17-af9c-3e8b795d1dbf"
+    },
+    "associatedMonitoredEntityUuid": "/assets/b56e11cc-6714-4a17-af9c-3e8b795d1dbf",
+    "createdOn": 1465592481899,
+    "eventStart": 1465339091000,
+    "eventStartOffset": 0,
+    "id": 30950,
+    "isActive": true,
+    "isTrip": false,
+    "name": "avid_om_profile",
+    "notes": {
+        "data": [
+            
+        ],
+        "total": 0
+    },
+    "scanGroupData": {
+        "TAG_AVID_Asset_Preesure01": "100.034225"
+    },
+    "severity": 1,
+    "storageReceiveTime": 1465339091000,
+    "tagsOfInterest": [
+        {
+            "tags": [
+                {
+                    "isContributing": true,
+                    "name": "TAG_AVID_Asset_Preesure01",
+                    "renderType": null,
+                    "uom": null,
+                    "uuid": "9627ba4a-51c1-45ab-90f0-d8d366e6fd5f"
+                }
+            ]
+        }
+    ],
+    "tenantId": "BAA9A8542BB249B8B136BB8C2881C5A2",
+    "tenantUuId": "73660E43997A42978E58B461708C780E",
+    "updatedOn": 1465944504478,
+    "userOwner": {
+        "firstName": "JAYANT",
+        "lastName": "THOMAS",
+        "type": "User",
+        "username": "jayt",
+        "uuid": "99C12243A0B04C5593D8E97390A8A4F4"
+    },
+    "userOwnerUuid": "99C12243A0B04C5593D8E97390A8A4F4",
+    "uuid": "4B11FCC1695E4298A6ABC25D9E9554F4"
+}

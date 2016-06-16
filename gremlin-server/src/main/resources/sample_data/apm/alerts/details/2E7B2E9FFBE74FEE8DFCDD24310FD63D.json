@@ -1,0 +1,137 @@
+{
+    "alarmProfile": {
+        "createdOn": 1465591597209,
+        "description": "Alert profile for OG_PUMP_S.Pump System Analytics - Loss of Suction or Cavitation Pump Performance",
+        "id": 260,
+        "isActive": true,
+        "isConsumable": true,
+        "isTrip": false,
+        "name": "OG_PUMP_S.Pump System Analytics - Loss of Suction or Cavitation Pump Performance",
+        "severity": 5,
+        "source": {
+            "createdOn": 1465430400000,
+            "description": "SmartSignal",
+            "id": 1238,
+            "isActive": true,
+            "name": "SmartSignal",
+            "processorClass": "com.ge.apm.alarmmanagement.service.impl.SsAlarmProcessor",
+            "tenantUuid": "73660E43997A42978E58B461708C780E",
+            "updatedOn": 1465430400000,
+            "uuid": "4EACC61C27A04AA1BEBB9B02E1D91E23"
+        },
+        "tenantUuid": "73660E43997A42978E58B461708C780E",
+        "type": {
+            "createdOn": 1465430400000,
+            "description": "Generic",
+            "id": 1218,
+            "isActive": true,
+            "name": "Generic",
+            "tenantUuid": "73660E43997A42978E58B461708C780E",
+            "updatedOn": 1465430400000,
+            "uuid": "88F4AD881CD24DAE888B6B8A8F92823F"
+        },
+        "updatedOn": 1465516800000,
+        "uuid": "CDA3D156FCF84E7EBA606E4C1E22AA0D",
+        "validateAsset": true
+    },
+    "alarmState": {
+        "createdOn": 1425308275000,
+        "description": "In Process",
+        "id": 6,
+        "isActive": true,
+        "name": "In Process",
+        "updatedOn": 1418439583000,
+        "uuid": "0b7c6c91-c11a-11e4-bcef-a0481cabcba7"
+    },
+    "analysisEvidences": [
+        
+    ],
+    "assetName": "TestassetQA_RasGas",
+    "associatedMonitoredEntity": {
+        "contact": {
+            "name": "TestassetQA_RasGas"
+        },
+        "enterprise": {
+            "name": "SS Test Enterprise"
+        },
+        "equipmentId": "TestassetQA_RasGas",
+        "name": "TestassetQA_RasGas",
+        "site": {
+            "address": {
+                
+            },
+            "name": "Combined Cycle Sites"
+        },
+        "uuid": "/assets/115a9511-6b08-4f4d-9766-d5b15e851468"
+    },
+    "associatedMonitoredEntityUuid": "/assets/115a9511-6b08-4f4d-9766-d5b15e851468",
+    "createdOn": 1465594000698,
+    "eventStart": 1465594029447,
+    "eventStartOffset": 0,
+    "id": 30957,
+    "incident": {
+        "firstOccurance": "2015-05-13T12:00",
+        "incidentEventCount": "39",
+        "lastOccurance": "2015-05-16T13:00"
+    },
+    "isActive": true,
+    "isTrip": false,
+    "name": "OG_PUMP_S.Pump System Analytics - Loss of Suction or Cavitation Pump Performance",
+    "notes": {
+        "data": [
+            
+        ],
+        "total": 0
+    },
+    "origin": "PGS-SS",
+    "scanGroupData": {
+        "DISCHARGE_PRESS_MT1_CV": "11.689062595",
+        "SUCTION_PRESS_MT1_CV": "1.11242187"
+    },
+    "severity": 5,
+    "storageReceiveTime": 1465594000374,
+    "tagsOfInterest": [
+        {
+            "displayGrouped": true,
+            "displayGroupedName": "42VI0302A.PV",
+            "isContributing": false,
+            "uom": "MM/S",
+            "uuid": "50dbb418-58f8-491d-86a8-bb6dc93e1156"
+        },
+        {
+            "displayGrouped": true,
+            "displayGroupedName": "42VI0302D.PV",
+            "isContributing": false,
+            "uom": "MM/S",
+            "uuid": "a7c680b8-7bfb-4f09-bbab-d8082846534f"
+        },
+        {
+            "displayGrouped": true,
+            "displayGroupedName": "DISCHARGE_PRESS_MT1_CV",
+            "isContributing": true,
+            "uom": "BARG",
+            "uuid": "34d59e6f-724a-4f55-b2d7-1c58a6b6c118"
+        },
+        {
+            "displayGrouped": true,
+            "displayGroupedName": "SUCTION_PRESS_MT1_CV",
+            "isContributing": true,
+            "uom": "BARG",
+            "uuid": "de21df5b-cc29-449f-a891-2e39b59c568c"
+        }
+    ],
+    "tenantId": "73660E43997A42978E58B461708C780E",
+    "tenantUuId": "73660E43997A42978E58B461708C780E",
+    "updatedOn": 1465594000698,
+    "userOwner": {
+        "active": true,
+        "eulaAccepted": false,
+        "firstName": "M&D Manager",
+        "lastName": "APM",
+        "type": "User",
+        "username": "tenant0609-smokeuser",
+        "uuid": "90B54C2CEB784529BFF6D00A08986391"
+    },
+    "userOwnerUuid": "90B54C2CEB784529BFF6D00A08986391",
+    "uuid": "2E7B2E9FFBE74FEE8DFCDD24310FD63D"
+}

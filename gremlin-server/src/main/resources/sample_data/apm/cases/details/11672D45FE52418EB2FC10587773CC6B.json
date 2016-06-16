@@ -1,0 +1,94 @@
+{
+    "acknowledged": false,
+    "alerts": [
+        {
+            "alarmProfile": {
+                "source": {
+                    "name": "E2E_A_Source_1465516662145"
+                }
+            },
+            "alarmState": {
+                "name": "In Process"
+            },
+            "analysisEvidences": [
+                
+            ],
+            "associatedMonitoredEntity": {
+                "cycleType": null,
+                "equipmentId": "Array1-ASSET-TYPE2",
+                "equipmentType": null,
+                "model": null,
+                "uuid": "/assets/8755d337-190d-4a37-9280-c565ecb6aad3"
+            },
+            "associatedMonitoredEntityUuid": "/assets/8755d337-190d-4a37-9280-c565ecb6aad3",
+            "createdOn": 1465851594661,
+            "eventStart": 1465808363000,
+            "id": 31016,
+            "incident": null,
+            "isLinked": false,
+            "linkCreatedOn": null,
+            "name": "Temperature-alert-73660E43997A42978E58B461708C780E",
+            "responseCode": 200,
+            "responseMessage": "OK",
+            "severity": 1,
+            "storageReceiveTime": 1465808363000,
+            "userOwner": {
+                "firstName": "M&D Manager",
+                "lastName": "APM",
+                "responseCode": 200,
+                "responseMessage": "OK",
+                "uuid": "90B54C2CEB784529BFF6D00A08986391"
+            },
+            "uuid": "E3BFDCF951D64B4CA5D32A23870EACDF",
+            "viewMetadatas": [
+                {
+                    "name": null,
+                    "responseCode": 500,
+                    "responseMessage": "Unable to load view-metadata",
+                    "tagsOfInterest": null,
+                    "uuid": null
+                }
+            ]
+        }
+    ],
+    "asset": {
+        "alias": null,
+        "name": "Array #1 ASSET TYPE 2",
+        "responseCode": 200,
+        "responseMessage": "OK",
+        "uuid": "/assets/8755d337-190d-4a37-9280-c565ecb6aad3"
+    },
+    "assetId": "Array1-ASSET-TYPE2",
+    "caseClosedOnDate": null,
+    "caseId": 10041,
+    "caseStatus": {
+        "status": "Open"
+    },
+    "closureCode": "None",
+    "closureNote": null,
+    "createdOn": 1465856443645,
+    "creator": {
+        "firstName": "M&D Manager",
+        "lastName": "APM",
+        "responseCode": 200,
+        "responseMessage": "OK",
+        "uuid": "90B54C2CEB784529BFF6D00A08986391"
+    },
+    "diagnosis": null,
+    "evidenceList": [
+        
+    ],
+    "externalCaseId": "NewExtCaseId",
+    "name": "Profile Journey Test for cases 1465856433871",
+    "notes": [
+        
+    ],
+    "owner": null,
+    "ownerUuid": null,
+    "recommendation": null,
+    "responseCode": 200,
+    "responseMessage": "OK",
+    "severity": 1,
+    "symptoms": "sdafghdjtklugfgSDAWEFghjuhgfdwsdefr qewfrgtkflugfjhgfDSWdekiljhtrewolkjhgfSWtyui eqrghsutrij3ojighkl23enrjle3rko3lkalsdafghdjtklugfgSDAWEFghjuhgfdwsdefr qewfrgtkflugfjhgfDSWdekiljhtrewolkjhgfSWtyui eqrghsutrij3ojighkl23enrjle3rko3lkalsdafghdjtklugfgSDAWEFghjuhgfdwsdefr qewfrgtkflugfjhgfDSWdekiljhtrewolkjhgfSWtyui eqrghsutrij3ojighkl23enrjle3rko3lkalsdafghdjtklugfgSDAWEFghjuhgfdwsdefr qewfrgtkflugfjhgfDSWdekiljhtrewolkjhgfSWtyui eqrghsutrij3ojighkl23enrjle3rko3lkalsdafghdjtklugfgSDAWEFghjuhgfdwsdefr qewfrgtkflugfjhgfDSWdekiljhtrewolkjhgfSWtyui eqrghsutrij3ojighkl23enrjle3rko3lkalsdafghdjtklugfgSDAWEFghjuhgfdwsdefr qewfrgtkflugfjhgfDSWdekiljhtrewolkjhgfSWtyui eqrghsutrij3ojighkl23enrjle3rko3lkalsdafghdjtklugfgSDAWEFghjuhgfdwsdefr qewfrgtkflugfjhgfDSWdekiljhtrewolkjhgfSWtyui eqrghsutrij3ojighkl23enrjle3rko3lkalsdafghdjtklugfgSDAWEFghjuhgfdwsdefr qewfrgtkflugfjhgfDSWdekiljhtrewolkjhgfSWtyui eqrghsutrij3ojighkl23enrjle3rko3lkalsdafghdjtklugfgSDAWEFghjuhgfdwsdefr qewfrgtkflugfjhgfDSWdekiljhtrewolkjhgfSWtyui eqrghsutrij3ojighkl23enrjle3rko3lkal wefrgqrefwrgeahseqrwgeahaterwqeraguiu qweriuiofr ewfrioeurgyhuo ewuieurioiw iuoiewrugeui euiqurwiowuI ERFGUEIUI EWRFHUEHIFG WRUIERW RFUHIEFW uewfijgahueoi esfuhi ewHIU ehuie wehu 8IOWre hioweruih eRUHOE ueIO",
+    "uuid": "11672D45FE52418EB2FC10587773CC6B"
+}

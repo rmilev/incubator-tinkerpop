@@ -1,0 +1,78 @@
+{
+    "alarmProfile": null,
+    "alarmState": {
+        "createdOn": 1425308275000,
+        "description": "Ready",
+        "id": 5,
+        "isActive": true,
+        "name": "Ready",
+        "updatedOn": 1418439583000,
+        "uuid": "0b7c6bbb-c11a-11e4-bcef-a0481cabcba7"
+    },
+    "analysisEvidences": [
+        
+    ],
+    "assetName": "TestassetQA_RasGas",
+    "associatedMonitoredEntity": {
+        "contact": {
+            "name": "TestassetQA_RasGas"
+        },
+        "enterprise": {
+            "name": "SS Test Enterprise"
+        },
+        "equipmentId": "TestassetQA_RasGas",
+        "name": "TestassetQA_RasGas",
+        "site": {
+            "address": {
+                
+            },
+            "name": "Combined Cycle Sites"
+        },
+        "uuid": "/assets/115a9511-6b08-4f4d-9766-d5b15e851468"
+    },
+    "associatedMonitoredEntityUuid": "/assets/115a9511-6b08-4f4d-9766-d5b15e851468",
+    "createdOn": 1465910198991,
+    "eventStart": 1456459975623,
+    "eventStartOffset": 0,
+    "id": 31799,
+    "incident": {
+        "firstOccurance": "2016-06-03T18:21:14.295",
+        "incidentEventCount": "5",
+        "lastOccurance": "2016-06-03T18:21:14.295"
+    },
+    "isActive": true,
+    "isTrip": false,
+    "name": "OG_PUMP_S.Gibberish",
+    "notes": {
+        "data": [
+            
+        ],
+        "total": 0
+    },
+    "origin": "PGS-SS",
+    "scanGroupData": {
+        "DISCHARGE_PRESS_MT1_CV (VL)": "53.95484042"
+    },
+    "severity": 1,
+    "storageReceiveTime": 1465910198555,
+    "tagsOfInterest": [
+        {
+            "displayGrouped": true,
+            "displayGroupedName": "42VI0302A.PV",
+            "isContributing": false,
+            "uom": "None",
+            "uuid": "6ea04993-0a8b-4d3d-aec9-267f6e35d095"
+        },
+        {
+            "displayGrouped": true,
+            "displayGroupedName": "DISCHARGE_PRESS_MT1_CV (VL)",
+            "isContributing": true,
+            "uom": "um",
+            "uuid": "6ea04993-0a8b-4d3d-aec9-267f6e35d095"
+        }
+    ],
+    "tenantId": "3DB5F824746E4D889E5A7EA80FFC50BB",
+    "tenantUuId": "3DB5F824746E4D889E5A7EA80FFC50BB",
+    "updatedOn": 1465910198991,
+    "uuid": "B729EDA2CFE3435B8AD755CDD143F417"
+}
