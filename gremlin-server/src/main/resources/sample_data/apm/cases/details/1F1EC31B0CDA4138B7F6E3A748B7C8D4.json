@@ -2,9 +2,9 @@
     "acknowledged": false,
     "alerts": [
         {
-            "alarmProfile": {
+            "alarmCase ": {
                 "source": {
-                    "name": "Analytics Automation e2e Profile Source 1465603376958"
+                    "name": "Analytics Automation e2e Case  Source 1465603376958"
                 }
             },
             "alarmState": {
@@ -27,7 +27,7 @@
             "incident": null,
             "isLinked": false,
             "linkCreatedOn": null,
-            "name": "Profile Journey Test for alerts new 1465924824260",
+            "name": "Case  Journey Test for alerts new 1465924824260",
             "responseCode": 200,
             "responseMessage": "OK",
             "severity": 1,
@@ -51,9 +51,9 @@
             ]
         },
         {
-            "alarmProfile": {
+            "alarmCase ": {
                 "source": {
-                    "name": "Analytics Automation e2e Profile Source 1465603376958"
+                    "name": "Analytics Automation e2e Case  Source 1465603376958"
                 }
             },
             "alarmState": {
@@ -76,7 +76,7 @@
             "incident": null,
             "isLinked": false,
             "linkCreatedOn": null,
-            "name": "Profile Journey Test for alerts new 1465929394542",
+            "name": "Case  Journey Test for alerts new 1465929394542",
             "responseCode": 200,
             "responseMessage": "OK",
             "severity": 1,
@@ -120,7 +120,7 @@
         
     ],
     "externalCaseId": "NewExtCaseId",
-    "name": "Profile Journey Test for cases 1465924872553",
+    "name": "Case  Journey Test for cases 1465924872553",
     "notes": [
         
     ],

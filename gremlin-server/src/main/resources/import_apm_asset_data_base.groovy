@@ -1,4 +1,6 @@
 import groovy.io.FileType
+import groovy.json.JsonOutput
+import groovy.json.internal.LazyMap
 import org.apache.tinkerpop.gremlin.structure.Vertex;
 import org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversalSource
 import org.apache.tinkerpop.gremlin.structure.io.IoCore
@@ -21,13 +23,8 @@ g = graph.traversal()
 createVertexes = {businessModelName, canonicalModelName ->
     inputJSON.instances.findAll{it.ccomClass == businessModelName}.each{ instance ->
         def asset = graph.addVertex(label, canonicalModelName)
-        instance.keySet().findAll{it != 'properties'}.each{key ->
-            final def propertyName = (key == 'id' ? 'internal_id' : key)
-            asset.property(key, instance.get(key))
-            asset.property(propertyName, instance.get(key))
-        }
-        instance.properties?.forEach{prop -> prop.value.forEach{ value -> asset.property(prop.id, value)
-        }}
+        instance.keySet().findAll{it != 'properties'}.each{key -> setPropertyValue(asset, key, instance.get(key)) }
+        instance.properties?.forEach{prop -> prop.value.forEach{ value -> asset.property(prop.id, value) }}
     }
 }
 
@@ -52,9 +49,6 @@ createAssetModel = {
     createEdges('ASSET', 'child', 'parent')
     createEdges('ENTERPRISE', null, 'provided-by')
     createEdges('SITE', null, 'current-location')
-
-    assets = []
-    g.V().has(label, 'Asset').each { assets << it }
 }
 
 //quick and dirty mapping of the asset ID between the two data sets
@@ -74,18 +68,38 @@ createEventModel = {eventFiles1 ->
             def alert = graph.addVertex(label, 'ThingEvent')
             alertJson.keySet().findAll {
                 it != 'alarmProfile'
-            }.each { key -> if (alertJson.get(key)) alert.property(key, alertJson.get(key)) }
+            }.each { key -> setPropertyValue(alert, key, alertJson.get(key)) }
             if(alertJson?.alarmProfile?.id){
-                def eventTemplate = g.V().has('ThingEventTemplate', 'id', alertJson.alarmProfile.id).tryNext().orElseGet {
-                    def newEventTemplate = graph.addVertex(label, 'ThingEvent')
-                    alertJson.alarmProfile.keySet().each { key -> if (alertJson.alarmProfile.get(key)) newEventTemplate.property(key, alertJson.alarmProfile.get(key)) }
+                def eventTemplate = g.V().has('ThingEventTemplate', 'internal_id', alertJson.alarmProfile.id+"").tryNext().orElseGet {
+                    def newEventTemplate = graph.addVertex(label, 'ThingEventTemplate')
+                    alertJson.alarmProfile.keySet().each { key -> setPropertyValue(newEventTemplate, key, alertJson.alarmProfile.get(key)) }
                     newEventTemplate
                 }
-                alert.addEdge('instance-of', eventTemplate)            }
-
+                alert.addEdge('instance-of', eventTemplate)
+            }
             alert.addEdge('is-for', assets[mapAssetIds(assetId, assets.size())])
         }
     }
+}
+setPropertyValue = { vertex, name, property ->
+    if(name == 'id'){
+        name = 'internal_id'
+    }
+    if (property) {
+        propValue = property instanceof LazyMap ? JsonOutput.toJson(property) : property.toString();
+        if(propValue instanceof ArrayList){
+            //TODO
+            propValue = null
+        }
+        else{
+        }
+    }
+    else {
+        propValue = null
+    }
+    if(propValue)
+        vertex.property(name, propValue)
+
 }
 
 
@@ -95,7 +109,7 @@ createCaseModel = {caseFiles1 ->
             def caseJson = new JsonSlurper().parseText(it.text)
             def assetId = caseJson.asset.uuid.replaceAll('/assets/', '').replaceAll('-', '').toUpperCase()
             def _case = graph.addVertex(label, 'Case')
-            caseJson.keySet().each { key -> if (caseJson.get(key)) _case.property(key, caseJson.get(key)) }
+            caseJson.keySet().each { key -> setPropertyValue(_case, key, caseJson.get(key) ) }
             _case.addEdge('is-for', assets[mapAssetIds(assetId, assets.size())])
             caseJson.alerts.each {
                 if (it.uuid) {
@@ -103,17 +117,62 @@ createCaseModel = {caseFiles1 ->
                     _case.addEdge('linked-to', linkedEvent)
                 }
             }
+
         }
     }
 }
 
-createModel = {assetFile1, assetFile2, eventFiles1, caseFiles1 ->
-    inputJSON = new JsonSlurper().parseText(assetFile1.text)
-    createAssetModel()
-    inputJSON = new JsonSlurper().parseText(assetFile2.text)
-    createAssetModel()
+createRasgasAssetModel = { asset, parent, relationshipName, inverseRelationshipName ->
+    def type = "Asset"
+    relationshipName = "parent"
+    inverseRelationshipName = "child"
+    if(asset.Entity == 'Enterprise') {
+        type = "Vendor"
+        relationshipName = "provided-by"
+        inverseRelationshipName = null
+    }
+    else if(asset.Entity == 'Site') {
+        type = "ThingLocation"
+        relationshipName = "current-location"
+        inverseRelationshipName = null
+    }
+
+    def _asset = graph.addVertex(label, type)
+    asset.keySet().findAll{it != 'Attributes' && it != 'Children'}.each{key -> setPropertyValue(_asset, key, asset.get(key))}
+    asset.Attributes?.forEach{prop -> setPropertyValue(_asset, prop.Attribute, prop.Value)}
+    if(parent){
+        if(relationshipName)
+            _asset.addEdge(relationshipName, parent)
+        if(inverseRelationshipName)
+            parent.addEdge(inverseRelationshipName, _asset)
+    }
+
+    asset.Children.each({createRasgasAssetModel(it, _asset, relationshipName, inverseRelationshipName)})
+}
+
+
+createModel = {assetFile1, assetFile2, rasgasAssetFile, eventFiles1, caseFiles1 ->
+//    inputJSON = new JsonSlurper().parseText(assetFile1.text)
+//    createAssetModel()
+//    inputJSON = new JsonSlurper().parseText(assetFile2.text)
+//    createAssetModel()
+    rasgasJson = new JsonSlurper().parseText(rasgasAssetFile.text)
+    createRasgasAssetModel(rasgasJson, null, null, null)
+
+    assets = []
+    g.V().has(label, 'Asset').each { assets << it }
+
     createEventModel(eventFiles1)
     createCaseModel(caseFiles1)
+
+    //g.V().hasLabel('ThingEvent').filter({it.get().edges(Direction.IN, 'linked-to').size() == 0}).drop()
+    //g.E().hasLabel('child').drop()
+
+    a = graph.addVertex(label, 'Analytics', 'name', 'Vibration Anomaly Detection')
+    v = g.V().has('Asset', 'Name', '296978').next()
+    a.addEdge('applicable-for', v)
+
+
 }
 
 //mapper = graph.io(graphson()).mapper().embedTypes(true).create()

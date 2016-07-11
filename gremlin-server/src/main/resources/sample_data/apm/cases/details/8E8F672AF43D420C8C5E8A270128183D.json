@@ -2,9 +2,9 @@
     "acknowledged": true,
     "alerts": [
         {
-            "alarmProfile": {
+            "alarmCase ": {
                 "source": {
-                    "name": "Analytics Automation e2e Profile Source 1465603376958"
+                    "name": "Analytics Automation e2e Case  Source 1465603376958"
                 }
             },
             "alarmState": {
@@ -27,7 +27,7 @@
             "incident": null,
             "isLinked": false,
             "linkCreatedOn": null,
-            "name": "Profile Journey Test for alerts new 1465854015654",
+            "name": "Case  Journey Test for alerts new 1465854015654",
             "responseCode": 200,
             "responseMessage": "OK",
             "severity": 1,
@@ -51,9 +51,9 @@
             ]
         },
         {
-            "alarmProfile": {
+            "alarmCase ": {
                 "source": {
-                    "name": "Analytics Automation e2e Profile Source 1465603376958"
+                    "name": "Analytics Automation e2e Case  Source 1465603376958"
                 }
             },
             "alarmState": {
@@ -76,7 +76,7 @@
             "incident": null,
             "isLinked": false,
             "linkCreatedOn": null,
-            "name": "Profile Journey Test for alerts new 1465854538628",
+            "name": "Case  Journey Test for alerts new 1465854538628",
             "responseCode": 200,
             "responseMessage": "OK",
             "severity": 1,
@@ -92,9 +92,9 @@
             "viewMetadatas": null
         },
         {
-            "alarmProfile": {
+            "alarmCase ": {
                 "source": {
-                    "name": "Analytics Automation e2e Profile Source 1465603376958"
+                    "name": "Analytics Automation e2e Case  Source 1465603376958"
                 }
             },
             "alarmState": {
@@ -117,7 +117,7 @@
             "incident": null,
             "isLinked": false,
             "linkCreatedOn": null,
-            "name": "Profile Journey Test for alerts new 1465848595113",
+            "name": "Case  Journey Test for alerts new 1465848595113",
             "responseCode": 200,
             "responseMessage": "OK",
             "severity": 1,
@@ -161,7 +161,7 @@
         
     ],
     "externalCaseId": null,
-    "name": "Profile Journey Test for cases 1465854538637",
+    "name": "Case  Journey Test for cases 1465854538637",
     "notes": [
         
     ],

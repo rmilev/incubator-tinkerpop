@@ -2,7 +2,7 @@
     "acknowledged": true,
     "alerts": [
         {
-            "alarmProfile": {
+            "alarmCase ": {
                 "source": {
                     "name": "SmartSignal"
                 }
@@ -56,7 +56,7 @@
             ]
         },
         {
-            "alarmProfile": {
+            "alarmCase ": {
                 "source": {
                     "name": "SmartSignal"
                 }
@@ -110,7 +110,7 @@
             ]
         },
         {
-            "alarmProfile": {
+            "alarmCase ": {
                 "source": {
                     "name": "E2E_A_Source_1465516662145"
                 }

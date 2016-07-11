@@ -2,7 +2,7 @@
     "acknowledged": true,
     "alerts": [
         {
-            "alarmProfile": {
+            "alarmCase ": {
                 "source": {
                     "name": "SmartSignal"
                 }
@@ -27,7 +27,7 @@
             "incident": null,
             "isLinked": false,
             "linkCreatedOn": null,
-            "name": "Profile Journey Test for alerts new 1465595061102",
+            "name": "Case  Journey Test for alerts new 1465595061102",
             "responseCode": 200,
             "responseMessage": "OK",
             "severity": 1,
@@ -51,7 +51,7 @@
             ]
         },
         {
-            "alarmProfile": {
+            "alarmCase ": {
                 "source": {
                     "name": "SmartSignal"
                 }
@@ -76,7 +76,7 @@
             "incident": null,
             "isLinked": false,
             "linkCreatedOn": null,
-            "name": "Profile Journey Test for alerts new 1465595222541",
+            "name": "Case  Journey Test for alerts new 1465595222541",
             "responseCode": 200,
             "responseMessage": "OK",
             "severity": 1,
@@ -92,7 +92,7 @@
             "viewMetadatas": null
         },
         {
-            "alarmProfile": {
+            "alarmCase ": {
                 "source": {
                     "name": "SmartSignal"
                 }
@@ -117,7 +117,7 @@
             "incident": null,
             "isLinked": false,
             "linkCreatedOn": null,
-            "name": "Profile Journey Test for alerts new 1465595483133",
+            "name": "Case  Journey Test for alerts new 1465595483133",
             "responseCode": 200,
             "responseMessage": "OK",
             "severity": 1,
@@ -161,7 +161,7 @@
         
     ],
     "externalCaseId": null,
-    "name": "Profile Journey Test for cases 1465595483155",
+    "name": "Case  Journey Test for cases 1465595483155",
     "notes": [
         
     ],

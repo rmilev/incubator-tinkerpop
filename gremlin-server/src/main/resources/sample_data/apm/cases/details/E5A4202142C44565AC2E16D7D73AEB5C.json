@@ -2,7 +2,7 @@
     "acknowledged": false,
     "alerts": [
         {
-            "alarmProfile": null,
+            "alarmCase ": null,
             "alarmState": null,
             "analysisEvidences": null,
             "associatedMonitoredEntity": null,

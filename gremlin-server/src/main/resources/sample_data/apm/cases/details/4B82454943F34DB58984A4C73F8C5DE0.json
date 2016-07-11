@@ -2,9 +2,9 @@
     "acknowledged": false,
     "alerts": [
         {
-            "alarmProfile": {
+            "alarmCase ": {
                 "source": {
-                    "name": "Analytics Automation e2e Profile Source 1466015742617"
+                    "name": "Analytics Automation e2e Case  Source 1466015742617"
                 }
             },
             "alarmState": {
@@ -27,7 +27,7 @@
             "incident": null,
             "isLinked": false,
             "linkCreatedOn": null,
-            "name": "Alarm Profile AUTOMATION-5700",
+            "name": "Alarm Case  AUTOMATION-5700",
             "responseCode": 200,
             "responseMessage": "OK",
             "severity": 5,
@@ -79,7 +79,7 @@
         
     ],
     "externalCaseId": null,
-    "name": "Alarm Profile AUTOMATION-5700",
+    "name": "Alarm Case  AUTOMATION-5700",
     "notes": [
         
     ],

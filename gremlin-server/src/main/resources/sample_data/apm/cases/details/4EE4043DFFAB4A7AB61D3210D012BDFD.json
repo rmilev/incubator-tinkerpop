@@ -2,7 +2,7 @@
     "acknowledged": true,
     "alerts": [
         {
-            "alarmProfile": {
+            "alarmCase ": {
                 "source": {
                     "name": "OrchestrationManager"
                 }

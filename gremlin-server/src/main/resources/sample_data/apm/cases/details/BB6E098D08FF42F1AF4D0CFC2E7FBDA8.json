@@ -2,7 +2,7 @@
     "acknowledged": true,
     "alerts": [
         {
-            "alarmProfile": {
+            "alarmCase ": {
                 "source": {
                     "name": "SmartSignal"
                 }
@@ -97,7 +97,7 @@
         
     ],
     "externalCaseId": "NewExtCaseIdNewExtCaseId",
-    "name": "Profile Journey Test for cases 1465594063210",
+    "name": "Case 1465594063210",
     "notes": [
         
     ],
@@ -109,10 +109,10 @@
         "uuid": "C1EBFDEE5407443A8070181F6049B80E"
     },
     "ownerUuid": "C1EBFDEE5407443A8070181F6049B80E",
-    "recommendation": null,
+    "recommendation": ["rec1!!!!!!!!!!!!!!","rec2!!!!!!!!!!!"],
     "responseCode": 200,
     "responseMessage": "OK",
     "severity": 4,
-    "symptoms": null,
+    "symptoms": ["sym1!!!!!!!!!!!!!!","sym2!!!!!!!!!!!"],
     "uuid": "BB6E098D08FF42F1AF4D0CFC2E7FBDA8"
 }

@@ -2,7 +2,7 @@
     "acknowledged": true,
     "alerts": [
         {
-            "alarmProfile": {
+            "alarmCase ": {
                 "source": {
                     "name": "OrchestrationManager"
                 }
@@ -51,7 +51,7 @@
             ]
         },
         {
-            "alarmProfile": {
+            "alarmCase ": {
                 "source": {
                     "name": "OrchestrationManager"
                 }
@@ -86,9 +86,9 @@
             "viewMetadatas": null
         },
         {
-            "alarmProfile": {
+            "alarmCase ": {
                 "source": {
-                    "name": "Analytics Automation e2e Profile Source 1465603376958"
+                    "name": "Analytics Automation e2e Case  Source 1465603376958"
                 }
             },
             "alarmState": {
@@ -111,7 +111,7 @@
             "incident": null,
             "isLinked": false,
             "linkCreatedOn": null,
-            "name": "Niru's Profile",
+            "name": "Niru's Case ",
             "responseCode": 200,
             "responseMessage": "OK",
             "severity": 1,
@@ -127,7 +127,7 @@
             "viewMetadatas": null
         },
         {
-            "alarmProfile": {
+            "alarmCase ": {
                 "source": {
                     "name": "OrchestrationManager"
                 }
@@ -152,7 +152,7 @@
             "incident": null,
             "isLinked": false,
             "linkCreatedOn": null,
-            "name": "MoniraTestProfile01",
+            "name": "MoniraTestCase 01",
             "responseCode": 200,
             "responseMessage": "OK",
             "severity": 1,
@@ -168,9 +168,9 @@
             "viewMetadatas": null
         },
         {
-            "alarmProfile": {
+            "alarmCase ": {
                 "source": {
-                    "name": "Analytics Automation e2e Profile Source 1465791113446"
+                    "name": "Analytics Automation e2e Case  Source 1465791113446"
                 }
             },
             "alarmState": {
@@ -193,7 +193,7 @@
             "incident": null,
             "isLinked": false,
             "linkCreatedOn": null,
-            "name": "Alarm Profile AUTOMATION-999",
+            "name": "Alarm Case  AUTOMATION-999",
             "responseCode": 200,
             "responseMessage": "OK",
             "severity": 5,
@@ -252,7 +252,7 @@
         }
     ],
     "externalCaseId": "!!!!!!!!!! asdasd",
-    "name": "Alarm Profile AUTOMATION-999",
+    "name": "Alarm Case  AUTOMATION-999",
     "notes": [
         {
             "createdOn": 1466017968779,

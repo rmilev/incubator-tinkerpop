@@ -2,7 +2,7 @@
     "acknowledged": true,
     "alerts": [
         {
-            "alarmProfile": {
+            "alarmCase ": {
                 "source": {
                     "name": "SmartSignal"
                 }
@@ -94,7 +94,7 @@
     "caseClosedOnDate": null,
     "caseId": 10010,
     "caseStatus": {
-        "status": "Open"
+        "status": "Closed"
     },
     "closureCode": "None",
     "closureNote": null,
@@ -106,12 +106,12 @@
         "responseMessage": "OK",
         "uuid": "90B54C2CEB784529BFF6D00A08986391"
     },
-    "diagnosis": null,
+    "diagnosis": "Limp blow",
     "evidenceList": [
         
     ],
     "externalCaseId": null,
-    "name": "Profile Journey Test for cases 1465592887896",
+    "name": "Case   1465592887896",
     "notes": [
         
     ],
@@ -123,10 +123,10 @@
         "uuid": "90B54C2CEB784529BFF6D00A08986391"
     },
     "ownerUuid": "90B54C2CEB784529BFF6D00A08986391",
-    "recommendation": null,
+    "recommendation": ["replace part (part 12093812345)","rec2!!!!!!!!!!!"],
     "responseCode": 200,
     "responseMessage": "OK",
     "severity": 5,
-    "symptoms": null,
+    "symptoms": ["Crack on a pipe ","asset general overheat"],
     "uuid": "F55A1F28F42E4D5488A05DBFE652E5C6"
 }

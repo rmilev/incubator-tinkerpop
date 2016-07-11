@@ -2,7 +2,7 @@
     "acknowledged": false,
     "alerts": [
         {
-            "alarmProfile": {
+            "alarmCase ": {
                 "source": {
                     "name": "OrchestrationManager"
                 }
@@ -271,7 +271,7 @@
         
     ],
     "externalCaseId": "NewExtCaseId",
-    "name": "Profile Journey Test for cases 1465854605545",
+    "name": "Case  Journey Test for cases 1465854605545",
     "notes": [
         
     ],

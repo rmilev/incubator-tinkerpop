@@ -2,7 +2,7 @@
     "acknowledged": false,
     "alerts": [
         {
-            "alarmProfile": {
+            "alarmCase ": {
                 "source": {
                     "name": "E2E_A_Source_1465516662145"
                 }

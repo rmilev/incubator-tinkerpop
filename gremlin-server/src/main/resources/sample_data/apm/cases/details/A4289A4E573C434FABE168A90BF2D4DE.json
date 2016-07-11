@@ -2,7 +2,7 @@
     "acknowledged": true,
     "alerts": [
         {
-            "alarmProfile": {
+            "alarmCase ": {
                 "source": {
                     "name": "SmartSignal"
                 }
@@ -111,7 +111,7 @@
         
     ],
     "externalCaseId": null,
-    "name": "Profile Journey Test for cases 1465594661683",
+    "name": "Case  Journey Test for cases 1465594661683",
     "notes": [
         
     ],

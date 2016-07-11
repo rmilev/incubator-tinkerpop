@@ -2,9 +2,9 @@
     "acknowledged": false,
     "alerts": [
         {
-            "alarmProfile": {
+            "alarmCase ": {
                 "source": {
-                    "name": "Analytics Automation e2e Profile Source 1465603376958"
+                    "name": "Analytics Automation e2e Case  Source 1465603376958"
                 }
             },
             "alarmState": {

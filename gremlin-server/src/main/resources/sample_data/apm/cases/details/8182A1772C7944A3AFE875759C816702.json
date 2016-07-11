@@ -2,7 +2,7 @@
     "acknowledged": false,
     "alerts": [
         {
-            "alarmProfile": {
+            "alarmCase ": {
                 "source": {
                     "name": "E2E_A_Source_1465516662145"
                 }
@@ -115,7 +115,7 @@
         
     ],
     "externalCaseId": "NewExtCaseId",
-    "name": "Profile Journey Test for cases 1465857935301",
+    "name": "Case  Journey Test for cases 1465857935301",
     "notes": [
         
     ],

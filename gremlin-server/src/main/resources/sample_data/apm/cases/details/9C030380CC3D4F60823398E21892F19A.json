@@ -97,7 +97,7 @@
         
     ],
     "externalCaseId": "NewExtCaseId",
-    "name": "Profile Journey Test for cases 1465593536158",
+    "name": "Case 1465593536158",
     "notes": [
         
     ],
@@ -109,10 +109,10 @@
         "uuid": "002590A761964AA89C6BBE4A46913D3C"
     },
     "ownerUuid": "002590A761964AA89C6BBE4A46913D3C",
-    "recommendation": null,
+    "recommendation": ["rec1!!!!!!!!!!!!!!","rec2!!!!!!!!!!!"],
     "responseCode": 200,
     "responseMessage": "OK",
     "severity": 5,
-    "symptoms": null,
+    "symptoms": ["sym1!!!!!!!!!!!!!!","sym2!!!!!!!!!!!"],
     "uuid": "9C030380CC3D4F60823398E21892F19A"
 }

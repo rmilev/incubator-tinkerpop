@@ -2,7 +2,7 @@
     "acknowledged": false,
     "alerts": [
         {
-            "alarmProfile": null,
+            "alarmCase ": null,
             "alarmState": null,
             "analysisEvidences": null,
             "associatedMonitoredEntity": null,
@@ -51,7 +51,7 @@
         
     ],
     "externalCaseId": "77790",
-    "name": "Test Profile 000034- Case1",
+    "name": "Test Case  000034- Case1",
     "notes": [
         {
             "createdOn": 0,

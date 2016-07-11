@@ -2,7 +2,7 @@
     "acknowledged": false,
     "alerts": [
         {
-            "alarmProfile": {
+            "alarmCase ": {
                 "source": {
                     "name": "SmartSignal"
                 }
@@ -27,7 +27,7 @@
             "incident": null,
             "isLinked": false,
             "linkCreatedOn": null,
-            "name": "Profile Journey Test for alerts new 1465594615188",
+            "name": "Case  Journey Test for alerts new 1465594615188",
             "responseCode": 200,
             "responseMessage": "OK",
             "severity": 1,
@@ -51,7 +51,7 @@
             ]
         },
         {
-            "alarmProfile": {
+            "alarmCase ": {
                 "source": {
                     "name": "SmartSignal"
                 }
@@ -76,7 +76,7 @@
             "incident": null,
             "isLinked": false,
             "linkCreatedOn": null,
-            "name": "Profile Journey Test for alerts new 1465594801006",
+            "name": "Case  Journey Test for alerts new 1465594801006",
             "responseCode": 200,
             "responseMessage": "OK",
             "severity": 1,
@@ -92,7 +92,7 @@
             "viewMetadatas": null
         },
         {
-            "alarmProfile": {
+            "alarmCase ": {
                 "source": {
                     "name": "E2E_A_Source_1465516662145"
                 }
@@ -157,9 +157,9 @@
             "viewMetadatas": null
         },
         {
-            "alarmProfile": {
+            "alarmCase ": {
                 "source": {
-                    "name": "Analytics Automation e2e Profile Source 1465603376958"
+                    "name": "Analytics Automation e2e Case  Source 1465603376958"
                 }
             },
             "alarmState": {
@@ -182,7 +182,7 @@
             "incident": null,
             "isLinked": false,
             "linkCreatedOn": null,
-            "name": "Profile Journey Test for alerts new 1465836394506",
+            "name": "Case  Journey Test for alerts new 1465836394506",
             "responseCode": 200,
             "responseMessage": "OK",
             "severity": 1,
@@ -198,9 +198,9 @@
             "viewMetadatas": null
         },
         {
-            "alarmProfile": {
+            "alarmCase ": {
                 "source": {
-                    "name": "Analytics Automation e2e Profile Source 1465603376958"
+                    "name": "Analytics Automation e2e Case  Source 1465603376958"
                 }
             },
             "alarmState": {
@@ -223,7 +223,7 @@
             "incident": null,
             "isLinked": false,
             "linkCreatedOn": null,
-            "name": "Profile Journey Test for alerts new 1465836628383",
+            "name": "Case  Journey Test for alerts new 1465836628383",
             "responseCode": 200,
             "responseMessage": "OK",
             "severity": 1,
@@ -239,7 +239,7 @@
             "viewMetadatas": null
         },
         {
-            "alarmProfile": {
+            "alarmCase ": {
                 "source": {
                     "name": "E2E_A_Source_1465516662145"
                 }

@@ -2,7 +2,7 @@
     "acknowledged": false,
     "alerts": [
         {
-            "alarmProfile": {
+            "alarmCase ": {
                 "source": {
                     "name": "SmartSignal"
                 }
@@ -94,7 +94,7 @@
     "caseClosedOnDate": null,
     "caseId": 10012,
     "caseStatus": {
-        "status": "Open"
+        "status": "Closed"
     },
     "closureCode": "None",
     "closureNote": null,
@@ -106,12 +106,12 @@
         "responseMessage": "OK",
         "uuid": "90B54C2CEB784529BFF6D00A08986391"
     },
-    "diagnosis": null,
+    "diagnosis": "Limp Blow",
     "evidenceList": [
         
     ],
     "externalCaseId": null,
-    "name": "Profile Journey Test for cases 1465593195209",
+    "name": "Case 1465593195209",
     "notes": [
         
     ],
@@ -123,10 +123,10 @@
         "uuid": "002590A761964AA89C6BBE4A46913D3C"
     },
     "ownerUuid": "002590A761964AA89C6BBE4A46913D3C",
-    "recommendation": null,
+    "recommendation": ["replace a pipe (part 12093812098)","replace a valve (part 120938120567)"],
     "responseCode": 200,
     "responseMessage": "OK",
     "severity": 5,
-    "symptoms": null,
+    "symptoms": ["No electrisity being produced","Gas leak on asset","corrosion on asset"],
     "uuid": "97FFBC953E2A47ADB69C54EAC37BDB18"
 }

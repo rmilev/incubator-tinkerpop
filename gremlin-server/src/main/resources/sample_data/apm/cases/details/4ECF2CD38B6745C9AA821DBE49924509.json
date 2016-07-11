@@ -2,7 +2,7 @@
     "acknowledged": false,
     "alerts": [
         {
-            "alarmProfile": {
+            "alarmCase ": {
                 "source": {
                     "name": "OrchestrationManager"
                 }
@@ -75,9 +75,9 @@
             ]
         },
         {
-            "alarmProfile": {
+            "alarmCase ": {
                 "source": {
-                    "name": "Analytics Automation e2e Profile Source 1465791113446"
+                    "name": "Analytics Automation e2e Case  Source 1465791113446"
                 }
             },
             "alarmState": {
@@ -100,7 +100,7 @@
             "incident": null,
             "isLinked": false,
             "linkCreatedOn": null,
-            "name": "Alarm Profile AUTOMATION-999",
+            "name": "Alarm Case  AUTOMATION-999",
             "responseCode": 200,
             "responseMessage": "OK",
             "severity": 5,
@@ -175,7 +175,7 @@
         }
     ],
     "externalCaseId": "1234",
-    "name": "Namratha- Case1 - Alarm Profile AUTOMATION-999",
+    "name": "Namratha- Case1 - Alarm Case  AUTOMATION-999",
     "notes": [
         
     ],
